@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<bblog>
+  
+<page>
+	<tag>advancedPage</tag>
+	<content>
+		<![CDATA[<script type="text/javascript" src="data/dronix.js">
+		</script>]]>
+	</content>
+</page>
+
+<page>
+	<tag>basicpage</tag>
+	<content>
+		TEST PAGE
+	</content>
+</page>
+<!--
+
+This is a page object.
+Tag : is used to connect the object page to the menu link ID
+Content : is the content of the page
+
+For insert in to the contet the html code, use <![CDATA[ <b>code</b> ]]>
+
+<page>
+  <tag>
+  </tag>
+  
+  <content>
+  </content>
+</page>
+-->
+
+</bblog>
+

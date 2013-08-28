@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ 
+<bblog>
+        
+        <post>
+	  <title>Huauei Ideos</title>
+	  <content>
+	Stable:
+            <![CDATA[<ul><li><a href="download/dronix_ideos_0.5.4.zip">DroniX 0.5.4 Standard</a> md5: ab8721c33dcae7b0e2ef86431952ad58</li></ul>]]>  
+	BETA:
+ 	    <![CDATA[<ul><li><a href="#">Coming Soon!</a></li></ul>]]>
+	OLD Version:
+	    <![CDATA[<ul><li><a href="download/dronix_ideos_0.4.zip">DroniX 0.4</a> 3eaf9a5059a82d428ffe1d597fab4f0d</li></ul>]]>
+	</content>
+	</post>
+
+	<post>
+	  <title>4Gekk Horus</title>
+	  <content>
+	    Stable:
+	    <![CDATA[<ul><li><a href="download/dronix_horus_0.2.zip">DroniX 0.2</a></li></ul>]]>
+	  </content>
+        </post>
+
+	<post>
+		<title>Nexux S</title>
+		<content>Coming Soon!</content>
+	</post>
+
+</bblog>
