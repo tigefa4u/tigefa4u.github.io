@@ -1,4 +1,6 @@
 name: tigefa4u.github
+safe: true
+lsi: false
 pygments: true
 #permalink: /posts/:title
 relative_permalinks: false
@@ -7,10 +9,10 @@ google_analytics_id: UA-29791208-1
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
 #baseurl: /project-name
-description: A fantastic blog that is fantastic.
+#description: A fantastic blog that is fantastic.
 twitter: tigefa_team
 github: tigefa4u
-gravatar_url: /images/github.png
+#gravatar_url: /images/github.png
 timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
