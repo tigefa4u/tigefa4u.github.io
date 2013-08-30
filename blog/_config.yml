@@ -1,6 +1,7 @@
 name: Your New Jekyll Site
 pygments: true
 <<<<<<< HEAD
+<<<<<<< HEAD
 safe: true
 lsi: false
 #markdown: kramdown
@@ -12,5 +13,7 @@ author  : sugeng tigefa
 #copyright:   - (optional) the copyright of the feed (if not specified will be left blank)
 #rss_path:    - (optional) the path to the feed (if not specified "/" will be used)
 #rss_name:    - (optional) the name of the rss file (if not specified "rss.xml" will be used)
+=======
+>>>>>>> 0c28b44dc7875c3658dffafde7794f4f561f449d
 =======
 >>>>>>> 0c28b44dc7875c3658dffafde7794f4f561f449d
