@@ -16,5 +16,5 @@ github: tigefa4u
 timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
-paginate: 5
-paginate_path: "blog/page:num"
+#paginate: 5
+#paginate_path: "blog/page:num"
