@@ -1,0 +1,22 @@
+{
+  "name": "bower lokup",
+  "version": "bower  install",
+  "description": "bower test",
+  "main": "index.html",
+  "keywords": [
+    "index"
+  ],
+  "authors": [
+    "tigefa4u"
+  ],
+  "license": "BSD",
+  "homepage": "http://tigefa4u.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

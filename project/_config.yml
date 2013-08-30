@@ -1,0 +1,13 @@
+name: Your New Jekyll Site
+pygments: true
+safe: true
+lsi: false
+#markdown: kramdown
+#relative_permalinks: false
+#permalink: /project/:year/:month/:day/:title
+url: http://tigefa4u.github.io
+description: personal notes in github social coding
+author  : sugeng tigefa
+#copyright:   - (optional) the copyright of the feed (if not specified will be left blank)
+#rss_path:    - (optional) the path to the feed (if not specified "/" will be used)
+#rss_name:    - (optional) the name of the rss file (if not specified "rss.xml" will be used)
