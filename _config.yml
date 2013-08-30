@@ -1,5 +1,7 @@
 name: tigefa4u.github
 pygments: true
+safe: true
+lsi: false
 #permalink: /posts/:title
 relative_permalinks: false
 #name: sugeng tigefa
