@@ -167,7 +167,7 @@ hr.soften {
   z-index: 2;
 }
 .blueprint {
-  background: url(/img/bg/blueprint.png) repeat-x top; background-attachment:fixed;
+  background: url(/img/bg/blueprint.png) repeat-x top;
 }
 .jumbotron:after {
   content: '';
