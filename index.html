@@ -1,112 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tigefa4u.github &ndash; Fork for learn editing</title>
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link rel="stylesheet" href="themes/blog/pure-min.css">
-	<link rel="stylesheet" href="themes/blog/blog.css"> 
-	<script type="text/javascript" src="system/jquery-1.6.3.js"></script>
-	<script type="text/javascript" src="system/xblog.js"></script>	
-	<script src="system/ajf8ggy.js"></script>
-	<script>
-    try { Typekit.load(); } catch (e) {}
-	</script>    
-</head>
-<body>
+---
+layout: default
+title: tigefa4u.github / Forking and pull-request
+---
 
-<div class="pure-g-r" id="layout">
-    <div class="sidebar pure-u">
-        <header class="header">
-<span class="rf"><a href="resources/post.xml" title="Subscribe to our Feed"></a></span>
-<span class="tw"><a href="http://twitter.com/tigefa_team" target="_blank" title="Follow us on Twitter"></a></span>
-<span class="fb"><a href="http://facebook.com/tigefa.team" target="_blank" title="Like Us on Facebook"></a></span>
-<span class="gplus"><a href="http://gplus.to/tigefa" target="_blank" title="Add Us on Google Plus"></a></span>
-<span class="pin"><a href="http://pinterest.com/tigefa" target="_blank" title="Read Us on Pinterest"></a></span>		
-            <hgroup>
-			<img alt="banner" src="img/sugeng-tigefa.jpg">
-                <h1 class="brand-title"><span id="sitename"></span></h1>
-                <h3 class="brand-tagline"><span id="subtitle"></span></h3>
-            </hgroup>
-
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Pure</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="https://github.com/tigefa4u/xblog">xmlBlog</a>
-                    </li>
-                </ul>
-            </nav>	
-        </header>
-    </div>
-
-    <div class="pure-u-1">
-        <div class="content" id="content">
-            <!-- A wrapper for all the blog posts -->
-			<div class="posts"><span id="postBlog"></span></div>
-<p><div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'tigefa'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-</p>			
-        </div>
-
-	            <footer class="footer">
-                <div class="pure-menu pure-menu-open pure-menu-horizontal">
-                    <ul>
-                        <li class="pure-menu-selected"><a href="about.html">About</a></li>
-                        <li class="pure-menu-selected"><a href="http://twitter.com/tigefa_team">Twitter</a></li>
-                        <li class="pure-menu-selected"><a href="http://github.com/tigefa4u/xblog">Github</a></li>
-                    </ul>
-                </div>
-				<img style="background:#000; width:210px;" src="img/footer-logo.png" width="200px">
-            </footer>	
-    </div>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-
-<script src="system/yui-min.js"></script>
-<script>
-YUI().use('node-base', 'node-event-delegate', function (Y) {
-    // This just makes sure that the href="#" attached to the <a> elements
-    // don't scroll you back up the page.
-    Y.one('body').delegate('click', function (e) {
-        e.preventDefault();
-    }, 'a[href="#"]');
-});
-</script>
-
-   <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'tigefa'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>	
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-29791208-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-</body>
-</html>
