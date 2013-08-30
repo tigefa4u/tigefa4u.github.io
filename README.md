@@ -5,7 +5,11 @@ for personal notes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 follow http://twitter.com/tigefa_team
+=======
+follow [@tigefa_team](http://twitter.com/tigefa_team)
+>>>>>>> 0c28b44dc7875c3658dffafde7794f4f561f449d
 =======
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 >>>>>>> 0c28b44dc7875c3658dffafde7794f4f561f449d
