@@ -18,8 +18,8 @@
 .envato_item a {
     font-family: tahoma, helvetica, arial;
     font-size: 8pt;
-    color : #434343;
-    color : #434343;
+    color : #fff;
+    color : #fff;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@
     font-family: tahoma, helvetica, arial;
     font-size: 10pt;
     font-weight: bold;
-    color : #171717;
+    color : #fff;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -68,14 +68,14 @@
     float: left;
     width: 75px; 
     font-size: 8pt;
-    color : #434343;
+    color : #fff;
 }
 
 .envato_cost {
     text-align: right;
     font-size: 13pt;
     font-weight: bold;
-    color : #171717;
+    color : #fff;
     float: right;
     width: 60px; 
 }
