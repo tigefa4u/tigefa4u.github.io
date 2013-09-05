@@ -21,3 +21,7 @@ for personal notes
 - [+Facebook Page](http://facebook.com/tigefa.team)
 - [+Pinterest](http://pinterest.com/tigefa)
 - [+LinkedIn](http://linkedin.com/in/tigefadotinfo)
+
+### Copyright and license
+
+- [the MIT license](LICENSE).
