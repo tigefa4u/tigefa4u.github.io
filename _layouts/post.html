@@ -1,12 +1,30 @@
 ---
 layout: default
 ---
+
+<ul class="breadcrumb">
+  <li><a href="{{ site.url }}">Home</a> <span class="divider">/</span></li>
+  <li><a href="/">{{ page.date | date_to_string }}</a> <span class="divider">/</span></li>
+  <li class="active">{{ page.title }}</li>
+</ul>
+
 <h1><i class="icon-bullhorn"></i> {{ page.title }}</h1>
 <p class="meta"><i class="icon-calendar"></i> {{ page.date | date_to_string }}</p>
 <hr>
 
 <div class="post">
-{{ content }}
+{{ content | smilify }}
+</div>
+
+<hr>
+<!-- sharethis -->
+<div class="alert alert-info">
+<span class='st_googleplus_large' displayText='Google +'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_pinterest_large' displayText='Pinterest'></span>
+<span class='st_buffer_large' displayText='Buffer'></span>
+<span class='st_sharethis_large' displayText='ShareThis'></span>
 </div>
 
 <!-- disqus comments content ==================================== -->		  

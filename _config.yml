@@ -4,17 +4,22 @@ lsi: false
 pygments: true
 permalink: /:year/:month/:title.html
 relative_permalinks: false
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
 #name: sugeng tigefa
 google_analytics_id: UA-29791208-1
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
 #baseurl: /project-name
+<<<<<<< HEAD
 #description: A fantastic blog that is fantastic.
+=======
+>>>>>>> master
 twitter: tigefa_team
 github: tigefa4u
 #gravatar_url: /images/github.png
 timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
-#paginate: 5
-#paginate_path: "blog/page:num"
+smileytheme: MSN

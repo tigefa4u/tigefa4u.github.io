@@ -12,12 +12,16 @@
         <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="/css/base.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
-		<link rel="stylesheet" href="/css/font-awesome.css">
-		<link rel="stylesheet" href="/css/font-awesome-ie7.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+		<link rel="stylesheet" href="{{ site.url }}/css/base.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="{{ site.url }}/css/font-awesome.css">
+		<link rel="stylesheet" href="{{ site.url }}/css/font-awesome-ie7.css">
+		<!-- sharethis -->
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "f375d30b-f143-4fcb-957e-63a0c3307517", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>		
     </head>
 	<body data-spy="scroll" data-target=".bs-docs-sidebar">
     <!-- Navbar
@@ -34,26 +38,20 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
-                <a href="/index.html">Home</a>
+                <a href="{{ site.url }}/index.html">Home</a>
               </li>
               <li class="">
-                <a href="/about.html">About</a>
+                <a href="{{ site.url }}/about.html">About</a>
               </li>	  
               <li class="">
-                <a href="/rss.xml">RSS Feed</a>
+                <a href="{{ site.url }}/rss.xml">RSS Feed</a>
               </li>
               <li class="">
-                <a href="/sitemap.xml">Site Map</a>
+                <a href="{{ site.url }}/sitemap.xml">Site Map</a>
               </li>
-<li class="dropdown">
-<a href="http://x.co/1vXgq" class="dropdown-toggle" data-toggle="dropdown">
-Forums
-<b class="caret"></b>
-</a>
-<ul class="dropdown-menu">
-<li><a href="">Seconds</a></li>
-</ul>
-</li>		  
+              <li class="">
+                <a href="{{ site.url }}/repositories.html">Repositories</a>
+              </li>		  
             </ul>
           </div>
         </div>
