@@ -2,7 +2,7 @@ name: tigefa4u.github
 safe: true
 lsi: false
 pygments: true
-#permalink: /posts/:title
+permalink: /:year/:month/:title.html
 relative_permalinks: false
 #name: sugeng tigefa
 google_analytics_id: UA-29791208-1

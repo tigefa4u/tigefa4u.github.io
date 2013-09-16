@@ -1,0 +1,593 @@
+/*Elitepack display screens made with pure CSS3
+Copyright (c) 2011 Arrowthemes.com
+-------------------------------------------- */
+
+/* This is the main container of the tablet */
+/*------------------------------------------*/
+
+/* outer most container of the tablet */
+.tablet:before {
+  background: none repeat scroll 0 0 #D3D4D6;
+  border-style: solid;
+  border-color: #CECECE #B7B7B9 #5E5D62;
+  border-width: 1px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+  -khtml-border-radius: 12px 12px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
+  bottom: 0;
+  content: "";
+  height: 372px;/*height of the container*/
+  left: 0;
+  margin-bottom: -1px;
+  margin-left: -5px;
+  margin-top: -6px;
+  position: absolute;
+  top: 0;
+  width: 289px;/*width of the container*/
+  z-index: -3;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions*/
+
+.tablet.rotate:before{
+  height: 291px;
+  width: 372px
+}
+/*white tablet*/
+
+.tablet.white:before{
+  background: none repeat scroll 0 0 #E7E8EB;
+  border-color: #EBEBEB #CBCBCD #949397
+}
+/* inner border of the tablet's container */
+
+.tablet:after {
+  background: none repeat scroll 0 0 #2B2C2E;
+  border: 1px solid #BDBEC0;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+  -khtml-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  bottom: 0;
+  content: "";
+  height: 368px;
+  left: 1px;
+  margin-bottom: -1px;
+  margin-left: -4px;
+  margin-top: -6px;
+  position: absolute;
+  top: 2px;
+  width: 285px;
+  z-index: -2;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions*/
+
+.tablet.rotate:after{
+  height: 287px;
+  width: 368px
+}
+/*white tablet*/
+
+.tablet.white:after{
+  background: none repeat scroll 0 0 #F1F1F1;
+  border: 1px solid #DADADA;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+}
+/*main inner container of the tablet*/
+
+.tablet {
+  background: none repeat scroll 0 0 #010101;
+  border: 1px solid #101113;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  height: 363px;
+  position: relative;
+  width: 281px;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  z-index: 101;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions*/
+
+.tablet.rotate{
+  width: 363px;
+  height: 281px
+}
+/*white tablet*/
+
+.tablet.white{
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #EAEAEA
+}
+
+/*resizing the tablet*/
+.mini.tablet{
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -khtml-transform: scale(0.7);
+  transform: scale(0.7)
+}
+/*main display underlying the actual screen */
+
+.screen-t:before {
+  background: #000000;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  content: "";
+  height: 362px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 279px;
+  z-index: 3;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions*/
+
+.rotate .screen-t:before{
+  height: 281px;
+  width: 362px
+}
+/*white tablet*/
+
+.white .screen-t:before {
+  background: whitesmoke
+}
+/*actual screen section */
+
+.screen-t:after{
+  background: #303235;
+  background: -moz-linear-gradient(top, #303235 0%, #0a0a0a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #303235), color-stop(100%, #0a0a0a));
+  background: -webkit-linear-gradient(top, #303235 0%, #0a0a0a 100%);
+  background: -o-linear-gradient(top, #303235 0%, #0a0a0a 100%);
+  background: -ms-linear-gradient(top, #303235 0%, #0a0a0a 100%);
+  -pie-background: linear-gradient(#303235, #0a0a0a);
+  background: linear-gradient(top, #303235 0%, #0a0a0a 100%);
+  border: 1px solid #141414;
+  content: "";
+  height: 299px;
+  left: 20px;
+  position: absolute;
+  top: 31px;
+  width: 239px;
+  z-index: 3;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions*/
+
+.rotate .screen-t:after{
+  height: 239px;
+  width: 299px;
+  right: 31px;
+  top: 20px;
+  left: 31px
+}
+/*white tablet*/
+
+.white .screen-t:after {
+  border-color: #FFFFFF
+}
+/*actual screen border*/
+
+.screen-t {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  border-radius: 7px;
+  behavior: url(css/PIE.htc)
+}
+/*glare lighting effect*/
+
+.glare-t{
+  background-image: -webkit-gradient(linear, -19% 82%, right top, color-stop(0.56, rgba(0, 0, 0, 0.2)), color-stop(0.56, rgba(255, 255, 255, 0.25)), color-stop(0.55, rgba(0, 0, 0, 0.1)));
+  background-image: -moz-linear-gradient(-27% bottom, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 55%, rgba(255, 255, 255, 0.25) 55.05%);
+  background-image: -o-linear-gradient(40deg, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 55%, rgba(255, 255, 255, 0.15) 55.05%);
+  background-image: -ms-linear-gradient(-27% bottom, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 55%, rgba(255, 255, 255, 0.15) 50%);
+  background-image: linear-gradient(-27% bottom, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 55%, rgba(255, 255, 255, 0.15) 50%);
+  -pie-background: linear-gradient(rgba(0, 0, 0, 0.2) 55%, rgba(255, 255, 255, 0.15) 50%);
+  height: 363px;
+  position: absolute;
+  width: 281px;
+  z-index: 100;
+  top: -1px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box
+}
+/*glare lighting effect on white tablet*/
+
+.white .glare-t{
+  background-image: -moz-linear-gradient(-27% bottom, rgba(255, 255, 255, 0.2) 55%, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.75) 55.05%);
+  background-image: -webkit-gradient(linear, -19% 82%, right top, color-stop(0.56, rgba(255, 255, 255, 0.1)), color-stop(0.56, rgba(255, 255, 255, 0.25)), color-stop(0.55, rgba(255, 255, 255, 0.7)));
+  background-image: -o-linear-gradient(40deg, rgba(255, 255, 255, 0.2) 55%, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.75) 55.05%);
+  background-image: -ms-linear-gradient(-27% bottom, rgba(255, 255, 255, 0.2) 55%, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.75) 50%);
+  background-image: linear-gradient(-27% bottom, rgba(255, 255, 255, 0.2) 55%, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.75) 50%)
+}
+/*when rotating, alternate the dimensions of glare*/
+
+.rotate .glare-t{
+  height: 283px;
+  right: -1px;
+  top: -1px;
+  width: 363px
+}
+/*glow lighting effect*/
+
+.glow-t{
+  background: -webkit-gradient(linear, -19% 82%, right top, color-stop(0.56, rgba(0, 0, 0, 0.2)), color-stop(100, rgba(255, 255, 255, 0.8)), color-stop(0.55, rgba(255, 255, 255, 0.1)));
+  background: -webkit-gradient(linear, -19% 82%, 100% 0%, color-stop(0.55, rgba(0, 0, 0, 0.0976563)), color-stop(0.56, rgba(0, 0, 0, 0.199219)), color-stop(1, rgba(255, 255, 255, 0.846094)));
+  background: -moz-linear-gradient(-27% bottom, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.2) 56%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(-19% 82%, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.2) 55%, rgba(255, 255, 255, 1) 100%);
+  background: -o-linear-gradient(40deg, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.2) 55%, rgba(255, 255, 255, 0.5) 100%);
+  background: -ms-linear-gradient(-27% bottom, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.2) 56%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(-27% bottom, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.2) 56%, rgba(255, 255, 255, 1) 100%);
+  height: 363px;
+  position: absolute;
+  width: 281px;
+  top: -1px;
+  z-index: 100;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions of glow effect*/
+
+.rotate .glow-t{
+  height: 283px;
+  right: -1px;
+  top: -1px;
+  width: 363px
+}
+/*glow lighting effect on white tablet*/
+
+.white .glow-t {
+  background: -moz-linear-gradient(-27% bottom, rgba(255, 255, 255, 0.1) 41%, rgba(255, 255, 255, 0.2) 56%, #FFFFFF 100%) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, -19% 82%, right top, color-stop(0.1, rgba(255, 255, 255, 0.09)), color-stop(0.56, rgba(255, 255, 255, 0.1)), color-stop(0.55, rgba(255, 255, 255, 0.1)));
+  background: -webkit-gradient(linear, -19% 82%, 100% 0%, color-stop(0.1, rgba(255, 255, 255, 0.0976563)), color-stop(0.56, rgba(255, 255, 255, 0.199219)), color-stop(1, rgba(255, 255, 255, 0.846094)));
+  background: -webkit-linear-gradient(-19% 82%, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 1) 100%);
+  background: -o-linear-gradient(40deg, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0.5) 100%);
+  background: -ms-linear-gradient(-27% bottom, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.2) 56%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(-27% bottom, rgba(255, 255, 255, 0.1) 55%, rgba(255, 255, 255, 0.2) 56%, rgba(255, 255, 255, 1) 100%)
+}
+/*stacked tablets*/
+
+.tablet.stack{
+  margin-left: -207px;
+  z-index: 101;
+  -moz-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  -ms-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  -khtml-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+  behavior: url(css/PIE.htc)
+}
+
+/*your screen image or media holder*/
+
+.screen-t img {
+  margin-left: 21px;
+  margin-top: 31px;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 240px;/*fitting width that resizes your image*/
+  height: 300px;/*fitting height that resizes your image*/
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -o-border-radius: 2px 2px 2px 2px;
+  -ms-border-radius: 2px 2px 2px 2px;
+  -khtml-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the dimensions of screen/media holder*/
+
+.rotate .screen-t img{
+  margin-left: 32px;
+  margin-top: 21px;
+  width: 300px;
+  height: 240px
+}
+/*set the opacity of images to create depth on images in stacked tablets */
+
+.vis50 {
+  opacity: 0.5
+}
+
+.vis55 {
+  opacity: 0.55
+}
+
+.vis60 {
+  opacity: 0.6
+}
+
+.vis65 {
+  opacity: 0.65
+}
+
+.vis70 {
+  opacity: 0.7
+}
+
+.vis75 {
+  opacity: 0.75
+}
+
+.vis80 {
+  opacity: 0.8
+}
+
+.vis85 {
+  opacity: 0.85
+}
+
+.vis90 {
+  opacity: 0.9
+}
+/*tablet button*/
+
+.button-t:before {
+  background: #131313;
+  background: -moz-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131313), color-stop(8%, #111111), color-stop(42%, #000000), color-stop(100%, #333333));
+  background: -webkit-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -o-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -ms-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#333333',GradientType=0 );
+  background: linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  -moz-box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  -webkit-box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  -ms-box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  -o-box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  -khtml-box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  box-shadow: 0 1px 1px #000 inset, 0 0 4px #202020;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  bottom: 7px;
+  content: "";
+  height: 18px;
+  left: 45%;
+  position: absolute;
+  width: 18px;
+  z-index: 3;
+  border: 1px solid #171717;
+  border-bottom: 1px solid #4A4A4A;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the position of button*/
+
+.rotate .button-t:before {
+  left: 6px;
+  top: 45.8%
+}
+/*tablet button cont'd*/
+
+.button-t:after{
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -ms-border-radius: 2px 2px 2px 2px;
+  -o-border-radius: 2px 2px 2px 2px;
+  -khtml-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  bottom: 13px;
+  content: "";
+  height: 6px;
+  left: 47%;
+  position: absolute;
+  width: 6px;
+  z-index: 4;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the position*/
+
+.rotate .button-t:after {
+  left: 12px;
+  top: 48%
+}
+/*button for white tablet*/
+
+.white .button-t:after{
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 2px #FFFFFF;
+  -webkit-box-shadow: 0 0 2px #FFFFFF;
+  -ms-box-shadow: 0 0 2px #FFFFFF;
+  -o-box-shadow: 0 0 2px #FFFFFF;
+  -khtml-box-shadow: 0 0 2px #FFFFFF;
+  box-shadow: 0 0 2px #FFFFFF;
+  behavior: url(css/PIE.htc)
+}
+/*button for white tablet cont'd*/
+
+.white .button-t:before {
+  border-color: #CECECE #CECECE #B8B8B8;
+  background: #EDEDED;
+  background: -moz-linear-gradient(top, #EDEDED 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EDEDED), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #EDEDED 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #EDEDED 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #EDEDED 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EDEDED', endColorstr='#ffffff',GradientType=0 );
+  background: linear-gradient(top, #EDEDED 0%, #ffffff 100%);
+  -moz-box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  -webkit-box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  -o-box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  -ms-box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  -khtml-box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  box-shadow: 0 0 2px #FFFFFF, 0 1px 1px #FFFFFF inset;
+  behavior: url(css/PIE.htc);
+  content: ""
+}
+/*Camera and power/volume button*/
+
+.addons-t:before {
+  background: #000000;
+  background: -moz-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131313), color-stop(8%, #111111), color-stop(42%, #000000), color-stop(100%, #333333));
+  background: -webkit-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -o-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  background: -ms-linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  -pie-background: linear-gradient(#131313, #333333);
+  background: linear-gradient(top, #131313 0%, #111111 8%, #000000 42%, #333333 100%);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid #000000;
+  content: "";
+  height: 3px;
+  left: 49%;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+  z-index: 130;
+  -moz-box-shadow: 0 0 2px #404040;
+  -webkit-box-shadow: 0 0 2px #404040;
+  -ms-box-shadow: 0 0 2px #404040;
+  -o-box-shadow: 0 0 2px #404040;
+  -khtml-box-shadow: 0 0 2px #404040;
+  box-shadow: 0 0 2px #404040;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the position*/
+
+.rotate .addons-t:before{
+  top: 49%;
+  left: 95%
+}
+/*addons for white tablet*/
+
+.white .addons-t:before{
+  -moz-box-shadow: 0 0 2px #FFFFFF;
+  -webkit-box-shadow: 0 0 2px #FFFFFF;
+  -ms-box-shadow: 0 0 2px #FFFFFF;
+  -o-box-shadow: 0 0 2px #FFFFFF;
+  -khtml-box-shadow: 0 0 2px #FFFFFF;
+  box-shadow: 0 0 2px #FFFFFF;
+  behavior: url(css/PIE.htc)
+}
+/*Camera and power/volume button*/
+
+.addons-t:after {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -ms-border-radius: 2px 2px 2px 2px;
+  -o-border-radius: 2px 2px 2px 2px;
+  -khtml-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: 9%;
+  top: -6px;
+  width: 17px;
+  z-index: 4;
+  behavior: url(css/PIE.htc)
+}
+/*when rotating, alternate the position*/
+
+.rotate .addons-t:after{
+  height: 17px;
+  left: 101.4%;
+  top: 85.5%;
+  width: 1px
+}
+/*Camera and power/volume button*/
+
+.addons-t {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  float: right;
+  height: 25px;
+  margin-right: -6px;
+  margin-top: 44px;
+  width: 1px
+}
+/*when rotating, alternate the position*/
+
+.rotate .addons-t{
+  height: 1px;
+  margin-right: 50px;
+  margin-top: 79%;
+  width: 25px
+}
+/*tablet top light shadow*/
+
+.tablet.top-light-shadow{
+  -moz-box-shadow: 0 10px 10px #5D5D5D;
+  -webkit-box-shadow: 0 10px 10px #5D5D5D;
+  -ms-box-shadow: 0 10px 10px #5D5D5D;
+  -o-box-shadow: 0 10px 10px #5D5D5D;
+  -khtml-box-shadow: 0 10px 10px #5D5D5D;
+  box-shadow: 0 10px 10px #5D5D5D;
+  behavior: url(css/PIE.htc)
+}
+
+/*media containers*/
+.screen-t iframe, .rotate .screen-t iframe,  .screen-t .video-container{
+    left: 0;
+    margin-left: 32px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}

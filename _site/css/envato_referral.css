@@ -1,0 +1,111 @@
+.envato_row {
+    float: none;
+    display: block;
+    overflow: hidden;
+    margin: 20px 0px 10px 0px;
+}
+
+.envato_item {
+    height : 174px;
+    width  : 142px;
+    padding : 10px 21px 4px 21px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    border-right: 1px solid #E4E4E4;
+}
+
+.envato_item a {
+    font-family: tahoma, helvetica, arial;
+    font-size: 8pt;
+    color : #fff;
+    color : #fff;
+    text-decoration: none;
+}
+
+.envato_item p {
+    height : 33px;
+    overflow: hidden;
+    margin : 5px 0px 5px 0px;
+    line-height: 1em;
+}
+
+.envato_item p a {
+    font-family: tahoma, helvetica, arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color : #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.envato_item .envato_separator {
+    position: relative;
+    background: #F4F4F4;
+    border-top: 1px solid #E4E4E4;
+    margin: 0px;
+    height: 4px;
+}
+
+.envato_item_noborder {
+    border-right: none;
+}
+
+.envato_thumb {
+    border: none;
+    width: 80px;
+    height: 80px;
+}
+
+.envato_details {
+    font-family: helvetica, arial, tahoma;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: left;
+}
+
+.envato_sales {
+    float: left;
+    width: 75px; 
+    font-size: 8pt;
+    color : #fff;
+}
+
+.envato_cost {
+    text-align: right;
+    font-size: 13pt;
+    font-weight: bold;
+    color : #fff;
+    float: right;
+    width: 60px; 
+}
+
+.envato_rating {
+    height : 9px;
+    background: url(../images/rating.gif) no-repeat;
+    overflow: hidden;
+} 
+
+.envato_rating0 {
+    background-position: 0px 10px;    
+} 
+
+.envato_rating1 {
+    background-position: 0px 0px;    
+} 
+
+.envato_rating2 {
+    background-position: 0px -9px;    
+} 
+
+.envato_rating3 {
+    background-position: 0px -18px;    
+} 
+
+.envato_rating4 {
+    background-position: 0px -27px;    
+} 
+
+.envato_rating5 {
+    background-position: 0px -36px;    
+} 
