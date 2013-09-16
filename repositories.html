@@ -26,7 +26,7 @@
 
       // Put custom repo URL's in this object, keyed by repo name.
       var repoUrls = {
-        "tigefa4u.github.io": "http://tigefa4u.github.io",
+        //"tigefa4u.github.io": "http://tigefa4u.github.io",
         //"finagle": "http://twitter.github.com/finagle/",
         //"hogan.js": "http://twitter.github.com/hogan.js/"
       };
@@ -37,7 +37,7 @@
 
       // Put custom repo descriptions in this object, keyed by repo name.
       var repoDescriptions = {
-        "tgfa.github.io": "An HTML, CSS, and JS toolkit designed to kickstart development of webapps and sites",
+       // "tgfa.github.io": "An HTML, CSS, and JS toolkit designed to kickstart development of webapps and sites",
       //  "naggati2": "A protocol builder for Netty using Scala 2.8"
       };
 
@@ -80,7 +80,7 @@
         repos = repos || [];
         page = page || 1;
 
-        var uri = "https://api.github.com/tigefa4u/repos?callback=?"
+        var uri = "https://api.github.com/users/tigefa4u/repos?callback=?"
                 + "&per_page=100"
                 + "&page="+page;
 
@@ -184,7 +184,7 @@
 
         var $img = $("<img>")
           .addClass("larry size-" + sizeName)
-          .attr("src", "assets/larry.png")
+          .attr("src", "assets/github-256-black.png")
           .attr("width", size)
           .attr("height", size)
           .css({
