@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<bblog>
+
+<menu>
+	<id>home</id>
+	<title>home</title>
+	<url>index.html</url>
+</menu>
+
+<menu>
+	<id>advancedPage</id>
+	<title>advancedPage</title>
+	<url>#advancedPage</url>
+</menu>
+
+<menu>
+	<id>basicpage</id>
+	<title>basicPage</title>
+	<url>#basicpage</url>
+</menu>
+
+<menu>
+	<title>external-link</title>
+	<url>http://google.com</url>
+</menu>
+
+<menu>
+	<id></id>
+	<title></title>
+	<url></url>
+</menu>
+
+</bblog>
+

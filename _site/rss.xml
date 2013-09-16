@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>tigefa4u.github</title>
+ <link href="http://tigefa4u.github.io/atom.xml" rel="self"/>
+ <link href="http://tigefa4u.github.io/"/>
+ <updated>2013-09-17T00:44:01+07:00</updated>
+ <id>http://tigefa4u.github.io</id>
+ <author>
+   <name>tigefa4u.github</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>MyBB Feature Beta Stable</title>
+   <link href="http://tigefa4u.github.io/2013/08/mybb-feature-beta.html"/>
+   <updated>2013-08-31T00:52:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/mybb-feature-beta</id>
+   <content type="html">&lt;p&gt;&lt;a href=&#39;http://www.mybb.com&#39; title=&#39;MyBB&#39;&gt;&lt;img alt=&#39;MyBB&#39; src=&#39;/img/posts/mybb-logo.png&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#39;free_never_tasted_so_good&#39;&gt;Free never tasted so good.&lt;/h2&gt;
+
+&lt;p&gt;MyBB is a free and open source, community-based, forum software project.&lt;/p&gt;
+
+&lt;p&gt;(https://github.com/mybb/mybb/zipball/feature)&lt;/p&gt;
+
+&lt;h3 id=&#39;unreleased_versions&#39;&gt;Unreleased Versions&lt;/h3&gt;
+
+&lt;p&gt;Stable and Feature branches may contain partially-commited features which are broken, incomplete or may never make it to public release. For these reasons, it is not recommended that you use either of these branches as a live forum. They should be used for development purposes or previews only. MyBB does not support unreleased versions.&lt;/p&gt;
+
+&lt;h3 id=&#39;contribute&#39;&gt;Contribute&lt;/h3&gt;
+
+&lt;p&gt;Contributing to MyBB is easy:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork the project&lt;/li&gt;
+
+&lt;li&gt;If you want to fix a bug, switch to the stable branch&lt;/li&gt;
+
+&lt;li&gt;If you want to work on MyBB 1.8, switch to the feature branch&lt;/li&gt;
+
+&lt;li&gt;Make your changes (ensuring you follow the MyBB Development Standards) and push them to your forked repository&lt;/li&gt;
+
+&lt;li&gt;Send us a pull request with your changes and make sure you reference the issue ticket number your changes relate to (update the ticket too to tell us you&amp;#8217;ve fixed it)&lt;/li&gt;
+
+&lt;li&gt;SQA will provide feedback and, if it passes verification, your pull request will be merged into MyBB&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#39;community&#39;&gt;Community&lt;/h3&gt;
+
+&lt;p&gt;Visit our community at &lt;a href=&#39;http://www.mybb.com&#39;&gt;MyBB.com&lt;/a&gt; for support.&lt;/p&gt;
+
+&lt;h3 id=&#39;license&#39;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;MyBB is licensed under &lt;a href=&#39;http://www.mybb.com/about/license&#39;&gt;GNU Lesser General Public License v3&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>SemPress Wordpress Themes</title>
+   <link href="http://tigefa4u.github.io/2013/08/sempress-wordpress-themes.html"/>
+   <updated>2013-08-30T19:50:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/sempress-wordpress-themes</id>
+   <content type="html">&lt;img alt=&#39;monstra-cms&#39; src=&#39;/img/posts/screenshot.png&#39; /&gt;
+&lt;h1 id=&#39;sempress&#39;&gt;SemPress&lt;/h1&gt;
+
+&lt;p&gt;A WordPress theme, highly semantic, HTML5 templates, responsive and seo optimized. SemPress supports most of the new HTML5 tags, the new HTML5 input-types, microformats, microformats v2 and microdata (Schema.org).&lt;/p&gt;
+
+&lt;h2 id=&#39;posh__plain_old_semantic_html&#39;&gt;POSH - Plain old Semantic HTML&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&#39;http://microformats.org/wiki/posh&#39;&gt;micrormats wiki&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The term semantic-html is a mouthful, and belies both how simple it is, how well established it is among modern web designers, and the fact that it has benefits far beyond the obvious doing the right thing for the Web by using semantic markup. We need a simple short mnemonic term that captures the essence of the concept, and is easily verbed (to posh, poshify, poshed up).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SemPress is fully HTML5 compatible and uses a lot of the new tags, semantics and input-types.&lt;/p&gt;
+
+&lt;h2 id=&#39;web_semantics&#39;&gt;Web Semantics&lt;/h2&gt;
+
+&lt;p&gt;SemPress&amp;#8217; code is marked-up with microformats and microdata:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;used &lt;a href=&#39;http://microformats.org/&#39;&gt;microformats&lt;/a&gt;: * &lt;a href=&#39;http://microformats.org/wiki/hatom&#39;&gt;hAtom&lt;/a&gt; * &lt;a href=&#39;http://microformats.org/wiki/hcard&#39;&gt;hCard&lt;/a&gt; * &lt;a href=&#39;http://microformats.org/wiki/rel-tag&#39;&gt;rel-tag&lt;/a&gt; * &lt;a href=&#39;http://microformats.org/wiki/xfn&#39;&gt;XFN&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;used &lt;a href=&#39;http://microformats.org/wiki/microformats-2&#39;&gt;microformats version 2&lt;/a&gt;: * h-atom/h-entry * h-card * &lt;a href=&#39;http://microformats.org/wiki/activity-streams&#39;&gt;ActivityStreams&lt;/a&gt; (h-as-bookmark, h-as-note, &amp;#8230;) * &lt;a href=&#39;http://microformats.org/wiki/comment-brainstorming#microformats2_h-feed_p-comments&#39;&gt;Comment Draft&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;used &lt;a href=&#39;http://www.whatwg.org/specs/web-apps/current-work/multipage/microdata.html&#39;&gt;microdata&lt;/a&gt;: * http://schema.org/Blog * http://schema.org/BlogPosting * http://schema.org/UserComments * http://schema.org/WebPage * http://schema.org/Person&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Planned formats:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;micormats (v2): hAudio and hMedia&lt;/li&gt;
+
+&lt;li&gt;microdata: http://schema.org/MediaObject&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#39;wordpress_features&#39;&gt;WordPress Features&lt;/h2&gt;
+
+&lt;p&gt;SemPress supports:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Post_Formats&#39;&gt;Custom Post Formats&lt;/a&gt;: aside, status, gallery, video, audio, chat, quote, link and image&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Post_Thumbnails&#39;&gt;Post-Thumbnails&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Function_Reference/add_editor_style&#39;&gt;Editor-Style&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Navigation_Menus&#39;&gt;Navigation Menus&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Automatic_Feed_Links&#39;&gt;Automatic Feed Links&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Custom_Headers&#39;&gt;Custom-Header&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://codex.wordpress.org/Custom_Backgrounds&#39;&gt;Custom-Backgrounds&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://jetpack.me/support/infinite-scroll/&#39;&gt;Infinite Scroll&lt;/a&gt; (JetPack)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#39;translations&#39;&gt;Translations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;de_DE: thanks to &lt;a href=&#39;http://www.benjaminhartwich.de/&#39;&gt;Benjamin Hartwich&lt;/a&gt; (&lt;a href=&#39;https://twitter.com/benhartwich&#39;&gt;@benhartwich&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;sv_SE: thanks to &lt;a href=&#39;http://deluxive.se/blog/&#39;&gt;Christopher Anderton&lt;/a&gt; (&lt;a href=&#39;https://twitter.com/deluxivese&#39;&gt;@deluxivese&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;ru_RU: thanks to &lt;a href=&#39;http://0leg.net&#39;&gt;Oleg&lt;/a&gt; (&lt;a href=&#39;https://twitter.com/oleg_sh&#39;&gt;@oleg_sh&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;fr_FR: thanks to &lt;a href=&#39;http://www.jp-software.fr/en/&#39;&gt;Julien Pierre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://coderwall.com/pfefferle&#39;&gt;&lt;img alt=&#39;endorse&#39; src=&#39;http://api.coderwall.com/pfefferle/endorsecount.png&#39; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>EsoTalk 1.0.0g2</title>
+   <link href="http://tigefa4u.github.io/2013/08/esotalk.html"/>
+   <updated>2013-08-30T19:50:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/esotalk</id>
+   <content type="html">&lt;p&gt;esoTalk is free, open-source Internet forum software written in PHP and MySQL. It is intent on being extremely simple, fast, and modern, containing all of the essential features a forum might need, and a powerful plugin system allowing developers to extend it in any way they like.&lt;/p&gt;
+
+&lt;p&gt;If you like this software, please consider &lt;a href=&#39;http://esotalk.org/donate&#39;&gt;donating to support the developer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#39;installing_esotalk&#39;&gt;Installing esoTalk&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Upload the contents of this folder to the location on your web server where you would like esoTalk to be accessible at.&lt;/li&gt;
+
+&lt;li&gt;Visit this location in your web browser. You will be taken to the esoTalk installer.&lt;/li&gt;
+
+&lt;li&gt;Follow the instructions in the installer. If you need help, visit the &lt;a href=&#39;http://esotalk.org/forum&#39;&gt;esoTalk Support Forum&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Monstra-CMS 2.2.1</title>
+   <link href="http://tigefa4u.github.io/2013/08/download-monstra-cms.html"/>
+   <updated>2013-08-30T19:46:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/download-monstra-cms</id>
+   <content type="html">&lt;img alt=&#39;monstra-cms&#39; src=&#39;/img/posts/monstra-logo.png&#39; /&gt;
+&lt;h1 id=&#39;monstra_cms&#39;&gt;Monstra CMS&lt;/h1&gt;
+
+&lt;p&gt;Fast and small content management system written in PHP!&lt;/p&gt;
+
+&lt;h2 id=&#39;system_requirements&#39;&gt;System Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UNIX/Linux host&lt;/li&gt;
+
+&lt;li&gt;PHP 5.2.3 or higher&lt;/li&gt;
+
+&lt;li&gt;SimpleXML Module&lt;/li&gt;
+
+&lt;li&gt;Apache Mod Rewrite&lt;/li&gt;
+
+&lt;li&gt;Multibyte String&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#39;steps_to_install&#39;&gt;Steps to Install&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#39;http://monstra.org/download&#39;&gt;Download the latest version.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Unzip the contents to a new folder on your local computer.&lt;/li&gt;
+
+&lt;li&gt;Upload that whole folder with an FTP client to your host.&lt;/li&gt;
+
+&lt;li&gt;You may also need to recursively CHMOD the folder /storage/, /tmp/, /backups/ and /public/ to 755(or 777) if your host doesn&amp;#8217;t set it implicitly.&lt;/li&gt;
+
+&lt;li&gt;Also you may also need to recursively CHMOD the /install.php, /.htaccess and /sitemap.xml to 755(or 777) if your host doesn&amp;#8217;t set it implicitly.&lt;/li&gt;
+
+&lt;li&gt;Type http://example.org/install.php in the browser.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#39;contributing&#39;&gt;Contributing&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Help on the &lt;a href=&#39;http://forum.monstra.org&#39;&gt;Forum.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Donate to keep Monstra free. We will add you to Monstra &lt;a href=&#39;http://monstra.org/contribute/sponsors&#39;&gt;Sponsors Page.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Develop a new plugin.&lt;/li&gt;
+
+&lt;li&gt;Create a new theme.&lt;/li&gt;
+
+&lt;li&gt;Find and &lt;a href=&#39;https://github.com/MonstraLab/monstra-cms/issues&#39;&gt;report issues.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Link back to &lt;a href=&#39;http://monstra.org&#39;&gt;Monstra&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#39;links&#39;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://monstra.org&#39;&gt;Site&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://forum.monstra.org&#39;&gt;Forum&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://monstra.org/documentation&#39;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;https://github.com/MonstraLab/monstra-cms&#39;&gt;Github Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Copyright (C) 2012-2013 Romanenko Sergey / Awilum&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Glyphicons for Bootstrap</title>
+   <link href="http://tigefa4u.github.io/2013/08/glyphicons-for-bootstrap.html"/>
+   <updated>2013-08-30T19:40:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/glyphicons-for-bootstrap</id>
+   <content type="html">&lt;h1 id=&#39;glyphicons_for_bootstrap&#39;&gt;Glyphicons for Bootstrap&lt;/h1&gt;
+
+&lt;p&gt;The official Bootstrap icon font, featuring 160 glyphs from &lt;a href=&#39;http://glyphicons.com&#39;&gt;Glyphicons&lt;/a&gt;, ready for use in any Bootstrap project. Includes support for IE8+.&lt;/p&gt;
+
+&lt;p&gt;To get started, check out &lt;a href=&#39;http://glyphicons.getbootstrap.com&#39;&gt;http://glyphicons.getbootstrap.com&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&#39;bugs_and_feature_requests&#39;&gt;Bugs and feature requests&lt;/h3&gt;
+
+&lt;p&gt;Have a bug or a feature request? &lt;a href=&#39;https://github.com/twitter/bootstrap/issues&#39;&gt;Please open a new issue&lt;/a&gt;. Before opening any issue, please search for existing issues and read the &lt;a href=&#39;https://github.com/necolas/issue-guidelines&#39;&gt;Issue Guidelines&lt;/a&gt;, written by &lt;a href=&#39;https://github.com/necolas/&#39;&gt;Nicolas Gallagher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#39;contributing&#39;&gt;Contributing&lt;/h3&gt;
+
+&lt;p&gt;Please read through our guidelines for contributing to Bootstrap. Included are directions for opening issues, coding standards, and notes on development. All HTML and CSS should conform to the &lt;a href=&#39;http://github.com/mdo/code-guide&#39;&gt;Code Guide&lt;/a&gt;, maintained by &lt;a href=&#39;http://github.com/mdo&#39;&gt;Mark Otto&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#39;community&#39;&gt;Community&lt;/h3&gt;
+
+&lt;p&gt;Keep track of development and community news.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Follow &lt;a href=&#39;http://twitter.com/twbootstrap&#39;&gt;@twbootstrap on Twitter&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;Read and subscribe to the &lt;a href=&#39;http://blog.getbootstrap.com&#39;&gt;The Official Twitter Bootstrap Blog&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;Have a question that&amp;#8217;s not a feature request or bug report? &lt;a href=&#39;http://groups.google.com/group/twitter-bootstrap&#39;&gt;Ask on the mailing list.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Chat with fellow Bootstrappers in IRC. On the &lt;code&gt;irc.freenode.net&lt;/code&gt; server, in the &lt;code&gt;##twitter-bootstrap&lt;/code&gt; channel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#39;versioning&#39;&gt;Versioning&lt;/h3&gt;
+
+&lt;p&gt;For transparency and insight into our release cycle, and for striving to maintain backward compatibility, bootstrap-glyphicons will be maintained under the Semantic Versioning guidelines as much as possible.&lt;/p&gt;
+
+&lt;p&gt;Releases will be numbered with the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;major&amp;gt;.&amp;lt;minor&amp;gt;.&amp;lt;patch&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And constructed with the following guidelines:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Breaking backward compatibility bumps the major (and resets the minor and patch)&lt;/li&gt;
+
+&lt;li&gt;New additions without breaking backward compatibility bumps the minor (and resets the patch)&lt;/li&gt;
+
+&lt;li&gt;Bug fixes and misc changes bumps the patch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information on SemVer, please visit &lt;a href=&#39;http://semver.org/&#39;&gt;http://semver.org/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#39;authors&#39;&gt;Authors&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Mark Otto&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://twitter.com/mdo&#39;&gt;http://twitter.com/mdo&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://github.com/mdo&#39;&gt;http://github.com/mdo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#39;copyright_and_license&#39;&gt;Copyright and license&lt;/h3&gt;
+
+&lt;p&gt;Copyright 2013 Mark Otto, Inc under &lt;a href=&#39;LICENSE&#39;&gt;the MIT license&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>YOURLS 1.6</title>
+   <link href="http://tigefa4u.github.io/2013/08/yourls.html"/>
+   <updated>2013-08-30T19:32:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/yourls</id>
+   <content type="html">&lt;h1 id=&#39;yourls&#39;&gt;YOURLS&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&#39;alt&#39; src=&#39;http://yourls.org/images/yourls-logo.png&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This Github repo is automatically synced to the official YOURLS &lt;a href=&#39;http://yourls.googlecode.com/svn/trunk/&#39;&gt;SVN repo&lt;/a&gt; (trunk) when a new commit is pushed.&lt;/p&gt;
+
+&lt;p&gt;For now, the development will &lt;em&gt;not&lt;/em&gt; happen here. For more information, see &lt;a href=&#39;http://blog.yourls.org/2012/08/should-yourls-be-on-github-instead/&#39;&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#39;official_stuff&#39;&gt;&amp;#8220;Official&amp;#8221; stuff&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://yourls.org&#39;&gt;Project home &amp;amp; doc&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://code.google.com/p/yourls/w/list&#39;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#39;http://code.google.com/p/yourls/issues/list&#39;&gt;Issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#39;license&#39;&gt;License&lt;/h4&gt;
+
+&lt;p&gt;Free software. Do whatever the hell you want with it.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Download Latest Jekyll</title>
+   <link href="http://tigefa4u.github.io/2013/08/download-latest-jekyll.html"/>
+   <updated>2013-08-30T19:17:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/download-latest-jekyll</id>
+   <content type="html">&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind &lt;span class=&#39;label label-important&#39;&gt;&quot;GitHub Pages&quot;:http://pages.github.com,&lt;/span&gt; which you can use to host your project&amp;#8217;s page or blog right here from GitHub.&lt;/p&gt;
+&lt;h2&gt; Getting Started &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#8220;Install&amp;#8221;:http://jekyllrb.com/docs/installation/ the gem&lt;/li&gt;
+
+&lt;li&gt;Read up about its &amp;#8220;Usage&amp;#8221;:http://jekyllrb.com/docs/usage/ and &amp;#8220;Configuration&amp;#8221;:http://jekyllrb.com/docs/configuration/&lt;/li&gt;
+
+&lt;li&gt;Take a gander at some existing &amp;#8220;Sites&amp;#8221;:http://wiki.github.com/mojombo/jekyll/sites&lt;/li&gt;
+
+&lt;li&gt;Fork and &amp;#8220;Contribute&amp;#8221;:https://github.com/mojombo/jekyll/blob/master/CONTRIBUTING.md your own modifications&lt;/li&gt;
+
+&lt;li&gt;Have questions? Post them on the &amp;#8220;Mailing List&amp;#8221;:http://groups.google.com/group/jekyll-rb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt; Diving In &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#8220;Migrate&amp;#8221;:http://jekyllrb.com/docs/migrations/ from your previous system&lt;/li&gt;
+
+&lt;li&gt;Learn how the &amp;#8220;YAML Front Matter&amp;#8221;:http://jekyllrb.com/docs/frontmatter/ works&lt;/li&gt;
+
+&lt;li&gt;Put information on your site with &amp;#8220;Variables&amp;#8221;:http://jekyllrb.com/docs/variables/&lt;/li&gt;
+
+&lt;li&gt;Customize the &amp;#8220;Permalinks&amp;#8221;:http://jekyllrb.com/docs/permalinks/ your posts are generated with&lt;/li&gt;
+
+&lt;li&gt;Use the built-in &amp;#8220;Liquid Extensions&amp;#8221;:http://jekyllrb.com/docs/templates/ to make your life easier&lt;/li&gt;
+
+&lt;li&gt;Use custom &amp;#8220;Plugins&amp;#8221;:http://jekyllrb.com/docs/plugins/ to generate content specific to your site&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt; Runtime Dependencies &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Classifier: Generating related posts (Ruby)&lt;/li&gt;
+
+&lt;li&gt;Directory Watcher: Auto-regeneration of sites (Ruby)&lt;/li&gt;
+
+&lt;li&gt;Kramdown: Markdown-superset converter (Ruby)&lt;/li&gt;
+
+&lt;li&gt;Liquid: Templating system (Ruby)&lt;/li&gt;
+
+&lt;li&gt;Maruku: Default markdown engine (Ruby)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt; Developer Dependencies &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;RDiscount: Discount Markdown Processor (Ruby)&lt;/li&gt;
+
+&lt;li&gt;RedCloth: Textile support (Ruby)&lt;/li&gt;
+
+&lt;li&gt;RedGreen: Nicer test output (Ruby)&lt;/li&gt;
+
+&lt;li&gt;RR: Mocking (Ruby)&lt;/li&gt;
+
+&lt;li&gt;Shoulda: Test framework (Ruby)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt; License &lt;/h2&gt;
+&lt;p&gt;See &amp;#8220;LICENSE&amp;#8221;:https://github.com/mojombo/jekyll/blob/master/LICENSE.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>tigefa4u.github / Forking and Pull Request!</title>
+   <link href="http://tigefa4u.github.io/2013/08/tigefa4u-github.html"/>
+   <updated>2013-08-30T15:54:47+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/08/tigefa4u-github</id>
+   <content type="html">&lt;p&gt;Hey! After many months of hard work by Jekyll&amp;#8217;s contributors, we&amp;#8217;re excited to announce the first major release of the project in a long while. v1.0.0 is finally here! While the list of improvements and bug fixes is &lt;span&gt;quite lengthy&lt;/span&gt;, here are the highlights (thanks to &lt;a href=&#39;http://twitter.com/BenBalter&#39;&gt;@benbalter&lt;/a&gt; for the examples and for compiling this list):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support for the Gist tag for easily embedding Gists (&lt;a href=&#39;https://gist.github.com/benbalter/5555251&#39;&gt;example&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;Automatically generated post excerpts (&lt;a href=&#39;https://gist.github.com/benbalter/5555369&#39;&gt;example&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;Save and preview drafts before publishing (&lt;a href=&#39;https://gist.github.com/benbalter/5555992&#39;&gt;example&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ 
+</feed>
