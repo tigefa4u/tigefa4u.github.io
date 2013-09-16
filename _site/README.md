@@ -1,6 +1,11 @@
 [tigefa4u.github.io](http://tigefa4u.github.io) .:::. [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap) .:::. [![devDependency Status](https://david-dm.org/twbs/bootstrap/dev-status.png)](https://david-dm.org/twbs/bootstrap#info=devDependencies)
 ==================
 
+<<<<<<< HEAD
+for personal notes build with @mojombo jekyll and @twbs bootstrap skins
+
+follow [@tigefa_team](http://twitter.com/tigefa_team)
+=======
 
 for personal notes 
 
@@ -25,3 +30,4 @@ for personal notes
 ### Copyright and license
 
 - [the MIT license](LICENSE).
+>>>>>>> master
