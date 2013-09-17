@@ -1,4 +1,4 @@
-[tigefa4u.github.io](http://tigefa4u.github.io) .:::. [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap) .:::. [![devDependency Status](https://david-dm.org/twbs/bootstrap/dev-status.png)](https://david-dm.org/twbs/bootstrap#info=devDependencies)
+[tigefa4u.github.io](http://tigefa4u.github.io) [![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
 ==================
 
 
