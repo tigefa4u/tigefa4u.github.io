@@ -1,4 +1,4 @@
-[tigefa4u.github.io](http://tigefa4u.github.io) [![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
+[tigefa4u.github.io](http://tigefa4u.github.io) [![Build Status](https://api.travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
 ==================
 
 
@@ -8,9 +8,9 @@ for personal notes
 
 ## Build with 
 
-- [@mojombo](https://github.com/mojombo) jekyll and 
-- [@twbs](https://github.com/twbs) bootstrap skins
-- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome/)
+- [@mojombo](https://github.com/mojombo/jekyll) Jekyll
+- [@twbs](https://github.com/twbs/bootstrap) Bootstrap
+- [@FortAwesome](https://github.com/FortAwesome/Font-Awesome/) Font-Awesome
 
 
 
@@ -22,6 +22,6 @@ for personal notes
 - [+Pinterest](http://pinterest.com/tigefa)
 - [+LinkedIn](http://linkedin.com/in/tigefadotinfo)
 
-### Copyright and license
+### License
 
-- [the MIT license](LICENSE).
+- [the Public Domain license](LICENSE).
