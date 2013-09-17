@@ -27,6 +27,16 @@ layout: default
 <span class='st_sharethis_large' displayText='ShareThis'></span>
 </div>
 
+<hr>
+<div id="home">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 <!-- disqus comments content ==================================== -->		  
 <hr>
 <h1><i class="icon-comment"></i> Comments</h1>
