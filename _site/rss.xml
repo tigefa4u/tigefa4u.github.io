@@ -4,7 +4,7 @@
  <title>tigefa4u.github</title>
  <link href="http://tigefa4u.github.io/atom.xml" rel="self"/>
  <link href="http://tigefa4u.github.io/"/>
- <updated>2013-09-19T02:18:38+07:00</updated>
+ <updated>2013-09-19T02:23:07+07:00</updated>
  <id>http://tigefa4u.github.io</id>
  <author>
    <name>tigefa4u.github</name>
@@ -19,6 +19,15 @@
    <content type="html">
 &lt;script src=&quot;https://gist.github.com/6613648.js&quot;&gt; &lt;/script&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>test posting</title>
+   <link href="http://tigefa4u.github.io/2013/09/test-posting.html"/>
+   <updated>2013-09-19T00:00:00+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/09/test-posting</id>
+   <content type="html">
 </content>
  </entry>
  
