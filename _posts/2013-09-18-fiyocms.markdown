@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "FiyoCMS"
+description: "FiyoCMS"
 date:   2013-09-18 09:05:47
+categories: fiyocms
+tags: [fiyocms]
 ---
 
 FiyoCMS
