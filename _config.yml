@@ -2,6 +2,7 @@ name: tigefa4u.github
 safe: true
 lsi: false
 pygments: true
+markdown: kramdown
 permalink: /:year/:month/:title.html
 relative_permalinks: false
 destination: ./_site

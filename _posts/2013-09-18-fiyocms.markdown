@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "FiyoCMS"
+date:   2013-09-18 09:05:47
+---
+
+FiyoCMS
+=======
+
+Fiyo CMS id Very easy to make template CMS 
+
+- [Checkout Demo](http://demo.fiyo.org) 
+- Download [Recent Releases](http://www.fiyo.org/download)
+
+
+## Features
+
+- Easy to Design
+- SEO Optimizer
+- Friendly Coding
+- Easy Customize
+- Compatible with PHP 5.3.x
+- Ajax+JQuery+PHP
+
+## Link
+
+- [FiyoCMS](http://www.fiyo.org)
+- [Follow @FiyoCMS](http://twitter.com/FiyoCMS)
+- [@tigefa4u](http://tigefa4u.github.io)
+
+## License
+
+- [the GPL-V3 license](LICENSE.txt)
