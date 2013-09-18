@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Monstra-CMS 2.2.1"
+description: "Monstra-CMS 2.2.1"
 date:   2013-08-30 12:46:47
 categories: cms
+tags: [cms]
 ---
+{% include JB/setup %}
 
 <img alt="monstra-cms" src="/img/posts/monstra-logo.png"/>
 # Monstra CMS

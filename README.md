@@ -1,37 +1,40 @@
-[tigefa4u.github.io](http://tigefa4u.github.io) [![Build Status](https://api.travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
+[tigefa4u.github.io](https://tigefa4u.github.io)
 ==================
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 for personal notes build with @mojombo jekyll and @twbs bootstrap skins
 
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 =======
+=======
+[![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
+>>>>>>> master
 
 for personal notes 
 
-
-
 ## Build with 
 
-- [@mojombo](https://github.com/mojombo/jekyll) Jekyll
-- [@twbs](https://github.com/twbs/bootstrap) Bootstrap
-- [@FortAwesome](https://github.com/FortAwesome/Font-Awesome/) Font-Awesome
+- [jekyll]() [@mojombo]()
+- [bootstrap]() [@twbs]()
+
+## License
+
+- [the Public Domain license](LICENSE)
 
 
-
-## Follow me 
-
-- [@tigefa_team](http://twitter.com/tigefa_team)
-- [+tigefa](http://gplus.to/tigefa)
-- [+Facebook Page](http://facebook.com/tigefa.team)
-- [+Pinterest](http://pinterest.com/tigefa)
-- [+LinkedIn](http://linkedin.com/in/tigefadotinfo)
-
-### License
-
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [the MIT license](LICENSE).
 >>>>>>> master
 =======
 - [the Public Domain license](LICENSE).
+>>>>>>> master
+=======
+``` bash
+~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
+~ cd tigefa4u.github.io
+~/myblog $ jekyll serve
+# => Now browse to http://localhost:4000
+```
 >>>>>>> master

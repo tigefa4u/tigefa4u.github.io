@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "tigefa4u.github / Forking and Pull Request!"
+description: "tigefa4u.github / Forking and Pull Request!"
 date:   2013-08-30 08:54:47
 categories: tigefa4u
+tags: [tigefa4u]
 ---
+{% include JB/setup %}
 
 Hey! After many months of hard work by Jekyll's contributors, we're excited
 to announce the first major release of the project in a long while. v1.0.0 is

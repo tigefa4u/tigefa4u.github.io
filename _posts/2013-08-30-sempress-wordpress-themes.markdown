@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "SemPress Wordpress Themes"
+description: "SemPress Wordpress Themes"
 date:   2013-08-30 12:50:47
 categories: wordpress
+tags: [wordpress]
 ---
+{% include JB/setup %}
 
 <img alt="monstra-cms" src="/img/posts/screenshot.png"/>
 

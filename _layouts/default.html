@@ -1,43 +1,6 @@
-{% include header.html %}
-
-  <div class="container">
-
-    <!-- Docs nav
-    ================================================== -->
-    <div class="row">
-      <div class="span3 bs-docs-sidebar">
-	  <img alt="characters" src="{{ site.url }}/img/github-256-black.png" class="img-circle">
-	  <!--<img alt="characters" src="/img/nerds/nerd_1.png" class="img-circle">
-	  <img alt="characters" src="/img/nerds/nerd_2.png" class="img-circle">
-	  <img alt="characters" src="/img/nerds/nerd_5.png" class="img-circle">-->
-      </div>
-      <div class="span9">
-
-        <!-- Posting content ==================================== -->
-        <section id="download-bootstrap">
-          <p class="lead">{{ content | smilify }}</p>
-
-		<!-- fork me on github ==================================== -->
-	<hr>
-<h2><i class="icon-code-fork"></i> Fork me on Github ==  <a target="_blank" href="http://github.com/tigefa4u">git@tigefa4u</a></h2>		  
-			
-  <code><i class="icon-cloud-download"></i> gem install jekyll</code> Visite full documentation <a target="_blank" href="http://jekyllrb.com"><i class="icon-link"></i> Jekyllrb.com</a> <br />
-	<br />
-  <code><i class="icon-cloud-download"></i> git clone git@github.com:tigefa4u/tigefa4u.github.io.git</code><br />
-  <br />
-  <code><i class="icon-cloud-download"></i> cd tigefa4u.github.io</code><br />
-  <br />
-  <code><i class="icon-cogs"></i> jekyll build</code><br />
-  <br />
-  <code><i class="icon-cogs"></i> jekyll serve</code><br />
-  <br />  
-  <code>visite <i class="icon-globe"></i> http://localhost:4000</code>
-		  
-	<hr>
-		  
-        </section>
-	</div>	
-	</div>
-</div>
-
-  {% include footer.html %}
+---
+theme :
+  name : hooligan
+---
+{% include JB/setup %}
+{% include themes/hooligan/default.html %}

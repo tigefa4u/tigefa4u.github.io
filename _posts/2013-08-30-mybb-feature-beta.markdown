@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "MyBB Feature Beta Stable"
+description: "MyBB Feature Beta Stable"
 date:   2013-08-30 17:52:47
-categories: forum
+categories: mybb
+tags: [mybb]
 ---
+{% include JB/setup %}
 
 
 [![MyBB](/img/posts/mybb-logo.png "MyBB")](http://www.mybb.com "MyBB")
