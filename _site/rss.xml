@@ -4,7 +4,7 @@
  <title>tigefa4u.github</title>
  <link href="http://tigefa4u.github.io/atom.xml" rel="self"/>
  <link href="http://tigefa4u.github.io/"/>
- <updated>2013-09-19T08:29:21+07:00</updated>
+ <updated>2013-09-19T15:16:48+07:00</updated>
  <id>http://tigefa4u.github.io</id>
  <author>
    <name>tigefa4u.github</name>
@@ -37,6 +37,19 @@
    <updated>2013-09-19T00:00:00+07:00</updated>
    <id>http://tigefa4u.github.io/2013/09/helping-me-build-jekyll-with-octopress</id>
    <content type="html">
+&lt;h2 id=&quot;create-post&quot;&gt;Create post&lt;/h2&gt;
+
+&lt;p&gt;easy creating post with &lt;code&gt;jekyllbootstrap.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ rake post title=&quot;Hello World&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;themeswitch&quot;&gt;theme:switch&lt;/h2&gt;
+
+&lt;p&gt;easy switch themes with &lt;code&gt;jekyllbootstrap.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ rake theme:switch name=&quot;THEME NAME&quot;
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  
@@ -45,7 +58,9 @@
    <link href="http://tigefa4u.github.io/2013/09/fiyocms.html"/>
    <updated>2013-09-18T16:05:47+07:00</updated>
    <id>http://tigefa4u.github.io/2013/09/fiyocms</id>
-   <content type="html">&lt;h1 id=&quot;fiyocms&quot;&gt;FiyoCMS&lt;/h1&gt;
+   <content type="html">&lt;p&gt;&lt;span class=&quot;btn btn-inverse disabled&quot;&gt;&lt;a href=&quot;http://fiyo.org&quot; title=&quot;FiyoCMS&quot;&gt;&lt;img src=&quot;/assets/img/posts/fiyocms-logo.png&quot; alt=&quot;FiyoCMS&quot; title=&quot;FiyoCMS&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;fiyocms&quot;&gt;FiyoCMS&lt;/h1&gt;
 
 &lt;p&gt;Fiyo CMS id Very easy to make template CMS &lt;/p&gt;
 
@@ -87,7 +102,7 @@
    <updated>2013-08-31T00:52:47+07:00</updated>
    <id>http://tigefa4u.github.io/2013/08/mybb-feature-beta</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;http://www.mybb.com&quot; title=&quot;MyBB&quot;&gt;&lt;img src=&quot;/img/posts/mybb-logo.png&quot; alt=&quot;MyBB&quot; title=&quot;MyBB&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mybb.com&quot; title=&quot;MyBB&quot;&gt;&lt;img src=&quot;/assets/img/posts/mybb-logo.png&quot; alt=&quot;MyBB&quot; title=&quot;MyBB&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;free-never-tasted-so-good&quot;&gt;Free never tasted so good.&lt;/h2&gt;
 &lt;p&gt;MyBB is a free and open source, community-based, forum software project.&lt;/p&gt;
@@ -124,7 +139,7 @@ MyBB does not support unreleased versions.&lt;/p&gt;
    <updated>2013-08-30T19:50:47+07:00</updated>
    <id>http://tigefa4u.github.io/2013/08/sempress-wordpress-themes</id>
    <content type="html">
-&lt;p&gt;&lt;img alt=&quot;monstra-cms&quot; src=&quot;/img/posts/screenshot.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;monstra-cms&quot; src=&quot;/assets/img/posts/screenshot.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;sempress&quot;&gt;SemPress&lt;/h1&gt;
 
@@ -238,7 +253,7 @@ It is intent on being extremely simple, fast, and modern, containing all of the 
    <updated>2013-08-30T19:46:47+07:00</updated>
    <id>http://tigefa4u.github.io/2013/08/download-monstra-cms</id>
    <content type="html">
-&lt;p&gt;&lt;img alt=&quot;monstra-cms&quot; src=&quot;/img/posts/monstra-logo.png&quot; /&gt;
+&lt;p&gt;&lt;img alt=&quot;monstra-cms&quot; src=&quot;/assets/img/posts/monstra-logo.png&quot; /&gt;
 # Monstra CMS
 Fast and small content management system written in PHP!&lt;/p&gt;
 

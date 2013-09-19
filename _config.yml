@@ -12,6 +12,7 @@ layouts:     ./_layouts
 google_analytics_id: UA-29791208-1
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
+#port: 2106
 #baseurl: /project-name
 twitter: tigefa_team
 github: tigefa4u
@@ -100,7 +101,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : tigefa4u
+      short_name : tigefa
     livefyre :
       site_id : 123
     intensedebate :
@@ -124,7 +125,7 @@ JB :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 

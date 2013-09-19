@@ -8,7 +8,7 @@ tags: [wordpress]
 ---
 {% include JB/setup %}
 
-<img alt="monstra-cms" src="/img/posts/screenshot.png"/>
+<img alt="monstra-cms" src="/assets/img/posts/screenshot.png"/>
 
 # SemPress
 
