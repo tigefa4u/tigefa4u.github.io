@@ -1,4 +1,3 @@
-name: tigefa4u.github
 safe: true
 lsi: false
 pygments: true
@@ -6,14 +5,15 @@ markdown: kramdown
 permalink: /:year/:month/:title.html
 relative_permalinks: false
 #destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+#plugins:     ./_plugins
+#layouts:     ./_layouts
 #name: sugeng tigefa
 google_analytics_id: UA-29791208-1
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
 #port: 2106
 #baseurl: /project-name
+name: tigefa4u.github
 twitter: tigefa_team
 github: tigefa4u
 gravatar_url: /images/github.png
@@ -24,7 +24,6 @@ smileytheme: MSN
 exclude: ["bin", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#
 title : tigefa4u.github
 tagline: love github repositories
 author :
@@ -102,15 +101,15 @@ JB :
     provider : disqus
     disqus :
       short_name : tigefa
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 590
-      colorscheme: light
+#    livefyre :
+#      site_id : 123
+#    intensedebate :
+#      account : 123abc
+#    facebook :
+#      appid : 123
+#      num_posts: 5
+#      width: 590
+#      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -120,13 +119,13 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-29791208-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
+#    piwik :
+#        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
+#        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
