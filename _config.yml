@@ -5,7 +5,7 @@ pygments: true
 markdown: kramdown
 permalink: /:year/:month/:title.html
 relative_permalinks: false
-destination: ./_site
+#destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 #name: sugeng tigefa
@@ -21,6 +21,7 @@ timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
 smileytheme: MSN
+exclude: [".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE.md", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
