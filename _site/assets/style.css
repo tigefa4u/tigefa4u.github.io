@@ -1,4 +1,4 @@
-html {
+/*html {
   background: url("bg.png") repeat;
 }
 
@@ -28,7 +28,7 @@ a:link, a:visited {
 
 a:hover {
   text-decoration: underline;
-}
+}*/
 
 #wrapper {
   position: relative;

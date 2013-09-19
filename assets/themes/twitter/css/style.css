@@ -6,7 +6,7 @@ body {
   padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
 }
 .container > footer p {
-  text-align: center; /* center align it with the container */
+  text-align: center; font-size:21px; /* center align it with the container */
 }
 .container {
   width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
@@ -35,7 +35,7 @@ body {
 .topbar .btn {
   border: 0;
 }
-
+.posts{list-style:none;}
 
 /* tag_box ======================================================== */
 
@@ -68,4 +68,6 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+ul li {style-list:none;}
 	

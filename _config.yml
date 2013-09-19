@@ -21,7 +21,7 @@ timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
 smileytheme: MSN
-exclude: ["bin", "themes", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+exclude: ["bin", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -34,8 +34,7 @@ author :
   twitter : tigefa_team
   feedburner : tigefa4u.github
   googleplus: tigefa
-  # Whatever you specify for the linkedin option will be placed after `www.linkedin.com/in/`
-  linkedin: tigefadotinfo
+  pinterest: tigefa
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
