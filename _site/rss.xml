@@ -4,7 +4,7 @@
  <title>tigefa4u.github</title>
  <link href="http://tigefa4u.github.io/atom.xml" rel="self"/>
  <link href="http://tigefa4u.github.io/"/>
- <updated>2013-09-19T07:29:17+07:00</updated>
+ <updated>2013-09-19T08:29:21+07:00</updated>
  <id>http://tigefa4u.github.io</id>
  <author>
    <name>tigefa4u.github</name>
@@ -27,6 +27,15 @@
    <link href="http://tigefa4u.github.io/2013/09/test-posting.html"/>
    <updated>2013-09-19T00:00:00+07:00</updated>
    <id>http://tigefa4u.github.io/2013/09/test-posting</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Helping me build jekyll with octopress</title>
+   <link href="http://tigefa4u.github.io/2013/09/helping-me-build-jekyll-with-octopress.html"/>
+   <updated>2013-09-19T00:00:00+07:00</updated>
+   <id>http://tigefa4u.github.io/2013/09/helping-me-build-jekyll-with-octopress</id>
    <content type="html">
 </content>
  </entry>
