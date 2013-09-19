@@ -5,13 +5,14 @@ pygments: true
 markdown: kramdown
 permalink: /:year/:month/:title.html
 relative_permalinks: false
-destination: ./_site
+#destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 #name: sugeng tigefa
 google_analytics_id: UA-29791208-1
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
+#port: 2106
 #baseurl: /project-name
 twitter: tigefa_team
 github: tigefa4u
@@ -20,6 +21,7 @@ timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
 smileytheme: MSN
+exclude: ["bin", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -32,8 +34,7 @@ author :
   twitter : tigefa_team
   feedburner : tigefa4u.github
   googleplus: tigefa
-  # Whatever you specify for the linkedin option will be placed after `www.linkedin.com/in/`
-  linkedin: tigefadotinfo
+  pinterest: tigefa
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -100,7 +101,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : tigefa4u
+      short_name : tigefa
     livefyre :
       site_id : 123
     intensedebate :
@@ -124,7 +125,7 @@ JB :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 

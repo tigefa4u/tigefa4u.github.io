@@ -7,6 +7,8 @@ categories: fiyocms
 tags: [fiyocms]
 ---
 
+<span class="btn btn-inverse disabled">[![FiyoCMS](/assets/img/posts/fiyocms-logo.png "FiyoCMS")](http://fiyo.org "FiyoCMS")</span>
+
 FiyoCMS
 =======
 

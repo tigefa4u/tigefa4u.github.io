@@ -1,46 +1,45 @@
-# Sitemap.xml Generator is a Jekyll plugin that generates a sitemap.xml file by 
+# Sitemap.xml Generator is a Jekyll plugin that generates a sitemap.xml file by
 # traversing all of the available posts and pages.
-# pke: modified to use site.config['sitemap']['url'] instead of MY_URL
 #
-# How To Use: 
-#   1.) Copy source file into your _plugins folder within your Jekyll project.
-#   2.) Set url or sitemap: url to reflect your domain name.
-#   3.) Set sitemap: filename if you want your sitemap to be called something
-#       other than sitemap.xml.
-#   4.) Change the PAGES_INCLUDE_POSTS list to include any pages that are looping 
-#       through your posts (e.g. "index.html", "archive.html", etc.). This will 
-#       ensure that right after you make a new post, the last modified date will 
-#       be updated to reflect the new post.
-#   5.) Run Jekyll: jekyll --server to re-generate your site.
-#   6.) A sitemap.xml should be included in your _site folder.
+# How To Use:
+#   1) Copy source file into your _plugins folder within your Jekyll project.
+#   2) Change modify the url variable in _config.yml to reflect your domain name.
+#   3) Run Jekyll: jekyll --server to re-generate your site.
 #
-# Customizations:
-#   1.) If there are any files you don't want included in the sitemap, add them 
-#       to the EXCLUDED_FILES list. The name should match the name of the source 
-#       file.
-#   2.) If you want to include the optional changefreq and priority attributes,
-#       simply include custom variables in the YAML Front Matter of that file.
-#       The names of these custom variables are defined below in the
-#       CHANGE_FREQUENCY_CUSTOM_VARIABLE_NAME and PRIORITY_CUSTOM_VARIABLE_NAME
-#       constants.
-# 
+# Variables:
+#   * Change SITEMAP_FILE_NAME if you want your sitemap to be called something
+#     other than sitemap.xml.
+#   * Change the PAGES_INCLUDE_POSTS list to include any pages that are looping
+#     through your posts (e.g. "index.html", "archive.html", etc.). This will
+#     ensure that right after you make a new post, the last modified date will
+#     be updated to reflect the new post.
+#   * A sitemap.xml should be included in your _site folder.
+#   * If there are any files you don't want included in the sitemap, add them
+#     to the EXCLUDED_FILES list. The name should match the name of the source
+#     file.
+#   * If you want to include the optional changefreq and priority attributes,
+#     simply include custom variables in the YAML Front Matter of that file.
+#     The names of these custom variables are defined below in the
+#     CHANGE_FREQUENCY_CUSTOM_VARIABLE_NAME and PRIORITY_CUSTOM_VARIABLE_NAME
+#     constants.
+#
 # Notes:
-#   1.) The last modified date is determined by the latest from the following:
-#       system modified date of the page or post, system modified date of
-#       included layout, system modified date of included layout within that
-#       layout, ... 
+#   * The last modified date is determined by the latest from the following:
+#     system modified date of the page or post, system modified date of
+#     included layout, system modified date of included layout within that
+#     layout, ...
 #
 # Author: Michael Levin
 # Site: http://www.kinnetica.com
 # Distributed Under A Creative Commons License
 #   - http://creativecommons.org/licenses/by/3.0/
-
+#
+# Modified for Octopress by John W. Long
+#
 require 'rexml/document'
+require 'fileutils'
 
 module Jekyll
-
-  # Change MY_URL to reflect the site you are using
-  MY_URL = "http://localhost:4000"
 
   # Change SITEMAP_FILE_NAME if you would like your sitemap file
   # to be called something else
@@ -66,8 +65,8 @@ module Jekyll
       File.join(@base, @name)
     end
 
-    def location_on_server(my_url)
-      "#{my_url}#{url}"
+    def location_on_server
+      "#{site.config['url']}#{url}"
     end
   end
 
@@ -78,8 +77,8 @@ module Jekyll
       File.join(@base, @dir, @name)
     end
 
-    def location_on_server(my_url)
-      location = "#{my_url}#{@dir}#{url}"
+    def location_on_server
+      location = "#{site.config['url']}#{@dir}#{url}"
       location.gsub(/index.html$/, "")
     end
   end
@@ -106,7 +105,7 @@ module Jekyll
 
     # Valid values allowed by sitemap.xml spec for change frequencies
     VALID_CHANGE_FREQUENCY_VALUES = ["always", "hourly", "daily", "weekly",
-      "monthly", "yearly", "never"] 
+      "monthly", "yearly", "never"]
 
     # Goes through pages and posts and generates sitemap.xml file
     #
@@ -115,7 +114,7 @@ module Jekyll
       sitemap = REXML::Document.new << REXML::XMLDecl.new("1.0", "UTF-8")
 
       urlset = REXML::Element.new "urlset"
-      urlset.add_attribute("xmlns", 
+      urlset.add_attribute("xmlns",
         "http://www.sitemaps.org/schemas/sitemap/0.9")
 
       @last_modified_post_date = fill_posts(site, urlset)
@@ -123,20 +122,18 @@ module Jekyll
 
       sitemap.add_element(urlset)
 
-      # Create destination directory if it doesn't exist yet. Otherwise, we cannot write our file there.
-      Dir::mkdir(site.dest) if !File.directory? site.dest
-
       # File I/O: create sitemap.xml file and write out pretty-printed XML
-      filename = site.config['sitemap']['filename'] if site.config['sitemap']
-      filename ||= SITEMAP_FILE_NAME
-      file = File.new(File.join(site.dest, filename), "w")
+      unless File.exists?(site.dest)
+        FileUtils.mkdir_p(site.dest)
+      end
+      file = File.new(File.join(site.dest, SITEMAP_FILE_NAME), "w")
       formatter = REXML::Formatters::Pretty.new(4)
       formatter.compact = true
       formatter.write(sitemap, file)
       file.close
 
       # Keep the sitemap.xml file from being cleaned by Jekyll
-      site.static_files << Jekyll::SitemapFile.new(site, site.dest, "/", filename)
+      site.static_files << Jekyll::SitemapFile.new(site, site.dest, "/", SITEMAP_FILE_NAME)
     end
 
     # Create url elements for all the posts and find the date of the latest one
@@ -174,21 +171,21 @@ module Jekyll
       end
     end
 
-    # Fill data of each URL element: location, last modified, 
+    # Fill data of each URL element: location, last modified,
     # change frequency (optional), and priority.
     #
     # Returns url REXML::Element
     def fill_url(site, page_or_post)
       url = REXML::Element.new "url"
 
-      loc = fill_location(site, page_or_post)
+      loc = fill_location(page_or_post)
       url.add_element(loc)
 
       lastmod = fill_last_modified(site, page_or_post)
       url.add_element(lastmod) if lastmod
 
       if (page_or_post.data[CHANGE_FREQUENCY_CUSTOM_VARIABLE_NAME])
-        change_frequency = 
+        change_frequency =
           page_or_post.data[CHANGE_FREQUENCY_CUSTOM_VARIABLE_NAME].downcase
 
         if (valid_change_frequency?(change_frequency))
@@ -214,14 +211,12 @@ module Jekyll
       url
     end
 
-    # Get URL location of page or post 
+    # Get URL location of page or post
     #
     # Returns the location of the page or post
-    def fill_location(site, page_or_post)
+    def fill_location(page_or_post)
       loc = REXML::Element.new "loc"
-      url = site.config['sitemap']['url'] if site.config['sitemap']
-      url ||= site.config['url'] || MY_URL
-      loc.text = page_or_post.location_on_server(url)
+      loc.text = page_or_post.location_on_server
 
       loc
     end
@@ -275,10 +270,10 @@ module Jekyll
     #
     # Returns latest of two dates
     def greater_date(date1, date2)
-      if (date1 >= date2) 
+      if (date1 >= date2)
         date1
-      else 
-        date2 
+      else
+        date2
       end
     end
 
@@ -314,3 +309,4 @@ module Jekyll
     end
   end
 end
+

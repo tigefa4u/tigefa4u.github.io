@@ -11,7 +11,7 @@
   ],
   "license": "BSD",
   "homepage": "http://tigefa4u.github.io",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
