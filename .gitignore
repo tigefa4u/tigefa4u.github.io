@@ -6,6 +6,7 @@
 .project
 .metadata
 _site
+_plugins
 bin/
 tmp/
 *.tmp
