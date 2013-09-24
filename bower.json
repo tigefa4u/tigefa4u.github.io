@@ -13,6 +13,8 @@
   "homepage": "http://tigefa4u.github.io",
   "ignore": [
     "**/.*",
+    "bin",	
+    "*.md",	
     "node_modules",
     "bower_components",
     "test",
