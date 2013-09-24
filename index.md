@@ -41,11 +41,6 @@ tagline: love github repositories
 
 ## Fork me on github
 
-~~~ bash
-~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
-~ cd tigefa4u.github.io
-~ /tigefa4u.github.io $ jekyll serve
-# => Now browse to http://localhost:4000
-~~~
+{% gist 6613648 %}
 
 
