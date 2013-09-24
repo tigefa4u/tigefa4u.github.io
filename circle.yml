@@ -1,0 +1,9 @@
+machine:
+  timezone:
+    Asia/Jakarta
+  ruby:
+    version: 2.0.0p247
+
+test:
+  post:
+    - bundle exec jekyll build custom:test:suite
