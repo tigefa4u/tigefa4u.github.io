@@ -6,8 +6,8 @@ for personal notes
 
 ## Build with 
 
-- [jekyll]() [@mojombo](https://github.com/mojombo)
-- [bootstrap]() [@twbs](https://github.com/twbs)
+- [jekyll](http://jekyllrb.com) [@mojombo](https://github.com/mojombo)
+- [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 - [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](http://github.com/plusjade)
 
 ## License
