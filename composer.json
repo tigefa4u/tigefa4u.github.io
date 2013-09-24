@@ -1,0 +1,16 @@
+{
+    "name": "tigefa4u/tigefa4u.github.io"
+  , "description": "Personal notes site on github"
+  , "keywords": ["bootstrap", "css", "jekyll"]
+  , "homepage": "http://tigefa4u.github.io"
+  , "authors": [
+      {
+        "name": "sugeng tigefa",
+        "email": "markdotto@gmail.com"
+      }
+    ]
+  , "support": {
+      "issues": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
+    }
+  , "license": "Public Domain"
+}
