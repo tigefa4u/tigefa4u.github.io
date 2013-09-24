@@ -6,4 +6,4 @@ machine:
 
 test:
   post:
-    - bundle exec jekyll build custom:test:suite
+    - bundle exec jekyll build
