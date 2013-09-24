@@ -2,7 +2,7 @@ machine:
   timezone:
     Asia/Jakarta
   ruby:
-    version: 2.0.0p247
+    version: 2.0.0-p247
 
 test:
   post:
