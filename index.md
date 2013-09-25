@@ -39,13 +39,4 @@ tagline: love github repositories
 </div>
 </div> <!-- // row -->
 
-## Fork me on github
-
-~~~
-~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
-~ cd tigefa4u.github.io
-~/myblog $ jekyll serve
-# => Now browse to http://localhost:4000
-~~~
-
 
