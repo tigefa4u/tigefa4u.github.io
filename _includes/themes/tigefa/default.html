@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+	<link rel="alternate" type="application/rss+xml" title=" tigefa4u.github / love github repositories - Feed" href="{{ site.url }}/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Recent commits to tigefa4u.github.io master branch" href="https://github.com/tigefa4u/tigefa4u.github.io/commits/master.atom" />
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/styles.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/font-awesome/css/font-awesome-ie7.min.css">	
+	
+    <!-- Highlight.js -->
+<link rel="stylesheet" href="/bower_components/highlightjs/styles/ir_black.css">
+<script src="/bower_components/highlightjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>	
+
+    <!-- Le fav and touch icons -->
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/apple-touch-icon-144x144-precomposed.png">
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+            </ul>
+    <ul class="nav navbar-nav navbar-right">
+      {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}"><i class="icon-github icon-1x"></i></a></li>{% endif %}
+	  {% if site.author.twitter %}<li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter icon-1x"></i></a></li>{% endif %}
+	  {% if site.author.googleplus %}<li><a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-1x"></i></a></li>{% endif %}
+	  {% if site.author.facebook %}<li><a href="http://www.facebook.com/{{ site.author.facebook }}"><i class="icon-facebook icon-1x"></i></a></li>{% endif %}
+	  {% if site.author.pinterest %}<li><a href="http://pinterest.com/{{ site.author.pinterest }}"><i class="icon-pinterest icon-1x"></i></a></li>{% endif %}
+	  {% if site.author.feedburner %}<li><a href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><i class="icon-rss icon-1x"></i></a></li>{% endif %}
+    </ul>			              
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+		{{ content }}
+      </div>
+    </div> <!-- /wrap end -->
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit"><a href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
+		Build with <a href="http://jekyllrb.com" target="_blank" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
+        help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a></p>
+      </div>
+    </div>
+{% include JB/analytics %}
+  </body>
+</html>

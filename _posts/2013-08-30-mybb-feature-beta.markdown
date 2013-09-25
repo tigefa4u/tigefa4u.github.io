@@ -9,7 +9,7 @@ tags: [mybb]
 {% include JB/setup %}
 
 
-[![MyBB](/assets/img/posts/mybb-logo.png "MyBB")](http://www.mybb.com "MyBB")
+[![MyBB]({{ site.url }}/assets/img/posts/mybb-logo.png "MyBB")](http://www.mybb.com "MyBB")
 
 ## Free never tasted so good.
 MyBB is a free and open source, community-based, forum software project.

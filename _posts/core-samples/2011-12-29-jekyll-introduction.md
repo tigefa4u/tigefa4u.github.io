@@ -11,6 +11,18 @@ Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview 
 
+~~~
+<div class="page-header">
+  <h1>{{ page.title }} <small>love github repositories</small></h1>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    {{ content }}
+  </div>
+</div>
+~~~
+
 ### What is Jekyll?
 
 Jekyll is a parsing engine bundled as a ruby gem used to build static websites from

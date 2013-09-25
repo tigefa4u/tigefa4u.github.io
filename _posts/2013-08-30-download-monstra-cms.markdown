@@ -8,7 +8,7 @@ tags: [cms]
 ---
 {% include JB/setup %}
 
-<img alt="monstra-cms" src="/assets/img/posts/monstra-logo.png"/>
+<img alt="monstra-cms" src="{{ site.url }}/assets/img/posts/monstra-logo.png"/>
 # Monstra CMS
 Fast and small content management system written in PHP!
 

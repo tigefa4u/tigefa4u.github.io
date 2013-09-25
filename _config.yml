@@ -11,6 +11,7 @@ relative_permalinks: false
 google_analytics_id: UA-29791208-6
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
+#url: http://localhost:2106
 #port: 2106
 #baseurl: /project-name
 name: tigefa4u.github
@@ -31,6 +32,7 @@ author :
   email : tigefa@gmail.com
   github : tigefa4u
   twitter : tigefa_team
+#  facebook: tigefa.team
   feedburner : tigefa4ugithub
   googleplus: tigefa
   pinterest: tigefa
