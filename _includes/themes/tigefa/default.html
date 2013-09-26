@@ -86,10 +86,13 @@
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit"><a title="GitHub • Social coding" href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
+        <p class="text-muted credit"><a title="GitHub &hearts; Social coding" href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
 		Build with <a href="http://jekyllrb.com" target="_blank" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
         help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a></p>
+        and <a href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a><br>
+{% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter icon-2x"></i></a>{% endif %}
+{% if site.author.googleplus %}<a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-2x"></i></a>{% endif %}		
+		</p>
       </div>
     </div>
 {% include JB/analytics %}

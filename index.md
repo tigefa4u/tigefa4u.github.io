@@ -8,7 +8,7 @@ tagline: love github repositories
 ## Recent Posts
 
 <div class="row">
-<div class="col-md-8 span9">
+<div class="col-md-8">
 <div class="alert alert-info">
 <ul class="posts">
   {% for post in site.posts %}
@@ -18,7 +18,7 @@ tagline: love github repositories
 </ul>
 </div>
 </div>
-<div class="col-md-4 span4 well well-small">
+<div class="col-md-4 well well-small">
 <h3><i class="icon-folder-close"></i> All Pages</h3>
 <ul>
 {% assign pages_list = site.pages %}
