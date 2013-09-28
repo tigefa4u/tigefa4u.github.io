@@ -8,7 +8,8 @@ for personal notes
 
 - [jekyll](http://jekyllrb.com) [@mojombo](https://github.com/mojombo)
 - [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
-- [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](http://github.com/plusjade)
+- [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](https://github.com/plusjade)
+- [Font-Awesome](http://fontawesome.io) [@FortAwesome](https://github.com/FortAwesome)
 
 ## License
 
