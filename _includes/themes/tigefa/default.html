@@ -22,30 +22,38 @@
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
+    <script src="{{ ASSET_PATH }}/tipsy.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/font-awesome/css/font-awesome-ie7.min.css">	
+    <script type='text/javascript'> 
+    jQuery.noConflict();
+    jQuery(function() {
+    jQuery("a").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+    jQuery("img").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+    });
+    </script>
 	
     <!-- Highlight.js -->
-<link rel="stylesheet" href="/bower_components/highlightjs/styles/ir_black.css">
-<script src="/bower_components/highlightjs/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>	
+    <link rel="stylesheet" href="{{ site.url }}/bower_components/highlightjs/styles/ir_black.css">
+    <script src="{{ site.url }}/bower_components/highlightjs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>	
 
     <!-- Le fav and touch icons -->
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/images/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/assets/images/apple-touch-icon-72x72-precomposed.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/assets/images/apple-touch-icon-114x114-precomposed.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/assets/images/apple-touch-icon-144x144-precomposed.png">
+    <!-- Icons -->
+    <!-- 16x16 -->
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+    <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/images/apple-touch-icon-precomposed.png">
+    <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/assets/images/apple-touch-icon-72x72-precomposed.png">
+    <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/assets/images/apple-touch-icon-114x114-precomposed.png">
+    <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/assets/images/apple-touch-icon-144x144-precomposed.png">
   </head>
 
-  <body>
+  <body id="top">
 
     <!-- Wrap all page content here -->
     <div id="wrap">
@@ -71,7 +79,6 @@
       {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}"><i class="icon-github icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.twitter %}<li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.googleplus %}<li><a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-1x"></i></a></li>{% endif %}
-	  {% if site.author.facebook %}<li><a href="http://www.facebook.com/{{ site.author.facebook }}"><i class="icon-facebook icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.pinterest %}<li><a href="http://pinterest.com/{{ site.author.pinterest }}"><i class="icon-pinterest icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.feedburner %}<li><a href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><i class="icon-rss icon-1x"></i></a></li>{% endif %}
     </ul>			              
@@ -87,12 +94,13 @@
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit"><a title="GitHub &hearts; Social coding" href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
-		Build with <a href="http://jekyllrb.com" target="_blank" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
-        help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a><br>
+        <p class="text-muted credit"><a data-toggle="tooltip" title="GitHub &hearts; Social coding" href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
+		Build with <a href="http://jekyllrb.com" target="_blank" data-toggle="tooltip" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
+        help from <a href="http://jekyllbootstrap.com" target="_blank" data-toggle="tooltip" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://getbootstrap.com" target="_blank" data-toggle="tooltip" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a><br>
 {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter icon-2x"></i></a>{% endif %}
-{% if site.author.googleplus %}<a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-2x"></i></a>{% endif %}		
+{% if site.author.googleplus %}<a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-2x"></i></a>{% endif %}
+{% if site.author.facebook %}<a href="http://www.facebook.com/{{ site.author.facebook }}"><i class="icon-facebook icon-2x"></i></a>{% endif %}		
 		</p>
       </div>
     </div>

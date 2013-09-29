@@ -27,7 +27,7 @@ author :
   email : tigefa@gmail.com
   github : tigefa4u
   twitter : tigefa_team
-#  facebook: tigefa.team
+  facebook: tigefa.team
   feedburner : tigefa4ugithub
   googleplus: tigefa
   pinterest: tigefa
@@ -69,7 +69,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : http://tigefa4u.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
