@@ -55,12 +55,14 @@ $("#multi-users").mention({
 });
 ```
 With sensitivity set to true, items are ordered by the following divisions of priority:
+
 * Highest: If first letter matches exactly
 * High: If first letter matches regardless of case
 * Med: If target has matching letters' case
 * Low: if target has matching character regardless of case
 
 ### Sensitivity Examples:
+
 If you were to query `"@r"`, with sensitivity on, the resulting list will be `["roger", "Ricky", "sarah", "bigRat"]`, but if you were to query `"@R"`, the resulting list would be `["Ricky", "roger", "bigRat", "sarah"]`
 
 
@@ -89,6 +91,7 @@ $("#multi-users").mention({
 ```
 
 ## Empty Querying
+
 You may query for users simply by pressing your delimiter. For example, pressing the @ symbol will return all users that are a part of your users list, so long as those users adhere to the `typeaheadOpts.items` limit
 
 ```javascript
