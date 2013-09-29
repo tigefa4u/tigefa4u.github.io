@@ -25,7 +25,7 @@ This enables you to have Twitter-like user mentions in textareas
 ## Usage
 The `users` parameter accepts an array of objects. Each object ***must*** have a username key in order for this script to work.
 
-```javascript
+
 $("#multi-users").mention({
     delimiter: '@',
     users: [{
@@ -36,7 +36,7 @@ $("#multi-users").mention({
         username: "frecklefart123"
     }]
 });
-```
+
 
 ## Sensitivity
 
