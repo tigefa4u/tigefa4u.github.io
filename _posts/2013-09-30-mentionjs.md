@@ -25,7 +25,7 @@ This enables you to have Twitter-like user mentions in textareas
 ## Usage
 The `users` parameter accepts an array of objects. Each object ***must*** have a username key in order for this script to work.
 
-
+~~~ javascript
 $("#multi-users").mention({
     delimiter: '@',
     users: [{
@@ -36,11 +36,11 @@ $("#multi-users").mention({
         username: "frecklefart123"
     }]
 });
-
+~~~
 
 ## Sensitivity
 
-```javascript
+~~~
 $("#multi-users").mention({
     sensitive: true,
     users: [{
@@ -53,7 +53,7 @@ $("#multi-users").mention({
         username: "Ricky"
     }]
 });
-```
+~~~
 With sensitivity set to true, items are ordered by the following divisions of priority:
 
 * Highest: If first letter matches exactly
@@ -71,7 +71,7 @@ If you have a `name` and/or `image` key in one of your user objects, there name 
 
 The `queryBy` parameter accepts an array of strings that represent keys in your user object that you would like to query against. For example, if you were to type in the `name` "@Scott", the script would match the `username` "@bigCat". `username` is required for this script to work.
 
-```javascript
+~~~javascript
 $("#multi-users").mention({
     queryBy: ['name', 'username'],
     users: [{
@@ -88,13 +88,13 @@ $("#multi-users").mention({
         image: "http://placekitten.com/25/25"
     }]
 });
-```
+~~~
 
 ## Empty Querying
 
 You may query for users simply by pressing your delimiter. For example, pressing the @ symbol will return all users that are a part of your users list, so long as those users adhere to the `typeaheadOpts.items` limit
 
-```javascript
+~~~javascript
 $('#multi-users').mention({
     emptyQuery: true,
     typeaheadOpts: {
@@ -102,12 +102,12 @@ $('#multi-users').mention({
     },
     users: [...]
 });
-```
+~~~
 
 
 ## Defaults
 
-```javascript
+~~~javascript
 $("#multi-users").mention({
     users: [], // Array of Objects
     delimiter: '@', // Username Delimiter
@@ -119,7 +119,7 @@ $("#multi-users").mention({
         sorter: _sorter, // Mention.js's custom sorter function, don't change
     }
 }); 
-```
+~~~
  
 ### License
 

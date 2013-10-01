@@ -1,9 +1,14 @@
-<div class="page-header">
+<div class="page-header well">
   <h1>{{ page.title }} <small>love github repositories</small></h1>
 </div>
 
 <div class="row">
   <div class="col-md-8">
+<ol class="breadcrumb">
+  <li><a href="{{ site.url }}">Home</a></li>
+  <li><a href="{{ post.url }}">{{ page.date | date_to_long_string }}</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
     {{ content }}
 	<hr>
 <div class="pw-widget pw-counter-horizontal">
