@@ -1,22 +1,26 @@
 {
-  "name": "bower lokup",
-  "version": "bower  install",
-  "description": "bower test",
+  "name": "tigefa4u.github.io",
+  "version": "1.0",
+  "description": "tigefa4u.github.io site",
   "main": "index.html",
   "keywords": [
-    "index"
+    "site"
   ],
   "authors": [
-    "tigefa4u"
+    "sugeng tigefa"
   ],
-  "license": "BSD",
+  "license": "MIT",
   "homepage": "http://tigefa4u.github.io",
-  "private": false,
   "ignore": [
     "**/.*",
+    "bin",
+    "*.md",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "jquery-mobile-min": "~1.3.2"
+  }
 }

@@ -11,7 +11,7 @@ tags: [github, jekyll, octopress, jekyll-bootstrap]
 
 easy creating post with `jekyllbootstrap.com`
 
-~~~ bash
+~~~
 $ rake post title="Hello World"
 ~~~
 
@@ -19,6 +19,6 @@ $ rake post title="Hello World"
 
 easy switch themes with `jekyllbootstrap.com`
 
-~~~ bash
+~~~
 $ rake theme:switch name="THEME NAME"
 ~~~

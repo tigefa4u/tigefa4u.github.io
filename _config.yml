@@ -1,30 +1,29 @@
-name: tigefa4u.github
 safe: true
 lsi: false
 pygments: true
 markdown: kramdown
 permalink: /:year/:month/:title.html
 relative_permalinks: false
-#destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-#name: sugeng tigefa
-google_analytics_id: UA-29791208-1
+google_analytics_id: UA-29791208-6
 disqus_shortname: tigefa
 url: http://tigefa4u.github.io
+#url: http://localhost:2106
 #port: 2106
+<<<<<<< HEAD
 #baseurl: /project-name
 twitter: tigefa_team
 github: tigefa4u
 #gravatar_url: /images/github.png
+=======
+name: tigefa4u.github
+gravatar_url: /images/github.png
+>>>>>>> master
 timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
-smileytheme: MSN
-exclude: ["bin", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+exclude: ["index.md", "composer.json", "circle.yml", "bin", "data", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "git-pull.html", "git-push.html", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#
 title : tigefa4u.github
 tagline: love github repositories
 author :
@@ -32,7 +31,8 @@ author :
   email : tigefa@gmail.com
   github : tigefa4u
   twitter : tigefa_team
-  feedburner : tigefa4u.github
+  facebook: tigefa.team
+  feedburner : tigefa4ugithub
   googleplus: tigefa
   pinterest: tigefa
 
@@ -73,7 +73,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : http://tigefa4u.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -102,15 +102,15 @@ JB :
     provider : disqus
     disqus :
       short_name : tigefa
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 590
-      colorscheme: light
+#    livefyre :
+#      site_id : 123
+#    intensedebate :
+#      account : 123abc
+#    facebook :
+#      appid : 123
+#      num_posts: 5
+#      width: 590
+#      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -119,14 +119,14 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-29791208-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+        tracking_id : 'UA-29791208-6'
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
+#    piwik :
+#        baseURL : 'localhost/piwik' # Piwik installation address (without protocol)
+#        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -134,7 +134,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : tweet, plusone, like, reddit buttons
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
