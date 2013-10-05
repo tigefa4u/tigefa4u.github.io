@@ -9,15 +9,12 @@ disqus_shortname: tigefa
 url: http://tigefa4u.github.io
 #url: http://localhost:2106
 #port: 2106
-<<<<<<< HEAD
 #baseurl: /project-name
 twitter: tigefa_team
 github: tigefa4u
 #gravatar_url: /images/github.png
-=======
 name: tigefa4u.github
 gravatar_url: /images/github.png
->>>>>>> master
 timezone:    Aisa/Jakarta
 bitbucket: tigefa4u
 googleplus: tigefa
