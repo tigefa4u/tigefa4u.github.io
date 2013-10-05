@@ -1,9 +1,0 @@
-machine:
-  timezone:
-    Asia/Jakarta
-  ruby:
-    version: 2.0.0-p247
-
-#test:
-#  post:
-#    - bundle exec jekyll build

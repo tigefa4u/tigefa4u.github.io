@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mention.js</title>
+	<link rel="alternate" type="application/rss+xml" title=" tigefa4u.github / love github repositories - Feed" href="http://localhost:2106/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Recent commits to tigefa4u.github.io master branch" href="https://github.com/tigefa4u/tigefa4u.github.io/commits/master.atom" />
+    <meta name="description" content="wrapper for adding @user mention functionality to Twitter Bootstraps Typeahead plugin">
+    <meta name="author" content="sugeng tigefa">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="http://localhost:2106/assets/themes/tigefa/styles.css" rel="stylesheet">
+    <link href="http://localhost:2106/assets/themes/tigefa/pygments-manni.css" rel="stylesheet">
+    <link href="http://localhost:2106/assets/themes/tigefa/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost:2106/assets/themes/tigefa/bootstrap/js/bootstrap.js"></script>
+    <script src="http://localhost:2106/assets/themes/tigefa/bootstrap/js/application.js"></script>
+    <script src="http://localhost:2106/assets/themes/tigefa/tipsy.js"></script>
+    <script src="http://localhost:2106/assets/themes/tigefa/bootstrap/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:2106/assets/themes/tigefa/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:2106/assets/themes/tigefa/font-awesome/css/font-awesome-ie7.min.css">	
+    <script type='text/javascript'> 
+    jQuery.noConflict();
+    jQuery(function() {
+    jQuery("a").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+    jQuery("img").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+    });
+    </script>
+	
+    <!-- Highlight.js -->
+    <link rel="stylesheet" href="http://localhost:2106/bower_components/highlightjs/styles/ir_black.css">
+    <script src="http://localhost:2106/bower_components/highlightjs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>	
+
+    <!-- Le fav and touch icons -->
+    <!-- Icons -->
+    <!-- 16x16 -->
+    <link rel="shortcut icon" href="http://localhost:2106/favicon.ico">
+    <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+    <link rel="apple-touch-icon-precomposed" href="http://localhost:2106/assets/images/apple-touch-icon-precomposed.png">
+    <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:2106/assets/images/apple-touch-icon-72x72-precomposed.png">
+    <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:2106/assets/images/apple-touch-icon-114x114-precomposed.png">
+    <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:2106/assets/images/apple-touch-icon-144x144-precomposed.png">
+  </head>
+
+  <body id="top">
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://localhost:2106">tigefa4u.github</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://localhost:2106/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://localhost:2106/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://localhost:2106/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://localhost:2106/repositories.html">Repositories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+  
+    
+      
+      	
+      	<li><a href="http://localhost:2106/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+            </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://github.com/tigefa4u"><i class="icon-github icon-1x"></i></a></li>
+	  <li><a href="https://twitter.com/tigefa_team"><i class="icon-twitter icon-1x"></i></a></li>
+	  <li><a href="http://gplus.to/tigefa"><i class="icon-google-plus icon-1x"></i></a></li>
+	  <li><a href="http://pinterest.com/tigefa"><i class="icon-pinterest icon-1x"></i></a></li>
+	  <li><a href="http://feeds.feedburner.com/tigefa4ugithub"><i class="icon-rss icon-1x"></i></a></li>
+    </ul>			              
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+		
+<div class="page-header well">
+  <h1>Mention.js <small>love github repositories</small></h1>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+<ol class="breadcrumb">
+  <li><a href="http://localhost:2106">Home</a></li>
+  <li><a href="">30 September 2013</a></li>
+  <li class="active">Mention.js</li>
+</ol>
+    
+<h1 id="mentionjs">Mention.js</h1>
+
+<p><img src="http://i.imgur.com/pCvqL.png" /></p>
+
+<p>Lightweight (min: 1.92kb, full: 4.07kb) wrapper for adding @user mention functionality to Twitter Bootstraps Typeahead plugin.</p>
+
+<p>This enables you to have Twitter-like user mentions in textareas</p>
+
+<p><b>View the demo <a href="http://jakiestfu.github.com/Mention.js/" target="_blank">here</a>.</b></p>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<ul>
+  <li><a href="https://github.com/jquery/jquery" target="_blank">jQuery</a></li>
+  <li><a href="https://github.com/twitter/bootstrap" target="_blank">Typeahead</a></li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+<p>The <code>users</code> parameter accepts an array of objects. Each object <strong><em>must</em></strong> have a username key in order for this script to work.</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#369;font-weight:bold">$</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">#multi-users</span><span style="color:#710">&quot;</span></span>).mention({
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>    <span style="color:#606">delimiter</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">@</span><span style="color:#710">'</span></span>,
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>    <span style="color:#606">users</span>: [{
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">ashley</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>    }, { 
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">roger</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>    }, { 
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">frecklefart123</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>    }]
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>});
+</pre></div>
+</div>
+</div>
+
+<h2 id="sensitivity">Sensitivity</h2>
+
+<pre><code>$("#multi-users").mention({
+    sensitive: true,
+    users: [{
+        username: "sarah"
+    }, { 
+        username: "bigRat"
+    }, { 
+        username: "roger"
+    }, { 
+        username: "Ricky"
+    }]
+});
+</code></pre>
+<p>With sensitivity set to true, items are ordered by the following divisions of priority:</p>
+
+<ul>
+  <li>Highest: If first letter matches exactly</li>
+  <li>High: If first letter matches regardless of case</li>
+  <li>Med: If target has matching letters’ case</li>
+  <li>Low: if target has matching character regardless of case</li>
+</ul>
+
+<h3 id="sensitivity-examples">Sensitivity Examples:</h3>
+
+<p>If you were to query <code>"@r"</code>, with sensitivity on, the resulting list will be <code>["roger", "Ricky", "sarah", "bigRat"]</code>, but if you were to query <code>"@R"</code>, the resulting list would be <code>["Ricky", "roger", "bigRat", "sarah"]</code></p>
+
+<h2 id="full-names-images-and-query-by">Full Names, Images, and Query By</h2>
+<p>If you have a <code>name</code> and/or <code>image</code> key in one of your user objects, there name and image will appear as such in the dropdown list.</p>
+
+<p>The <code>queryBy</code> parameter accepts an array of strings that represent keys in your user object that you would like to query against. For example, if you were to type in the <code>name</code> “@Scott”, the script would match the <code>username</code> “@bigCat”. <code>username</code> is required for this script to work.</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#369;font-weight:bold">$</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">#multi-users</span><span style="color:#710">&quot;</span></span>).mention({
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>    <span style="color:#606">queryBy</span>: [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">name</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">username</span><span style="color:#710">'</span></span>],
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>    <span style="color:#606">users</span>: [{
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">sarah</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>        <span style="color:#606">name</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Sarah Jones</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>        <span style="color:#606">image</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">http://placekitten.com/25/25</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>    }, { 
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">bigCat</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>        <span style="color:#606">name</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Scott Pfaff</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>        <span style="color:#606">image</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">http://placekitten.com/25/25</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span>    }, { 
+<span class="line-numbers"><a href="#n12" name="n12">12</a></span>        <span style="color:#606">username</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">coderDude</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"><a href="#n13" name="n13">13</a></span>        <span style="color:#606">name</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Roger Penn</span><span style="color:#710">&quot;</span></span>,
+<span class="line-numbers"><a href="#n14" name="n14">14</a></span>        <span style="color:#606">image</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">http://placekitten.com/25/25</span><span style="color:#710">&quot;</span></span>
+<span class="line-numbers"><a href="#n15" name="n15">15</a></span>    }]
+<span class="line-numbers"><a href="#n16" name="n16">16</a></span>});
+</pre></div>
+</div>
+</div>
+
+<h2 id="empty-querying">Empty Querying</h2>
+
+<p>You may query for users simply by pressing your delimiter. For example, pressing the @ symbol will return all users that are a part of your users list, so long as those users adhere to the <code>typeaheadOpts.items</code> limit</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"><a href="#n1" name="n1">1</a></span><span style="color:#369;font-weight:bold">$</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">#multi-users</span><span style="color:#710">'</span></span>).mention({
+<span class="line-numbers"><a href="#n2" name="n2">2</a></span>    <span style="color:#606">emptyQuery</span>: <span style="color:#069">true</span>,
+<span class="line-numbers"><a href="#n3" name="n3">3</a></span>    <span style="color:#606">typeaheadOpts</span>: {
+<span class="line-numbers"><a href="#n4" name="n4">4</a></span>        <span style="color:#606">items</span>: <span style="color:#00D">10</span> <span style="color:#777">// Max number of items you want to show</span>
+<span class="line-numbers"><a href="#n5" name="n5">5</a></span>    },
+<span class="line-numbers"><a href="#n6" name="n6">6</a></span>    <span style="color:#606">users</span>: [...]
+<span class="line-numbers"><a href="#n7" name="n7">7</a></span>});
+</pre></div>
+</div>
+</div>
+
+<h2 id="defaults">Defaults</h2>
+
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="line-numbers"> <a href="#n1" name="n1">1</a></span><span style="color:#369;font-weight:bold">$</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">#multi-users</span><span style="color:#710">&quot;</span></span>).mention({
+<span class="line-numbers"> <a href="#n2" name="n2">2</a></span>    <span style="color:#606">users</span>: [], <span style="color:#777">// Array of Objects</span>
+<span class="line-numbers"> <a href="#n3" name="n3">3</a></span>    <span style="color:#606">delimiter</span>: <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">@</span><span style="color:#710">'</span></span>, <span style="color:#777">// Username Delimiter</span>
+<span class="line-numbers"> <a href="#n4" name="n4">4</a></span>    <span style="color:#606">sensitive</span> : <span style="color:#069">true</span>,
+<span class="line-numbers"> <a href="#n5" name="n5">5</a></span>    <span style="color:#606">queryBy</span>: [<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">name</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">username</span><span style="color:#710">'</span></span>],
+<span class="line-numbers"> <a href="#n6" name="n6">6</a></span>    <span style="color:#606">typeaheadOpts</span>: { <span style="color:#777">// Settings for Typeahead</span>
+<span class="line-numbers"> <a href="#n7" name="n7">7</a></span>        <span style="color:#606">matcher</span>: _matcher, <span style="color:#777">// Mention.js's custom matcher function, don't change</span>
+<span class="line-numbers"> <a href="#n8" name="n8">8</a></span>        <span style="color:#606">updater</span>: _updater, <span style="color:#777">// Mention.js's custom updater function, don't change</span>
+<span class="line-numbers"> <a href="#n9" name="n9">9</a></span>        <span style="color:#606">sorter</span>: _sorter, <span style="color:#777">// Mention.js's custom sorter function, don't change</span>
+<span class="line-numbers"><strong><a href="#n10" name="n10">10</a></strong></span>    }
+<span class="line-numbers"><a href="#n11" name="n11">11</a></span>}); 
+</pre></div>
+</div>
+</div>
+
+<h3 id="license">License</h3>
+
+<p>(The MIT license)</p>
+
+<p>Copyright (c) 2013 Jacob Kelley</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+“Software”), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+	<hr>
+<div class="pw-widget pw-counter-horizontal">
+	<a class="pw-button-facebook pw-look-native"></a>
+	<a class="pw-button-twitter pw-look-native"></a>
+	<a class="pw-button-googleplus pw-look-native"></a>
+	<a class="pw-button-post-share"></a>
+</div>
+<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=npe320neprvgc57ijp3q" type="text/javascript"></script>	
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_shortname = 'tigefa'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+    <hr>
+
+      <ul class="pagination">
+      
+        <li class="prev"><a href="http://localhost:2106/2013/09/phantomjs.html" title="PhantomJS">&larr; Previous</a></li>
+      
+        <li><a href="http://localhost:2106/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a></li>
+      
+      </ul>
+		
+  </div>
+  
+  <div class="col-md-4">
+    <h4>Published</h4>
+    <div class="date"><span>30 September 2013</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="http://localhost:2106/tags.html#bootstrap-ref">bootstrap <span>2</span></a></li>
+     
+    	<li><a href="http://localhost:2106/tags.html#mention.js-ref">mention.js <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+    </div> <!-- /wrap end -->
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit"><a data-toggle="tooltip" title="GitHub &hearts; Social coding" href="https://github.com/tigefa4u"><i class="icon-github icon-4x pull-left"></i></a>
+		Build with <a href="http://jekyllrb.com" target="_blank" data-toggle="tooltip" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
+        help from <a href="http://jekyllbootstrap.com" target="_blank" data-toggle="tooltip" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://getbootstrap.com" target="_blank" data-toggle="tooltip" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a><br>
+<a href="https://twitter.com/tigefa_team"><i class="icon-twitter icon-2x"></i></a>
+<a href="http://gplus.to/tigefa"><i class="icon-google-plus icon-2x"></i></a>
+<a href="http://www.facebook.com/tigefa.team"><i class="icon-facebook icon-2x"></i></a>		
+		</p>
+      </div>
+    </div>
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29791208-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="http://rs.hideref.org/revshare.js" type="text/javascript"></script>
+<script type="text/javascript"> api_key = "nutWc63HDn"; protected_links = "tigefa4u.github.io"; auto_hide(); </script>
+
+
+
+  </body>
+</html>
+

@@ -1,9 +1,0 @@
-language: ruby
-rvm:
-  - 2.0.0
-before_script:
-  - gem install jekyll
-  - npm install -g grunt-cli
-script: "bundle exec jekyll build"
-notifications:
-  email: false
