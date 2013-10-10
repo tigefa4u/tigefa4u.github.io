@@ -1,7 +1,8 @@
 safe: true
 lsi: false
-pygments: true
+pygments: false
 markdown: kramdown
+timezone:    Asia/Jakarta
 name: tigefa4u.github
 permalink: /:year/:month/:title.html
 relative_permalinks: false
@@ -11,3 +12,33 @@ url: http://tigefa4u.github.io
 #url: http://localhost:2106
 #port: 2106
 #baseurl: /project-name
+# Owner/author information
+owner:
+  name:           sugeng tigefa
+  avatar:         st-logo.png
+  email:          tigefa@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        tigefa_team  
+  facebook:       tigefa.team      
+  github:         tigefa4u
+  bitbucket:      tigefa4u  
+  stackexchange:  tigefa
+  linkedin:       tigefadotinfo   
+  instagram:      
+  flickr:         tigefa
+  pinterest:      tigefa  
+  tumblr:         tigefa  
+  
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
