@@ -1,11 +1,11 @@
 language: ruby
 rvm:
   - 2.0.0
-before_script:
-  - gem install bundler
-  - bundle install github-pages
-  - gem install jekyll
-  - gem update jekyll
+#before_script:
+#  - gem install bundler
+#  - bundle install github-pages
+#  - gem install jekyll
+#  - gem update jekyll
 script: "bundle exec jekyll build"
 notifications:
   email: false
