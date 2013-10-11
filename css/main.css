@@ -127,18 +127,18 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-/* standard 
+/* standard */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
-}*/
+}
 
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/*.post code {
+.post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
@@ -146,7 +146,7 @@ ul.posts span {
 
 .post pre code {
   border: none;
-}*/
+}
 
 /* terminal */
 .post pre.terminal {
