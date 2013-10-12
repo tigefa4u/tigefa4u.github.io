@@ -13,8 +13,8 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  background-color: #000;
+  font: 14.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -78,7 +78,7 @@ ul.posts span {
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .site .header a.extra {
@@ -87,7 +87,7 @@ ul.posts span {
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: #fff;
 }
 
 .site .meta {
