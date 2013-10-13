@@ -14,15 +14,15 @@ html, body { height: 100%; }
 
 body {
   background-color: #000;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;  padding:5px; color:gray; }
+  font-size: 18.34px; margin:36px 0 10px; padding:5px; color:gray; }
 
-h1 { margin-bottom: 1.6em; }
+h1 { margin-bottom: 1.9em; }
 p { margin: 1em 0; }
 
 a         { color: green; }
@@ -97,7 +97,7 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 4px solid #1e7;
   margin-top: 2em;
   overflow: hidden;
 }
@@ -150,6 +150,7 @@ ul.posts span {
 
 .post pre code {
   border: none;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* terminal */
