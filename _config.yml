@@ -8,9 +8,9 @@ permalink: /:year/:month/:title.html
 relative_permalinks: false
 google_analytics_id: UA-29791208-6
 disqus_shortname: tigefa
-#url: http://tigefa4u.github.io
-url: http://localhost:2106
-port: 2106
+url: http://tigefa4u.github.io
+#url: http://localhost:2106
+#port: 2106
 #baseurl: /project-name
 # Owner/author information
 owner:
