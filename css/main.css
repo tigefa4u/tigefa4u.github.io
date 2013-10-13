@@ -13,21 +13,21 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #000;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;  padding:5px; color:gray; }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 1.6em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: green; }
+a:hover   { color: brown; }
+a:visited { color: #1e7; }
 
 /*****************************************************************************/
 /*
@@ -44,7 +44,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  color: #aaa;
+  color: #fff;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
@@ -74,24 +74,24 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: gray;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: gray;
 }
 
 .site .header a.extra {
-  color: #aaa;
+  color: gray;
   margin-left: 1em;
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: gray;
 }
 
 .site .meta {
-  color: #aaa;
+  color: gray;
 }
 
 .site .footer {
@@ -128,10 +128,14 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+.post{color:gray;}
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid green;
+  background-color: dark;
   padding: 0 .4em;
+	margin: .5em 0;
+	overflow: auto;
+
 }
 
 .post ul, .post ol {
@@ -139,8 +143,8 @@ ul.posts span {
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid green;
+  background-color: dark;
   padding: 0 .2em;
 }
 
@@ -158,3 +162,4 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
