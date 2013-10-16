@@ -4,3 +4,12 @@ rvm:
 - 1.9.3
 - jruby-19mode
 - rbx-19mode
+deploy:
+  provider: openshift
+  user: tigefa@gmail.com
+  password:
+    secure: asXwB/W8gnGjrFXv6A71Xbdmh4YR0wRkqdCBSLdGeA2dtoe89kgLZK1KA+fMyR/JGDOsGT+X7DHUs1PiainYEoH0gc+5RARUdP+TEmT5hLpGyejxG38107wbDs54twa1C7vf173QAkS3GXhlSDGWLaM4Y5fCPUqBKI5Kwj0IVMQ=
+  app: cmsid
+  domain: cmsid-tigefa.rhcloud.com
+  on:
+    repo: tigefa4u/tigefa4u.github.io
