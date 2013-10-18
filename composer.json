@@ -1,0 +1,15 @@
+{
+    "name": "tigefa/tigefa-jekyll",
+    "description": "jekyll site",
+    "require": {
+        "twbs/bootstrap": "3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sugeng tigefa",
+            "email": "tigefa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
