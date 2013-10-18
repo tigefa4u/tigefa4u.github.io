@@ -5,6 +5,9 @@ for personal notes build with jekyll
 
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 
+<a href="https://twitter.com/tigefa_team" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @tigefa_team</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 [![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
 [![endorse](https://api.coderwall.com/tigefa/endorsecount.png)](https://coderwall.com/tigefa) 
 [![Dependencies Status](https://d2xishtp1ojlk0.cloudfront.net/d/12117648)](http://depending.in/tigefa4u/tigefa4u.github.io) 
