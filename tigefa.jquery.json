@@ -4,7 +4,7 @@
     "description": "jQuery plugin for color, effect manipulation and animation support.",
     "keywords": [
         "color",
-        "animation"
+        "animation",
 		"effect"
     ],
     "version": "1.0",
