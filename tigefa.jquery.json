@@ -1,16 +1,24 @@
 {
     "name": "tigefa",
     "title": "jQuery tigefa",
-    "description": "jQuery plugin for color manipulation and animation support.",
+    "description": "jQuery plugin for color, effect manipulation and animation support.",
     "keywords": [
         "color",
         "animation"
+		"effect"
     ],
     "version": "1.0",
     "author": {
-        "name": "sugeng tigefa",
-        "url": "http://tigefa4u.github.io"
+        "name": "tigefa repository contributors",
+        "url": "https://github.com/tigefa4u/tigefa4u.github.io/graphs/contributors"
     },
+    "maintainers": [
+        {
+            "name": "sugeng tigefa",
+            "email": "tigefa@gmail.com",
+            "url": "http://tigefa4u.github.io"
+        }
+    ],
     "licenses": [
         {
             "type": "MIT",
