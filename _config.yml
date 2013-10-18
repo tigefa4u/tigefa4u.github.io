@@ -50,7 +50,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://localhost:2106
+production_url : http://tigefa4u.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -79,7 +79,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://localhost:2106
+  BASE_PATH : http://tigefa4u.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -105,9 +105,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-#    provider : disqus
-#    disqus :
-#      short_name : tigefa
+    provider : disqus
+    disqus :
+      short_name : tigefa
 #    livefyre :
 #      site_id : 123
 #    intensedebate :
@@ -139,8 +139,8 @@ JB :
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  sharing :
-    provider : tweet, plusone, like, reddit buttons
+  #sharing :
+  #  provider : tweet, plusone, like, reddit buttons
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
