@@ -8,7 +8,9 @@
         <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
 	<link rel="alternate" type="application/rss+xml" title=" tigefa4u.github / love github repositories - Feed" href="{{ site.url }}/rss.xml" />
 	<link rel="alternate" type="application/atom+xml" title="Recent commits to tigefa4u.github.io master branch" href="https://github.com/tigefa4u/tigefa4u.github.io/commits/master.atom" />
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
         <meta name="author" content="{{ site.author.name }}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -99,7 +101,7 @@
 {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter-sign icon-3x"></i></a>{% endif %}
 {% if site.author.googleplus %}<a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus-sign icon-3x"></i></a>{% endif %}
 {% if site.author.facebook %}<a href="http://www.facebook.com/{{ site.author.facebook }}"><i class="icon-facebook-sign icon-3x"></i></a>{% endif %}
-{% if site.author.stactoverflow %}<a href="http://stackoverflow.com/{{ site.author.stackoverflow }}"><i class="icon-stackexchange-sign icon-3x"></i></a>{% endif %}
+{% if site.author.stactoverflow %}<a href="http://stackoverflow.com/{{ site.author.stackoverflow }}"><i class="icon-stackexchange icon-3x"></i></a>{% endif %}
 {% if site.author.bitbucket %}<a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="icon-bitbucket-sign icon-3x"></i></a>{% endif %}
 {% if site.author.gittip %}<a href="http://gittip.com/{{ site.author.gittip }}"><i class="icon-gittip icon-3x"></i></a>{% endif %}
 {% if site.author.linkedin %}<a href="http://linkedin.com/in/{{ site.author.linkedin }}"><i class="icon-linkedin-sign icon-3x"></i></a>{% endif %}
@@ -131,7 +133,6 @@
     <!--<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>-->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/tipsy.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/hoolder.js"></script>
     <script type='text/javascript'> 
