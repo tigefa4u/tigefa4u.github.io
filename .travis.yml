@@ -5,6 +5,8 @@ rvm:
 - jruby-19mode
 - rbx-19mode
 script: "bundle exec jekyll build"
+notifications:
+  email: false
 deploy:
   provider: openshift
   user: tigefa@gmail.com
