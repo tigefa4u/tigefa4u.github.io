@@ -5,6 +5,7 @@ rvm:
 - jruby-19mode
 - rbx-19mode
 script: "bundle exec jekyll build"
+bundler_args: --without development debug
 notifications:
   email: false
 deploy:
