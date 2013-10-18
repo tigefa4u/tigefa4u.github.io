@@ -32,7 +32,7 @@ Instantiation
 The easiest way to get started is to use the `scripts/instance.php` script to
 get a `ConnectionFactory` and create your connection through it:
 
-~~~php
+~~~
 <?php
 $connection_factory = include '/path/to/Aura.Sql/scripts/instance.php';
 $connection = $connection_factory->newInstance(
@@ -55,7 +55,7 @@ $connection = $connection_factory->newInstance(
 Alternatively, you can add `'/path/to/Aura.Sql/src'` to your autoloader and
 build an connection factory manually:
     
-~~~php
+~~~
 <?php
 use Aura\Sql\ConnectionFactory;
 $connection_factory = new ConnectionFactory;
@@ -75,7 +75,7 @@ never issue a query, it will never connect to the database.
 
 You can connect manually by issuing `connect()`:
 
-~~~php
+~~~
 <?php
 $connection->connect();
 ~~~
@@ -86,7 +86,7 @@ Fetching Results
 
 Once you have a connection, you can begin to fetch results from the database.
 
-~~~php
+~~~
 <?php
 // returns all rows
 $result = $connection->fetchAll('SELECT * FROM foo');
@@ -122,7 +122,7 @@ Although Aura SQL provides quoting methods, you should instead use value
 binding into prepared statements. To do so, put named placeholders in the
 query text, then pass an array of values to bind to the placeholders:
 
-~~~php
+~~~
 <?php
 // the text of the query
 $text = 'SELECT * FROM foo WHERE id = :id';
@@ -139,7 +139,7 @@ $result = $connection->fetchOne($text, $bind);
 
 Aura SQL recognizes array values and quotes them as comma-separated lists:
 
-~~~php
+~~~
 <?php
 // the text of the query
 $text = 'SELECT * FROM foo WHERE id = :id AND bar IN(:bar_list)';
@@ -165,7 +165,7 @@ Aura SQL comes with three convenience methods for modifying data: `insert()`,
 
 First, to insert a row:
 
-~~~php
+~~~
 <?php
 // the table to insert into
 $table = 'foo';
@@ -188,7 +188,7 @@ inserted ID; for example, `$id = $connection->lastInsertId($table, 'id');`.)
 
 Next, to update rows:
 
-~~~php
+~~~
 <?php
 // the table to update
 $table = 'foo';
@@ -214,7 +214,7 @@ $result = $connection->update($table, $cols, $cond, $bind);
 
 Finally, to delete rows:
 
-~~~php
+~~~
 <?php
 // the table to delete from
 $table = 'foo';
@@ -235,7 +235,7 @@ Retrieving Table Information
 
 To get a list of tables in the database, issue `fetchTableList()`:
 
-~~~php
+~~~
 <?php
 // get the list of tables
 $list = $connection->fetchTableList();
@@ -248,7 +248,7 @@ foreach ($list as $table) {
 
 To get information about the columns in a table, issue `fetchTableCols()`:
 
-~~~php
+~~~
 <?php
 // the table to get cols for
 $table = 'foo';
@@ -292,7 +292,7 @@ you can turn off autocommit mode and start a transaction with
 `beginTransaction()`, then either `commit()` or `rollBack()` the transaction.
 Commits and rollbacks cause the connection to go back into autocommit mode.
 
-~~~php
+~~~
 <?php
 // turn off autocommit and start a transaction
 $connection->beginTransaction();
@@ -316,7 +316,7 @@ Manual Queries
 You can, of course, build and issue your own queries by hand. Use the
 `query()` method to do so:
 
-~~~php
+~~~
 <?php
 $text = "SELECT * FROM foo WHERE id = :id";
 $bind = ['id' => 1];
@@ -331,7 +331,7 @@ Profiling
 
 You can use profiling to see how well your queries are performing.
 
-~~~php
+~~~
 <?php
 // turn on the profiler
 $connection->getProfiler()->setActive(true);
@@ -372,7 +372,7 @@ To get a new `Select` object, invoke the `newSelect()` method on an connection.
 You can then modify the `Select` object and pass it to the `query()` or
 `fetch*()` method.
 
-~~~php
+~~~
 <?php
 // create a new Select object
 $select = $connection->newSelect();
@@ -434,7 +434,7 @@ Insert
 To get a new `Insert` object, invoke the `newInsert()` method on an connection.
 You can then modify the `Insert` object and pass it to the `query()` method.
 
-~~~php
+~~~
 <?php
 // create a new Insert object
 $insert = $connection->newInsert();
@@ -458,7 +458,7 @@ Update
 To get a new `Update` object, invoke the `newUpdate()` method on an connection.
 You can then modify the `Update` object and pass it to the `query()` method.
 
-~~~php
+~~~
 <?php
 // create a new Update object
 $update = $connection->newUpdate();
@@ -486,7 +486,7 @@ Delete
 To get a new `Delete` object, invoke the `newDelete()` method on an connection.
 You can then modify the `Delete` object and pass it to the `query()` method.
 
-~~~php
+~~~
 <?php
 // create a new Delete object
 $delete = $connection->newDelete();

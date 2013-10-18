@@ -1,13 +1,34 @@
 ---
-layout: default
+layout: page
 title: tigefa4u.github
+tagline: love github repositories
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_long_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% include JB/setup %}
+<hr>
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="col-xs-12 col-sm-9">
+<div class="list-group">
+<h2>Recent Posts</h2>
+  {% for post in site.posts %}
+    <div class="list-group-item"><span class="label label-info"><i class="icon-calendar icon-white"></i> {{ post.date | date_to_long_string }}</span> <i class="icon-link"></i> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+  {% endfor %}
 </div>
+</div>
+<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+<div class="well sidebar-nav">
+<h4><i class="icon-folder-open"></i> All Category</h4>
+<ul class="tag_box inline">
+  {% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+</ul>
+<hr>
+<h4><i class="icon-tags"></i> All Tags</h4>
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
