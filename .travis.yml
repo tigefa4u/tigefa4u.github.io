@@ -13,5 +13,3 @@ script: "bundle exec jekyll build"
 bundler_args: --without development debug
 notifications:
   email: false
-  on:
-    repo: tigefa4u/tigefa4u.github.io
