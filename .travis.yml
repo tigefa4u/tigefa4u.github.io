@@ -7,6 +7,8 @@ rvm:
 before_install:
   - gem update --system
   - gem --version
+  - bundle install
+install: gem install github-pages
 script: "bundle exec jekyll build"
 bundler_args: --without development debug
 notifications:
