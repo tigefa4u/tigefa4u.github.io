@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
 	<link rel="alternate" type="application/rss+xml" title=" tigefa4u.github / love github repositories - Feed" href="{{ site.url }}/rss.xml" />
 	<link rel="alternate" type="application/atom+xml" title="Recent commits to tigefa4u.github.io master branch" href="https://github.com/tigefa4u/tigefa4u.github.io/commits/master.atom" />
-        {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        {% endif %}
-        <meta name="author" content="{{ site.author.name }}">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -27,6 +27,7 @@
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css" rel="stylesheet">-->
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/slate/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{ site.url }}/bower_components/tipsy/src/stylesheets/tipsy.css" rel="stylesheet">
 	
     <!-- Highlight.js -->
     <link rel="stylesheet" href="{{ site.url }}/bower_components/highlightjs/styles/ir_black.css">
@@ -61,16 +62,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ HOME_PATH }}" title="{{ site.title }}">{{ site.title }}</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}{% assign group = 'navigation' %}{% include JB/pages_list %}
+            {% assign pages_list = site.pages %}
+			{% assign group = 'navigation' %}
+			{% include JB/pages_list %}
             </ul>
     <form class="navbar-form navbar-left" role="search" action="{{ site.simple_search }}" method="get" target="_blank">
       <div class="form-group">
         <input type="text" class="form-control" name="q" results="0" placeholder="Keyword here...">
-		<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+		<input type="hidden" value="site:{{ site.url | shorthand_url }}" />
       </div>
       <button type="submit" class="btn btn-success">search</button>
     </form>
@@ -93,11 +96,7 @@
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit" align="center"><a href="https://twitter.com/tigefa_team" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @tigefa_team</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		<!--Build with <a href="http://jekyllrb.com" target="_blank" data-toggle="tooltip" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a>
-        help from <a href="http://jekyllbootstrap.com" target="_blank" data-toggle="tooltip" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://getbootstrap.com" target="_blank" data-toggle="tooltip" title="Twitter Bootstrap">Bootstrap</a> + <a href="http://fontawesome.io" target="_blank" title="the iconic font designed for Bootstrap">Font Awesome</a><br>-->
+        <p class="text-muted credit">
 {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter-sign icon-3x"></i></a>{% endif %}
 {% if site.author.googleplus %}<a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus-sign icon-3x"></i></a>{% endif %}
 {% if site.author.facebook %}<a href="http://www.facebook.com/{{ site.author.facebook }}"><i class="icon-facebook-sign icon-3x"></i></a>{% endif %}
@@ -106,8 +105,8 @@
 {% if site.author.gittip %}<a href="http://gittip.com/{{ site.author.gittip }}"><i class="icon-gittip icon-3x"></i></a>{% endif %}
 {% if site.author.linkedin %}<a href="http://linkedin.com/in/{{ site.author.linkedin }}"><i class="icon-linkedin-sign icon-3x"></i></a>{% endif %}
 {% if site.author.tumblr %}<a href="http://{{ site.author.tumblr }}.tumblr.com"><i class="icon-tumblr-sign icon-3x"></i></a>{% endif %}
-{% if site.author.flickr %}<a href="http://flickr.com/photos/{{ site.author.flickr }}"><i class="icon-flickr icon-3x"></i></a>{% endif %}		
-		</p>
+{% if site.author.flickr %}<a href="http://flickr.com/photos/{{ site.author.flickr }}"><i class="icon-flickr icon-3x"></i></a>{% endif %}
+</p>
       <div class="lower_footer">
         <ul class="footer-cell">
           <li><a href="http://jekyllrb.com" target="_blank" data-toggle="tooltip" title="Jekyll &bull; Simple, blog-aware, static sites">Jekyllrb</a></li>
@@ -135,6 +134,7 @@
     <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/hoolder.js"></script>
+	<script src="{{ site.url }}/bower_components/tipsy/src/javascripts/jquery.tipsy.js"></script>
     <script type='text/javascript'> 
     jQuery.noConflict();
     jQuery(function() {

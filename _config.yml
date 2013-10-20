@@ -11,21 +11,17 @@ kramdown:
     - smart
 permalink: /:year/:month/:title.html
 relative_permalinks: false
-google_analytics_id: UA-29791208-6
 url: http://tigefa4u.github.io
 #url: http://localhost:2106
 #port: 2106
 #baseurl: /project-name
-twitter: tigefa_team
-github: tigefa4u
-name: tigefa4u.github
-gravatar_url: /images/github.png
+name: tigefa4u.Github
 timezone:    Aisa/Jakarta
-exclude: ["index.md", "composer.json", "circle.yml", "README", "iron.json", "stylesheets", "javascripts", "resources", "system", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "hello.worker", "hello_worker.rb", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+exclude: ["index.md", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "hello.worker", "hello_worker.rb", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-title : tigefa4u.github
-tagline: love github repositories
+title : tigefa4u.Github
+tagline: love Github repositories
 author :
   name : sugeng tigefa
   email : tigefa@gmail.com

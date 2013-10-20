@@ -1,12 +1,12 @@
 <div class="page-header well">
-  <h1>{{ page.title }} <small>love github repositories</small></h1>
+  <h1>{{ page.title }} <small>{{ site.tagline }}</small></h1>
 </div>
 
 <div class="row">
   <div class="col-md-8">
 <ol class="breadcrumb">
-  <li><a href="{{ site.url }}">Home</a></li>
-  <li><a href="{{ post.url }}">{{ page.date | date_to_long_string }}</a></li>
+  <li><a href="{{ site.url }}" title="Home">Home</a></li>
+  <li><a href="{{ post.url }}" title="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
     {{ content }}
@@ -28,7 +28,7 @@
       {% else %}
         <li class="prev disabled"><a>&larr; Previous</a></li>
       {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}" title="Archive">Archive</a></li>
       {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
       {% else %}
@@ -38,7 +38,7 @@
 		
   </div>
   
-  <div class="col-md-4">
+  <div class="well col-md-4">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 

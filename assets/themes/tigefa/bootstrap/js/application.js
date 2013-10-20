@@ -78,7 +78,6 @@
     })
 
     $('#wrap').tooltip()
-    $('.popover-test').popover()
 
     $('#wrap').tooltip({
       selector: "a[data-toggle=tooltip]",
@@ -92,7 +91,6 @@
     })
 
     $('#footer').tooltip()
-    $('.popover-test').popover()
 
     $('#footer').tooltip({
       selector: "a[data-toggle=tooltip]",
