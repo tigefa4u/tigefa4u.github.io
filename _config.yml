@@ -135,8 +135,8 @@ JB :
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  #sharing :
-  #  provider : tweet, plusone, like, reddit buttons
+  sharing :
+    provider : ipost
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
