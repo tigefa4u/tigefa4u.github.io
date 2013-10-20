@@ -17,7 +17,6 @@ url: http://tigefa4u.github.io
 #baseurl: /project-name
 name: tigefa4u.Github
 timezone:    Aisa/Jakarta
-exclude: ["index.md", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "hello.worker", "hello_worker.rb", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 title : tigefa4u.Github
@@ -134,7 +133,7 @@ JB :
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
-  #
+  # options ipost sharethis shareholic addthis
   sharing :
     provider : ipost
     
@@ -148,3 +147,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+exclude: ["composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "hello.worker", "hello_worker.rb", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
