@@ -73,7 +73,7 @@
     <form class="navbar-form navbar-left" role="search" action="{{ site.simple_search }}" method="get" target="_blank">
       <div class="form-group">
         <input type="text" class="form-control" name="q" results="0" placeholder="Keyword here...">
-		<input type="hidden" value="site:{{ site.url | shorthand_url }}" />
+		<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
       </div>
       <button type="submit" class="btn btn-success">search</button>
     </form>
@@ -81,7 +81,6 @@
       {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}"><i class="icon-github icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.twitter %}<li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.googleplus %}<li><a href="http://gplus.to/{{ site.author.googleplus }}"><i class="icon-google-plus icon-1x"></i></a></li>{% endif %}
-	  {% if site.author.pinterest %}<li><a href="http://pinterest.com/{{ site.author.pinterest }}"><i class="icon-pinterest icon-1x"></i></a></li>{% endif %}
 	  {% if site.author.feedburner %}<li><a href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><i class="icon-rss icon-1x"></i></a></li>{% endif %}
     </ul>			              
           </div><!--/.nav-collapse -->
@@ -106,6 +105,7 @@
 {% if site.author.linkedin %}<a href="http://linkedin.com/in/{{ site.author.linkedin }}"><i class="icon-linkedin-sign icon-3x"></i></a>{% endif %}
 {% if site.author.tumblr %}<a href="http://{{ site.author.tumblr }}.tumblr.com"><i class="icon-tumblr-sign icon-3x"></i></a>{% endif %}
 {% if site.author.flickr %}<a href="http://flickr.com/photos/{{ site.author.flickr }}"><i class="icon-flickr icon-3x"></i></a>{% endif %}
+{% if site.author.pinterest %}<a href="http://pinterest.com/{{ site.author.pinterest }}"><i class="icon-pinterest-sign icon-3x"></i></a>{% endif %}
 </p>
       <div class="lower_footer">
         <ul class="footer-cell">
@@ -121,8 +121,8 @@
 
         <span class="footer-cell">
           <p>
-            Except where otherwise noted, content on this site is licensed under a
-            <a href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons CC-BY license</a>.
+            &copy; 2011-2013 sugeng tigefa.
+            <a href="http://github.com/tigefa4u">tigefa4u in Github</a>.
           </p>
         </span>
       </div>
