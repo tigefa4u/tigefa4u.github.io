@@ -1,2 +1,6 @@
 _site
 /vendor/
+deploy.bat
+composer.lock
+Gemfile.lock
+deploy.cmd

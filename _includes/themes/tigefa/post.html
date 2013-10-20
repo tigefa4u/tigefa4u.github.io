@@ -11,13 +11,7 @@
 </ol>
     {{ content }}
 	<hr>
-<div class="pw-widget pw-counter-horizontal">
-	<a class="pw-button-facebook pw-look-native"></a>
-	<a class="pw-button-twitter pw-look-native"></a>
-	<a class="pw-button-googleplus pw-look-native"></a>
-	<a class="pw-button-post-share"></a>
-</div>
-<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=npe320neprvgc57ijp3q" type="text/javascript"></script>	
+    {% include JB/sharing %}	
     <hr>
     {% include JB/comments %}
     <hr>
@@ -48,6 +42,14 @@
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
+<hr>  
+  {% unless page.categories == empty %}
+    <h4>Category</h4>
+    <ul class="tag_box">
+    {% assign categories_list = page.categories %}
+    {% include JB/categories_list %}
+    </ul>
+  {% endunless %}    
   </div>
 </div>
