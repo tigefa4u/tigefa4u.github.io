@@ -135,7 +135,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   # options ipost sharethis shareholic addthis
   sharing :
-    provider : ipost
+    provider : shareholic
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

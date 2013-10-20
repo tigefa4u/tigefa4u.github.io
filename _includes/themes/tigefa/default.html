@@ -46,6 +46,24 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/assets/images/apple-touch-icon-114x114-precomposed.png">
     <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/assets/images/apple-touch-icon-144x144-precomposed.png">
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var apikey = '894104883557b023f393fd32b16afca7';
+      try { Shareaholic.init(apikey); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
   </head>
 
   <body id="top">
