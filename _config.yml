@@ -144,8 +144,8 @@ JB :
 # Aviable themes slate cyborg flatly local cerulean simplex readable cosmo journal spacelab united
 # view all demo themes http://bootswatch.com
 # For local browsing without internet please set 'provider' local
-themes:
-  provider: slate
+  themes:
+    provider: slate
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
