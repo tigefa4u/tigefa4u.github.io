@@ -1,4 +1,4 @@
-[tigefa4u.github.io](https://tigefa4u.github.io)
+[tigefa4u.github.io](http://tigefa4u.github.io)
 ==================
 
 for personal notes build with jekyll
@@ -19,11 +19,11 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 - [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](https://github.com/plusjade)
 - [Font-Awesome](http://fontawesome.io) [@FortAwesome](https://github.com/FortAwesome)
 
-## License
+### License
 
-- [the Public Domain license](LICENSE)
+- [the Public Domain license](https://github.com/tigefa4u/tigefa4u.github.io/blob/master/LICENSE)
 
-### lets begin with test
+#### lets begin with test
 
 ``` bash
 ~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
