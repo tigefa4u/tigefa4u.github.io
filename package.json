@@ -1,0 +1,23 @@
+{
+  "name": "tigefa4u.github.io",
+  "version": "1.0.5",
+  "description": "personal blog written jekyll with ruby",
+  "main": "index.js",
+  "scripts": {
+    "test": "rake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tigefa4u/tigefa4u.github.io.git"
+  },
+  "keywords": [
+    "markdown",
+    "jekyll",
+    "blog"
+  ],
+  "author": "sugeng tigefa",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
+  }
+}
