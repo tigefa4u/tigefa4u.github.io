@@ -26,55 +26,55 @@ Features
 More than a long speech, here the list of the main features :
 
 * Comments
-* `Sitemaps`_
+* `Sitemaps`
 * Archives views
 * Related entries
 * Private entries
 * RSS or Atom Feeds
 * Tags and categories views
-* `Advanced search engine`_
+* `Advanced search engine`
 * Prepublication and expiration
-* `Custom templates for various contents`_
-* Edition in `MarkDown`_, `Textile`_ or `reStructuredText`_
+* `Custom templates for various contents`
+* Edition in `MarkDown`, `Textile`_ or `reStructuredText`
 * Widgets (Popular entries, Similar entries, ...)
-* Spam protection with `Akismet`_, `TypePad`_ or `Mollom`_
+* Spam protection with `Akismet`, `TypePad` or `Mollom`
 * Admin dashboard
-* `MetaWeblog API`_
+* `MetaWeblog API`
 * Ping Directories
 * Ping External links
-* `Bit.ly`_ support
-* `Twitter`_ support
-* `Gravatar`_ support
-* `Django-CMS`_ plugins
+* `Bit.ly` support
+* `Twitter` support
+* `Gravatar` support
+* `Django-CMS` plugins
 * Collaborative work
 * Tags autocompletion
-* `Entry model extendable`_
+* `Entry model extendable`
 * Pingback/Trackback support
-* `Blogger conversion utility`_
-* `WordPress conversion utility`_
-* `WYMeditor`_, `TinyMCE`_ and `MarkItUp`_ support
+* `Blogger conversion utility`
+* `WordPress conversion utility`
+* `WYMeditor`, `TinyMCE`_ and `MarkItUp` support
 * Efficient database queries
 * Ready to use and extendable templates
-* `Compass`_ and `Sass3`_ integration
-* `Windows Live Writer`_ compatibility
+* `Compass`_ and `Sass3` integration
+* `Windows Live Writer` compatibility
 
 Examples
 ========
 
-Take a look at the online demo at : http://django-blog-zinnia.com/
+Take a look at the online demo at : [http://django-blog-zinnia.com/](http://django-blog-zinnia.com/)
 or you can visit these websites who use Zinnia.
 
-* `Fantomas' side`_  / `Mobile version`_.
-* `Darwin's Weblog`_
-* `ShiningPanda`_.
-* `Tryolabs`_.
-* `AR.Drone Best of User Videos`_.
-* `Professional Web Studio`_.
-* `mixedCase`_.
-* `brainbreach`_.
-* `Mauro Bianchi`_.
-* `Sergey Miracle`_.
-* `Infantium`_.
+* `Fantomas' side`  / `Mobile version`.
+* `Darwin's Weblog`
+* `ShiningPanda`.
+* `Tryolabs`.
+* `AR.Drone Best of User Videos`.
+* `Professional Web Studio`.
+* `mixedCase`.
+* `brainbreach`.
+* `Mauro Bianchi`.
+* `Sergey Miracle`.
+* `Infantium`.
 
 
 If you are a proud user of Zinnia, send me the URL of your website and I
@@ -85,10 +85,10 @@ Online resources
 
 More information and help available at these URLs :
 
-* `Code repository`_.
-* `Documentation`_.
-* `Jenkins CI server`_.
-* Discussions and help at `Google Group`_.
-* For reporting a bug use `Github Issues`_.
+* `Code repository`.
+* `Documentation`.
+* `Jenkins CI server`.
+* Discussions and help at `Google Group`.
+* For reporting a bug use `Github Issues`.
 
 
