@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>_config.yml &mdash; tigefa jekyll 1.0.5 documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.5',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="tigefa jekyll 1.0.5 documentation" href="index.html" />
+    <link rel="prev" title="Configuration" href="configuration.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="configuration.html" title="Configuration"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">tigefa jekyll 1.0.5 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="config-yml">
+<h1>_config.yml<a class="headerlink" href="#config-yml" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
+    <span class="n">interesting</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="hll">    <span class="k">print</span> <span class="s">&#39;This line is highlighted.&#39;</span>
+</span>    <span class="k">print</span> <span class="s">&#39;This one is not...&#39;</span>
+<span class="hll">    <span class="k">print</span> <span class="s">&#39;...but this one is.&#39;</span>
+</span></pre></div>
+</div>
+<div class="section" id="default-config-yml-setting">
+<h2>default _config.yml setting<a class="headerlink" href="#default-config-yml-setting" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-yaml"><div class="highlight"><pre><span class="l-Scalar-Plain">safe</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+<span class="l-Scalar-Plain">lsi</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
+<span class="l-Scalar-Plain">pygments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+<span class="l-Scalar-Plain">simple_search</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://google.com/search</span>
+<span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">kramdown</span>
+<span class="l-Scalar-Plain">paginate</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">10</span>
+<span class="l-Scalar-Plain">kramdown</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">extensions</span><span class="p-Indicator">:</span>
+    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">autolink</span>
+    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">footnotes</span>
+    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">smart</span>
+<span class="l-Scalar-Plain">permalink</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/:year/:month/:title.html</span>
+<span class="l-Scalar-Plain">relative_permalinks</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
+<span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://tigefa4u.github.io</span>
+<span class="c1">#url: http://localhost:2106</span>
+<span class="c1">#port: 2106</span>
+<span class="c1">#baseurl: /project-name</span>
+<span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4u.Github</span>
+<span class="l-Scalar-Plain">timezone</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">Aisa/Jakarta</span>
+<span class="c1"># Themes are encouraged to use these universal variables </span>
+<span class="c1"># so be sure to set them if your theme uses them.</span>
+<span class="l-Scalar-Plain">title</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4u.Github</span>
+<span class="l-Scalar-Plain">tagline</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">love Github repositories</span>
+<span class="l-Scalar-Plain">author</span> <span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">name</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">sugeng tigefa</span>
+  <span class="l-Scalar-Plain">email</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa@gmail.com</span>
+  <span class="l-Scalar-Plain">tumblr</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+  <span class="l-Scalar-Plain">flickr</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+  <span class="l-Scalar-Plain">github</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4u</span>
+  <span class="l-Scalar-Plain">repository</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4u.github.io</span>
+  <span class="l-Scalar-Plain">gittip</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+  <span class="l-Scalar-Plain">twitter</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa_team</span>
+  <span class="l-Scalar-Plain">facebook</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa.team</span>
+  <span class="l-Scalar-Plain">feedburner</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4ugithub</span>
+  <span class="l-Scalar-Plain">linkedin</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefadotinfo</span>
+  <span class="l-Scalar-Plain">googleplus</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+  <span class="l-Scalar-Plain">pinterest</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+  <span class="l-Scalar-Plain">bitbucket</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa4u</span>
+  <span class="l-Scalar-Plain">stackoverflow</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+
+<span class="c1"># The production_url is only used when full-domain names are needed</span>
+<span class="c1"># such as sitemap.txt </span>
+<span class="c1"># Most places will/should use BASE_PATH to make the urls</span>
+<span class="c1">#</span>
+<span class="c1"># If you have set a CNAME (pages.github.com) set your custom domain here.</span>
+<span class="c1"># Else if you are pushing to username.github.io, replace with your username.</span>
+<span class="c1"># Finally if you are pushing to a GitHub project page, include the project name at the end.</span>
+<span class="c1">#</span>
+<span class="l-Scalar-Plain">production_url</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://tigefa4u.github.io</span>
+
+<span class="c1"># All Jekyll-Bootstrap specific configurations are namespaced into this hash</span>
+<span class="c1">#</span>
+<span class="l-Scalar-Plain">JB</span> <span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">version</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">0.3.0</span>
+
+  <span class="c1"># All links will be namespaced by BASE_PATH if defined.</span>
+  <span class="c1"># Links in your website should always be prefixed with {{BASE_PATH}}</span>
+  <span class="c1"># however this value will be dynamically changed depending on your deployment situation.</span>
+  <span class="c1">#</span>
+  <span class="c1"># CNAME (http://yourcustomdomain.com)</span>
+  <span class="c1">#   DO NOT SET BASE_PATH </span>
+  <span class="c1">#   (urls will be prefixed with &quot;/&quot; and work relatively)</span>
+  <span class="c1">#</span>
+  <span class="c1"># GitHub Pages (http://username.github.io)</span>
+  <span class="c1">#   DO NOT SET BASE_PATH </span>
+  <span class="c1">#   (urls will be prefixed with &quot;/&quot; and work relatively)</span>
+  <span class="c1">#</span>
+  <span class="c1"># GitHub Project Pages (http://username.github.io/project-name)</span>
+  <span class="c1">#</span>
+  <span class="c1">#   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.</span>
+  <span class="c1">#  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name</span>
+  <span class="c1">#</span>
+  <span class="c1"># CAUTION:</span>
+  <span class="c1">#   - When in Localhost, your site will run from root &quot;/&quot; regardless of BASE_PATH</span>
+  <span class="c1">#   - Only the following values are falsy: [&quot;&quot;, null, false]</span>
+  <span class="c1">#   - When setting BASE_PATH it must be a valid url.</span>
+  <span class="c1">#     This means always setting the protocol (http|https) or prefixing with &quot;/&quot;</span>
+  <span class="l-Scalar-Plain">BASE_PATH</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://tigefa4u.github.io</span>
+
+  <span class="c1"># By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.</span>
+  <span class="c1"># ex: [BASE_PATH]/assets/themes/[THEME-NAME]</span>
+  <span class="c1">#</span>
+  <span class="c1"># Override this by defining an absolute path to assets here.</span>
+  <span class="c1"># ex: </span>
+  <span class="c1">#   http://s3.amazonaws.com/yoursite/themes/watermelon</span>
+  <span class="c1">#   /assets</span>
+  <span class="c1">#</span>
+  <span class="l-Scalar-Plain">ASSET_PATH</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
+
+  <span class="c1"># These paths are to the main pages Jekyll-Bootstrap ships with.</span>
+  <span class="c1"># Some JB helpers refer to these paths; change them here if needed.</span>
+  <span class="c1">#</span>
+  <span class="l-Scalar-Plain">archive_path</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/archive.html</span>
+  <span class="l-Scalar-Plain">categories_path</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/categories.html</span>
+  <span class="l-Scalar-Plain">tags_path</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/tags.html</span>
+  <span class="l-Scalar-Plain">atom_path</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/atom.xml</span>
+  <span class="l-Scalar-Plain">rss_path</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/rss.xml</span>
+
+  <span class="c1"># Settings for comments helper</span>
+  <span class="c1"># Set &#39;provider&#39; to the comment provider you want to use.</span>
+  <span class="c1"># Set &#39;provider&#39; to false to turn commenting off globally.</span>
+  <span class="c1">#</span>
+  <span class="l-Scalar-Plain">comments</span> <span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">provider</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">disqus</span>
+    <span class="l-Scalar-Plain">disqus</span> <span class="p-Indicator">:</span>
+      <span class="l-Scalar-Plain">short_name</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">tigefa</span>
+<span class="c1">#    livefyre :</span>
+<span class="c1">#      site_id : 123</span>
+<span class="c1">#    intensedebate :</span>
+<span class="c1">#      account : 123abc</span>
+<span class="c1">#    facebook :</span>
+<span class="c1">#      appid : 123</span>
+<span class="c1">#      num_posts: 5</span>
+<span class="c1">#      width: 590</span>
+<span class="c1">#      colorscheme: light</span>
+   
+  <span class="c1"># Settings for analytics helper</span>
+  <span class="c1"># Set &#39;provider&#39; to the analytics provider you want to use.</span>
+  <span class="c1"># Set &#39;provider&#39; to false to turn analytics off globally.</span>
+  <span class="c1">#        </span>
+  <span class="l-Scalar-Plain">analytics</span> <span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">provider</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">google</span> 
+    <span class="l-Scalar-Plain">google</span> <span class="p-Indicator">:</span> 
+        <span class="l-Scalar-Plain">tracking_id</span> <span class="p-Indicator">:</span> <span class="s">&#39;UA-29791208-6&#39;</span>
+<span class="c1">#    getclicky :</span>
+<span class="c1">#      site_id : </span>
+<span class="c1">#    mixpanel :</span>
+<span class="c1">#        token : &#39;_MIXPANEL_TOKEN_&#39;</span>
+<span class="c1">#    piwik :</span>
+<span class="c1">#        baseURL : &#39;localhost/piwik&#39; # Piwik installation address (without protocol)</span>
+<span class="c1">#        idsite : &#39;1&#39;                   # the id of the site on Piwik</span>
+
+  <span class="c1"># Settings for sharing helper. </span>
+  <span class="c1"># Sharing is for things like tweet, plusone, like, reddit buttons etc.</span>
+  <span class="c1"># Set &#39;provider&#39; to the sharing provider you want to use.</span>
+  <span class="c1"># Set &#39;provider&#39; to false to turn sharing off globally.</span>
+  <span class="c1"># options ipost sharethis shareholic addthis</span>
+  <span class="l-Scalar-Plain">sharing</span> <span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">provider</span> <span class="p-Indicator">:</span> <span class="l-Scalar-Plain">shareholic</span>
+
+<span class="c1"># Settings for themes with bootswatch.com</span>
+<span class="c1"># Set &#39;provider&#39; to the themes provider you want to use.</span>
+<span class="c1"># Set &#39;provider&#39; to false to turn sharing off globally.</span>
+<span class="c1"># Aviable themes slate cyborg flatly local cerulean simplex readable cosmo journal spacelab united</span>
+<span class="c1"># view all demo themes http://bootswatch.com</span>
+<span class="c1"># For local browsing without internet please set &#39;provider&#39; local</span>
+  <span class="l-Scalar-Plain">themes</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">provider</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">slate</span>
+    
+  <span class="c1"># Settings for all other include helpers can be defined by creating </span>
+  <span class="c1"># a hash with key named for the given helper. ex:</span>
+  <span class="c1">#</span>
+  <span class="c1">#   pages_list :</span>
+  <span class="c1">#     provider : &quot;custom&quot;   </span>
+  <span class="c1">#</span>
+  <span class="c1"># Setting any helper&#39;s provider to &#39;custom&#39; will bypass the helper code</span>
+  <span class="c1"># and include your custom code. Your custom file must be defined at:</span>
+  <span class="c1">#   ./_includes/custom/[HELPER]</span>
+  <span class="c1"># where [HELPER] is the name of the helper you are overriding.</span>
+<span class="l-Scalar-Plain">exclude</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="s">&quot;node_modules&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;tigefa.jquery.json&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;deploy.cmd&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;composer.json&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;circle.yml&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;README&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;iron.json&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;bower.json&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;params.json&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;.coveralls.yml&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;.travis.yml&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;.gitignore&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;.gitattributes&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;.gitmodules&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;README.md&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;LICENSE&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;Rakefile&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;CHANGELOG.md&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;Gemfile&quot;</span><span class="p-Indicator">,</span> <span class="s">&quot;Gemfile.lock&quot;</span><span class="p-Indicator">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="jekyll-config">
+<h2>jekyll config<a class="headerlink" href="#jekyll-config" title="Permalink to this headline">¶</a></h2>
+<p>more info about _config.yml</p>
+<p><a class="reference external" href="http://jekyllrb/docs/configuration/">http://jekyllrb/docs/configuration/</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">_config.yml</a><ul>
+<li><a class="reference internal" href="#default-config-yml-setting">default _config.yml setting</a></li>
+<li><a class="reference internal" href="#jekyll-config">jekyll config</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="configuration.html"
+                        title="previous chapter">Configuration</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/config.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="configuration.html" title="Configuration"
+             >previous</a> |</li>
+        <li><a href="index.html">tigefa jekyll 1.0.5 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, sugeng tigefa.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.
+    </div>
+  </body>
+</html>
