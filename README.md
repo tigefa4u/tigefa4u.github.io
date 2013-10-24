@@ -7,6 +7,7 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 [![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
 [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io)
+[![Code Climate](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io.png)](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io)
 [![endorse](https://api.coderwall.com/tigefa/endorsecount.png)](https://coderwall.com/tigefa) 
 [![Dependencies Status](https://d2xishtp1ojlk0.cloudfront.net/d/12117648)](http://depending.in/tigefa4u/tigefa4u.github.io) 
 [![Coverage Status](https://coveralls.io/repos/tigefa4u/tigefa4u.github.io/badge.png)](https://coveralls.io/r/tigefa4u/tigefa4u.github.io)
