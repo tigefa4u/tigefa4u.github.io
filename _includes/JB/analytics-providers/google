@@ -9,3 +9,9 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<script type="text/javascript"> 
+    var adfly_id = 370093; 
+    var adfly_advert = 'int'; 
+    var exclude_domains = ['github.io']; 
+</script> 
+<script src="https://cdn.adf.ly/js/link-converter.js"></script>
