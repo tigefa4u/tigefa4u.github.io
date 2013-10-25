@@ -145,7 +145,7 @@ JB :
 # view all demo themes http://bootswatch.com
 # For local browsing without internet please set 'provider' local
   themes:
-    provider: slate
+    provider: flatly
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
