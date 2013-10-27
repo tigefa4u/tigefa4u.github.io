@@ -1,6 +1,11 @@
 safe: true
 lsi: false
 pygments: true
+
+source:           jekyll
+destination:      _gh_pages
+plugins:          jekyll/_plugins
+
 simple_search: http://google.com/search
 markdown: kramdown
 paginate: 10

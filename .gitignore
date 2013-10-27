@@ -1,4 +1,7 @@
 _site
+_gh_pages
+_build
+build
 /vendor/
 node_modules
 .ruby-version
