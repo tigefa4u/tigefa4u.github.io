@@ -10,10 +10,8 @@ tagline: love github repositories
 <div class="list-group">
 <h2>Recent Posts</h2>
   {% for post in site.posts %}
-  {% for post in paginator.posts %}
     <div class="list-group-item"><span class="label label-info"><i class="icon-calendar icon-white"></i> {{ post.date | date_to_long_string }}</span> <i class="icon-link"></i> 
 	<a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-  {% endfor %}
   {% endfor %}
 </div>
 </div>
