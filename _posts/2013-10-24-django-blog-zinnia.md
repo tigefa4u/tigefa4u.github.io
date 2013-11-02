@@ -2,7 +2,7 @@
 layout: post
 title: "Django Blog Zinnia"
 description: "Simple yet powerful and really extendable application for managing a blog"
-category: django zinnia python 
+category: [django, zinnia, python] 
 tags: [python, django, zinnia]
 ---
 {% include JB/setup %}

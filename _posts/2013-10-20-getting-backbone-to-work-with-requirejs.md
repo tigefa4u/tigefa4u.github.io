@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Backbone to Work With Require.js"
 description: "The first time I ever tried to build an app with Backbone.js and Require.js, I ran into huge problems. Turns out it was easier than I thought."
-category: javascript, backbonejs, requirejs
+category: [javascript, backbonejs, requirejs]
 tags: [javascript, backbonejs, requirejs]
 ---
 {% include JB/setup %}
