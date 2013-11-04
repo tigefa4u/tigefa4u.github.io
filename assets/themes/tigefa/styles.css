@@ -111,6 +111,124 @@ code {
   font-size: 80%;
 }
 
+#clock {
+	margin:0 auto;
+	width:300px;
+	height:300px;
+	border-radius:9001px;
+	border:9px solid #BF1111;
+	padding:0;
+	background:#fff;
+	text-align:center;
+}
+
+#center {
+}
+
+#details {
+	display:none;
+	max-width:70%;
+	max-height:70%;
+	margin:0 auto;
+}
+
+#details span  {
+	display: block;
+}
+
+#details #meta {
+	clear:both;
+	text-align:right;
+	overflow:hidden;
+}
+
+#details #lang, #details #stars, #details #forks {
+	float:right;
+	margin:1px 3px;
+	color:#999;
+}
+
+#details #lang{
+	line-height:150%;
+}
+
+#details #lang:after, #details #stars:after{
+	content:' \00b7 ';
+}
+
+#details #name {
+	font-size:200%;
+	word-break:break-all;
+}
+
+#details #updated {
+	font-size:80%;
+	color:#aaa;
+}
+
+#gravatar_img {
+	border:0px;
+	border-radius:50%;
+	width:50%;
+	height:50%;
+	box-shadow: 0px 0px 15px rgba(111, 111, 111, 0.5);
+}
+
+#num-repos{
+	margin:0;
+}
+
+.repo {
+	width:90px;
+	height:90px;
+}
+
+a {
+	text-decoration:none;
+	color:#665;
+}
+
+.repo h2{
+	width:100px;
+	height:100px;
+	border:10px solid #888;
+	position:relative;
+	background:#fff;
+	border-radius:400px;
+	font-size:100%;
+	text-align:center;
+	color:#666;
+	margin:0;
+	word-break:break-all;
+	overflow:hidden;
+	display:table;
+	box-shadow: 1px 1px 10px #666;
+}
+
+.repo a:hover h2{
+	border-width:8px;
+	z-index:22;
+	box-shadow: 1px 1px 1px #222;
+}
+
+.repo h2 p {
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.repo_details{
+	display:none;
+}
+
+.repo a.PHP       h2{ border-color:#3472BC; }
+.repo a.Python h2{ border-color:#BC348F;}
+.repo a.C           h2{ border-color:#15A209;}
+.repo a.Cplusplus h2{ border-color:#A26409;}
+.repo a.JavaScript h2{ border-color:#E115C5;}
+.repo a.Shell h2{ border-color:#D0C2C7;}
+.repo a.Ruby h2{ border-color:#B60800;}
+
 /* tag_box ======================================================== */
 
 .tag_box {
