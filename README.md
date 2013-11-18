@@ -1,5 +1,5 @@
 [tigefa4u.github.io](http://tigefa4u.github.io) [![endorse](https://api.coderwall.com/tigefa/endorsecount.png)](https://coderwall.com/tigefa) [![Coverage Status](https://coveralls.io/repos/tigefa4u/tigefa4u.github.io/badge.png)](https://coveralls.io/r/tigefa4u/tigefa4u.github.io)
-==================
+====================
 
 for personal notes build with jekyll
 
@@ -9,7 +9,7 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io)
 [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io)
 [![Code Climate](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io.png)](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io) 
-[![Dependencies Status](https://d2xishtp1ojlk0.cloudfront.net/d/12117648)](http://depending.in/tigefa4u/tigefa4u.github.io) 
+[![Dependencies Status](https://depending.in/tigefa4u/tigefa4u.github.io.png)](http://depending.in/tigefa4u/tigefa4u.github.io) 
 
 ## Build with 
 
