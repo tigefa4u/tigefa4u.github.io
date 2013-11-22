@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'json'
+require 'coveralls'
 
 module Jekyll
 
