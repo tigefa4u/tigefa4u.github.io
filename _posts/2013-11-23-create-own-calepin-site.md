@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Create Own Calepin site"
+description: "fork jokull/calepin and create own server or new service like calepin.co"
+category: calepin, python, pelican
+tags: ['calepin', 'python', 'pelican']
+---
+{% include JB/setup %}
+
+Quickstart
+==========
+- Source [jokull/calepin](https://github.com/jokull/calepin)
+
+{% highlight %}
+    $ cd calepin
+    $ virtualenv --distribute venv
+    $ source venv/bin/activate
+    $ pip install -r requirements
+    $ pwd > venv/lib/python2.7/site-packages/app.pth
+{% endhighlight %}
+
+Environment
+-----------
+
+Now add `.env` with the development environment and `source` it. It should include values for the following values:
+
+{% highlight python %}
+    SECRET_KEY=
+    CALEPIN_ADMIN= # Admin email
+    CALEPIN_THEME= # See github.com/jokull/pelican-themes
+    CALEPIN_ROOT= # The place where user files are synced and served from
+    SQLALCHEMY_DATABASE_URI=postgresql://calepin@/calepin
+    DROPBOX_APP_KEY=
+    DROPBOX_SECRET=
+    SENTRY_DSN= # Optional but good for production
+    REDIS_URL = redis://
+{% endhighlight %}
+
+Components
+==========
+
+  + PostgreSQL
+  + Redis
+  + Flask api and frontend
+  
+## Source on Github
+
+- [jokull/calepin](https://github.com/jokull/calepin)
