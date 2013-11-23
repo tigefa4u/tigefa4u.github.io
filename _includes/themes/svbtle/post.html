@@ -1,39 +1,35 @@
-<section id="river" role="main">
 <header id="begin">
-    <time datetime="{{ page.date | date_to_long_string }}" id="top_time">{{ page.date | date_to_long_string }}</time>
+    <time datetime="{{ page.date | date_to_long_string }}" id="top_time"><i class="fa fa-calendar"></i> {{ page.date | date_to_long_string }}</time>
 </header>
 
 <article id="20" class="post">
 
-<h2 class="entry-title"><a href="{{ post.url }}" class="no-link" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+<h2 class="entry-title"><a href="{{ post.url }}" class="no-link" title="{{ page.title }}" rel="bookmark"><i class="fa fa-bullhorn"></i> {{ page.title }}</a></h2>
 
 <div class="entry-content">
 {{ content }}
 <hr>
 {% include JB/sharing %}
 </div><!-- .entry-content -->
-			
-			<aside class="kudo kudoable" id="20">
-				<a href="?" class="kudobject">
-					<div class="opening clearfix">
-						<span class="circle">&nbsp;</span>
-					</div>
-				</a>
-		
-				<a href="?" class="counter">
-					<span class="num">1</span>
-					<span class="txt">Kudos</span>
-				</a>
-			</aside>
+<div class="related">
+  <h2><i class="fa fa-tasks"></i> Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:5 %}
+      <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h4>
+    {% endfor %}
+  </ul>
+</div>
 </article><!-- #post-## -->
 
 <div class="comments">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title"><i class="fa fa-comments"></i> Leave a Reply</h3>
 {% include JB/comments %}
+</div><!-- #respond -->
 </div><!-- .comments -->
 
 <nav class="pagination">
   <span class="prev">
-    <a href="{{ site.url }}" class="back_to_blog">?&nbsp;&nbsp;&nbsp;Back to blog</a>
+    <a href="{{ site.url }}" class="back_to_blog">&larr; Back to blog</a>
   </span>
 </nav>
-</section><!-- #main -->

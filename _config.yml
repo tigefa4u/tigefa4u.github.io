@@ -7,7 +7,7 @@ plugins:          _plugins
 
 simple_search: http://google.com/search
 markdown: kramdown
-paginate: 10
+paginate: 5
 kramdown:
   extensions:
     - autolink

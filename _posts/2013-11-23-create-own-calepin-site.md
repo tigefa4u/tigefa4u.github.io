@@ -11,7 +11,7 @@ Quickstart
 ==========
 - Source [jokull/calepin](https://github.com/jokull/calepin)
 
-{% highlight %}
+{% highlight ssh %}
     $ cd calepin
     $ virtualenv --distribute venv
     $ source venv/bin/activate
