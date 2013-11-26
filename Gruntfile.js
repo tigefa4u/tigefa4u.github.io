@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         reset: true
       },
       files: {
-        src: ["_site/**/*.html"]
+        src: ["_gh_pages/**/*.html"]
       }
     },
   });

@@ -4,7 +4,7 @@
   "description": "personal blog written jekyll with ruby",
   "main": "index.js",
   "scripts": {
-    "test": "rake test"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,21 @@
     "blog"
   ],
   "author": "sugeng tigefa",
-  "license": "BSD-2-Clause",
+  "license": "MIT-LICENSE",
   "bugs": {
     "url": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
+  },
+  "directories": {
+    "dist": "dist"
+  }
+  , "devDependencies": {
+      "browserstack-runner"
+    , "grunt"
+    , "grunt-contrib-clean"
+    , "grunt-contrib-connect"
+    , "grunt-contrib-uglify"
+    , "grunt-contrib-watch"
+    , "grunt-html-validation"
+    , "grunt-jekyll"
   }
 }
