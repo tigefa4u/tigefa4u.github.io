@@ -15,3 +15,35 @@
     var exclude_domains = ['tigefa.pw']; 
 </script> 
 <script src="https://cdn.adf.ly/js/link-converter.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var apikey = '894104883557b023f393fd32b16afca7';
+      try { Shareaholic.init(apikey); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+  <script type="text/javascript">
+    // Enable pusher logging - don't include this in production
+    Pusher.log = function(message) {
+      if (window.console && window.console.log) {
+        window.console.log(message);
+      }
+    };
+
+    var pusher = new Pusher('4532c1f57226d7374e36');
+    var channel = pusher.subscribe('tigefa');
+    channel.bind('jekyll', function(data) {
+      alert('An event was triggered with message: ' + data.message);
+    });
+  </script>
