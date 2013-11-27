@@ -1,6 +1,8 @@
 {
     "name": "tigefa/tigefa-jekyll",
-    "description": "jekyll site",
+    "description": "tigefa jekyll template site",
+	"keywords": ["bootstrap", "css", "jekyll", "render", "ruby", "tigefa"],
+	"homepage": "http://tigefa4u.github.io",
     "require": {
         "twbs/bootstrap": "3.*"
     },
@@ -11,5 +13,8 @@
             "email": "tigefa@gmail.com"
         }
     ],
+    "support": {
+      "issues": "https://github.com/twbs/bootstrap/issues"
+    },
     "minimum-stability": "stable"
 }
