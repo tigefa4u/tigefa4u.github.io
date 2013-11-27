@@ -4,8 +4,7 @@ before_install:
   - bundle install
 rvm:
   - 2.0.0
-  - 1.9.2
-  - 1.8.7
+  - 1.9.3
 install: gem install github-pages --development
 script: "bundle exec jekyll build"
 notifications:
