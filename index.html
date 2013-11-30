@@ -20,7 +20,7 @@ title: tigefa4u.github
 <nav class="pagination">
 {% if paginator.next_page %}
 <span class="next">
-<a title="view more" href="{{ site.url }}/page{{paginator.next_page}}" >Continue &rarr;</a>
+<a title="view more" href="{{ site.url }}/page/{{paginator.next_page}}" >Continue &rarr;</a>
 </span>
 {% else %}
 <span class="next">Older &rarr;</span>
@@ -28,10 +28,10 @@ title: tigefa4u.github
 {% if paginator.previous_page %}
 {% if paginator.page == 2 %}
 <span class="prev">
-<a title="view more" href="{{ site.url }}/page{{paginator.previous_page}}" >&larr; Newer</a>
+<a title="view more" href="{{ site.url }}/page/{{paginator.previous_page}}" >&larr; Newer</a>
 </span>
 {% else %}
-<span class="prev"><a title="view more" href="{{ site.url }}/page{{paginator.previous_page}}" class="next">&larr; Newer</a></span>
+<span class="prev"><a title="view more" href="{{ site.url }}/page/{{paginator.previous_page}}" class="next">&larr; Newer</a></span>
 {% endif %}
 {% else %}
 <span class="prev">&larr; Newer</span>

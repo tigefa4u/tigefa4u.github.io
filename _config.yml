@@ -8,6 +8,7 @@ plugins:          _plugins
 simple_search: http://google.com/search
 markdown: kramdown
 paginate: 5
+paginate_path: /page/:num
 kramdown:
   extensions:
     - autolink
@@ -18,7 +19,7 @@ relative_permalinks: false
 url: http://tigefa.pw
 #url: http://localhost:2106
 #port: 2106
-#baseurl: /project-name
+
 name: tigefa4u.Github
 timezone:    Aisa/Jakarta
 # Themes are encouraged to use these universal variables 
