@@ -2,6 +2,9 @@ require "rubygems"
 require 'rake'
 require 'yaml'
 require 'time'
+require 'coveralls/rake/task'
+Coveralls::RakeTask.new
+task :coveralls => [:preview, :features, 'coveralls:push']
 
 SOURCE = "."
 CONFIG = {
@@ -98,7 +101,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve -w"
+  system "bundle exec jekyll build"
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
