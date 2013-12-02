@@ -1,4 +1,4 @@
-[tigefa4u.github.io](http://tigefa4u.github.io) [![endorse](https://api.coderwall.com/tigefa/endorsecount.png)](https://coderwall.com/tigefa) [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io)
+[tigefa4u.github.io](http://tigefa4u.github.io) [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io)
 ====================
 
 for personal notes build with jekyll
@@ -27,6 +27,7 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 ``` bash
 ~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
 ~ cd tigefa4u.github.io
+~ touch _config.yml
 ~/tigefa4u.github.io $ jekyll serve
 # => Now browse to http://localhost:4000
 ```
