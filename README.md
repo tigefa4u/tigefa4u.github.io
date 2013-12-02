@@ -9,7 +9,7 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io)
 [![Code Climate](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io.png)](https://codeclimate.com/github/tigefa4u/tigefa4u.github.io) 
 [![Dependencies Status](https://depending.in/tigefa4u/tigefa4u.github.io.png)](http://depending.in/tigefa4u/tigefa4u.github.io)
-[![Coverage Status](https://coveralls.io/repos/tigefa4u/tigefa4u.github.io/badge.png)](https://coveralls.io/r/tigefa4u/tigefa4u.github.io)
+[![Coverage Status](https://coveralls.io/repos/tigefa4u/tigefa4u.github.io/badge.png?branch=master)](https://coveralls.io/r/tigefa4u/tigefa4u.github.io?branch=master)
 [ ![Codeship Status for tigefa4u/tigefa4u.github.io](https://www.codeship.io/projects/8d7ca6d0-0797-0131-90f0-6e6cb3ba9a2c/status?branch=master)](https://www.codeship.io/projects/7339)
 
 ## Build with 
