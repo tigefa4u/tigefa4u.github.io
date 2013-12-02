@@ -4,9 +4,7 @@ before_install:
 rvm:
   - 2.0.0
   - 1.9.3
-script:
-  - bundle exec jekyll build
-  - bundle exec rake coveralls
+script: "bundle exec rake coveralls"
 notifications:
   email:
     on_success: never
