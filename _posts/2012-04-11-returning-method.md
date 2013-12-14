@@ -57,7 +57,7 @@ def my_action
 end
 {% endhighlight %}
 
-The result of method **my_action** will be modified array. It doesn't matter which approach to use: first or second.
+The result of method **my_action** will be modified array. It doesnt matter which approach to use: first or second.
 Choose which one you would like. So this code looks a little bit better then repetitive code which was before.
 
 ## Fail
