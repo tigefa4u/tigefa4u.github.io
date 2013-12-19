@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rule #1 to use belongs_to with presence validator"
+title: "Rule to use belongs_to with presence validator"
 description: "This post describes rules of thumb how to use presence validator for belongs_to association in Rails. Do you know what pass to validates (or validate_presence_of) method for belongs_to association? You will figure out it in this post."
 tags: [rails, validator]
 ---

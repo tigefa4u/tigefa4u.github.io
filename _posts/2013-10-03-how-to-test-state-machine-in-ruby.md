@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to test state machine in Ruby"
-description: "I've invented approach which rids of headache of testing state machine in Ruby.
+description: "Ive invented approach which rids of headache of testing state machine in Ruby.
 This solution is only for RSpec now, but approach can be used for test unit as well."
 tags: [rspec, ruby]
 ---
@@ -86,11 +86,11 @@ end
 
 No so much code, but it has some problems:
 
-1. It's not readable and it's very easy to miss some typo because of a lot of calls method-events (switch_to_r, switch_to_d, and etc.).
+1. It's not readable and its very easy to miss some typo because of a lot of calls method-events (switch_to_r, switch_to_d, and etc.).
 It looks like we test not state machine but some field which is changed by some method rather than test events and what they do
 2. We have to worry about how the state machine works: we set `gear` to appropriate state for any test
 3. If we change state name we will have to fix ALL these tests
-4. If the `subject` doesn't have appropriate state a test will be failed
+4. If the `subject` doesnt have appropriate state a test will be failed
 
 I used to this approach till now but every time I had issues with maintaining tests like above. Eventually I decided to invent some DSL which helps me to get rid of these problems forever. Hopefully I found solution and I'm going to share it with you in this post. Also I would like to know your opinion about it.
 
@@ -184,7 +184,7 @@ describe GearBox do
 end
 {% endhighlight %}
 
-Obviously that we have much more code, but it's readable, maintainable, the tests says about what they do without any description. If we change state machine's field all what we have to do is to change input data for tests. By the way, we can move our input data (I mean all let's) to [shared example](https://www.relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples). And then if we had many classes with similar state flow we would use this shared example there.
+Obviously that we have much more code, but its readable, maintainable, the tests says about what they do without any description. If we change state machines field all what we have to do is to change input data for tests. By the way, we can move our input data (I mean all lets) to [shared example](https://www.relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples). And then if we had many classes with similar state flow we would use this shared example there.
 
 ## Conclusion
 
@@ -193,4 +193,4 @@ With this approach I forgot my troubles with testing state machine and created r
 I've created [gist](https://gist.github.com/ka8725/6794542) for this solution.
 
 
-UPDATE: I've invented much easier solution. It's much easier and elegant. Check [it out](https://gist.github.com/ka8725/7943510)
+UPDATE: Ive invented much easier solution. It's much easier and elegant. Check [it out](https://gist.github.com/ka8725/7943510)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to find the method definition in Ruby"
-description: "This post describes how to get location (file and line) where method is defined. When it's impossible and what to do to avoid losing location of method definition."
+description: "This post describes how to get location (file and line) where method is defined. When its impossible and what to do to avoid losing location of method definition."
 tags: [ruby]
 ---
 {% include JB/setup %}
@@ -34,7 +34,7 @@ Object of class `Method` has '#source_location' method which returns the file wh
 m.source_location #=> => ["/Users/ka8725/sl/a.rb", 2]
 {% endhighlight %}
 
-Now we know where the method is defined, open this file and see how it's implemented. The method doesn't work for methods which are defined with other languages extensions:
+Now we know where the method is defined, open this file and see how it' implemented. The method doesnt work for methods which are defined with other languages extensions:
 
 {% highlight ruby %}
 {}.method(:[]).source_location #=> nil
@@ -71,11 +71,11 @@ B.new.method(:m).source_location #=> ["/Users/ka8725/sl/activebilling/b.rb", 5]
 {% endhighlight %}
 
 
-Feel free to use `#define_method` - it doesn't lose it's source location. But if method appears on the object with `#method_missing` help it can't know anything about it's definition place.
+Feel free to use `#define_method` - it doesn't lose its source location. But if method appears on the object with `#method_missing` help it cant know anything about its definition place.
 
 ## Practical application
 
-Recently I had a problem in our Rails application. I defined `Resource` model `ResourcesController` and as usual it's routes but there was surprise when I opened page which contained this helper: `link_to 'Resource', resource_path(@resource)`. This code caused exception `SystemStackError - stack level too deep`. Rather strange situation, isn't it? Going through sources of Rails I didn't find any collisions there but finally with `Method#source_location` help I found the source of this method definition (it's [inherited_resources](https://github.com/josevalim/inherited_resources) gem which we use) and as a result I [patched this gem](https://github.com/josevalim/inherited_resources/pull/318). I would say that patch is good but at least it looks logical.
+Recently I had a problem in our Rails application. I defined `Resource` model `ResourcesController` and as usual its routes but there was surprise when I opened page which contained this helper: `link_to 'Resource', resource_path(@resource)`. This code caused exception `SystemStackError - stack level too deep`. Rather strange situation, isn't it? Going through sources of Rails I didn't find any collisions there but finally with `Method#source_location` help I found the source of this method definition (it's [inherited_resources](https://github.com/josevalim/inherited_resources) gem which we use) and as a result I [patched this gem](https://github.com/josevalim/inherited_resources/pull/318). I would say that patch is good but at least it looks logical.
 
 ## Conclusion
 

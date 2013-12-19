@@ -7,7 +7,7 @@ tags: [ruby, rails, active record, reserved_words]
 {% include JB/setup %}
 
 There is a list of reserved words for Ruby On Rails framework. Full list is [here](http://oldwiki.rubyonrails.org/rails/pages/ReservedWords).
-But it doesn't contain at least one word which I will describe in this post. There are many reasons to don't give name **Test** for your _models_ in _Ruby On Rails_.
+But it doesnt contain at least one word which I will describe in this post. There are many reasons to don't give name **Test** for your _models_ in _Ruby On Rails_.
 I will try to describe in this post problems which you will have if you have _model_ with **Test** name.
 
 ![Do not give name Test for your models](/images/do_not_give_test_name_for_models.jpg)
@@ -65,11 +65,13 @@ end
 
 Try to test what we did and how it works now:
 
+{% highlight ruby %}
     {{ruby}}
     irb(main):003:0> reload! # we have changes in code so we have to reload console to get changes here
     irb(main):004:0> MyTest.all
       MyTest Load (0.1ms)  SELECT "tests".* FROM "tests"
     => []
+{% endhighlight%}
 
 And, yes! It's working now correctly!
 

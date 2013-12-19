@@ -6,7 +6,7 @@ tags: [ruby, rails, rake]
 ---
 {% include JB/setup %}
 
-Have you ever written your own __rake tasks__? If you write them very often this post will be very usefull for you. I won't describe what is __rake task__ here because there are a lot of information about it yet. I will tell you how to easy _generate_ __rake task__.
+Have you ever written your own __rake tasks__? If you write them very often this post will be very usefull for you. I wont describe what is __rake task__ here because there are a lot of information about it yet. I will tell you how to easy _generate_ __rake task__.
 
 Today I found interesting generator in __Ruby On Rails__. I have never read about it in any post, doc, book or tutorial, I have never seen it in any sceencast, I've never heart about it from any podcast and I wondered that Google doesn't tell me nothing about it. So I decided to write about it here.
 

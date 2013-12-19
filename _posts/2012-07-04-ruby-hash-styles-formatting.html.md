@@ -14,14 +14,14 @@ how to improve it in this post.
 Asume we have to write some method *build_location* which receives hash object with a lot of default parameters. So
 in this case we have a few variants how to format this peace of code:
 
-+ *Inline* (1)
+*Inline* (1)
 {%  highlight ruby %}
 def build_location(params = {:first_name => 'FirstName', :last_name => 'LastName', :address => 'DefaultValue', :phone => 'PhoneNumber', ...})
 ...
 end
 {% endhighlight %}
 
-+ *Pure blocks* (2)
+*Pure blocks* (2)
 {% highlight ruby %}
 def build_location(params = {:first_name => 'FirstName',
                              :last_name  => 'LastName',
@@ -31,7 +31,7 @@ def build_location(params = {:first_name => 'FirstName',
 end
 {% endhighlight %}
 
-+ *Using begin-end Pairs (Braces) to Designate Block Boundaries* (3)
+*Using begin-end Pairs (Braces) to Designate Block Boundaries* (3)
 {% highlight ruby %}
 def build_location(params = {
     :first_name => 'FirstName',
