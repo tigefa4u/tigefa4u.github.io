@@ -6,6 +6,15 @@ rvm:
   - 1.9.3
 script: "bundle exec rake coveralls"
 notifications:
+  irc:
+    on_success: change
+    on_failure: change
+    channels:
+      - "irc.freenode.org#tigefa"
+    #on_success: change
+    #on_failure: change
+    template:
+      - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
   email:
     on_success: never
     on_failure: never
