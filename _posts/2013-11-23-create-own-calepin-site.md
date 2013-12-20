@@ -12,6 +12,7 @@ Quickstart
 - Source [jokull/calepin](https://github.com/jokull/calepin)
 
 ~~~
+    $ git clone https://github.com/jokull/calepin.git or svn co https://github.com/jokull/calepin/trunk calepin
     $ cd calepin
     $ virtualenv --distribute venv
     $ source venv/bin/activate
