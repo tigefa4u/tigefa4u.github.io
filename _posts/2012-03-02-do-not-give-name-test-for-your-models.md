@@ -12,7 +12,7 @@ I will try to describe in this post problems which you will have if you have _mo
 
 ![Do not give name Test for your models](/images/do_not_give_test_name_for_models.jpg)
 
-Let's start with creating new application:
+Lets start with creating new application:
 
     ~$ rails new test_app --skip-test-unit --old-style-hash --skip-javascript --skip-bundle --skip-git
     ~$ cd test_app
@@ -27,7 +27,7 @@ Make _models_ **Test** and **TestPart**:
 
 ## Reason 1: Test is not a class. It is a module!
 
-I want to debug my code. So I'm going to _rails console_ by typing **rails c** in terminal and trying to
+I want to debug my code. So Im going to _rails console_ by typing **rails c** in terminal and trying to
 find all **Test** instances in my _database_ (I did't create one that way I have to get blank _collection_):
 
     irb(main):001:0> Test.all
@@ -39,7 +39,7 @@ We will find out for this question in _rails console_:
     irb(main):002:0> Test.class
     => Module
 
-This is a _module_ but not a _class_ how we expected. _Module_ **Test** exist in **TestUnit** and even we aren't using
+This is a _module_ but not a _class_ how we expected. _Module_ **Test** exist in **TestUnit** and even we arent using
 **TestUnit** in our application we will have this confusion. To avoid this negative situation we can rename _class_ **Test** to
 **MyTest** for example. Let's do it manually:
 
@@ -61,7 +61,7 @@ class MyTest < ActiveRecord::Base
 end
 {% endhighlight%}
 
-> You must use here **self.table_name** but not **table_name =**. It won't give expected effect in another case.
+> You must use here **self.table_name** but not **table_name =**. It wont give expected effect in another case.
 
 Try to test what we did and how it works now:
 
