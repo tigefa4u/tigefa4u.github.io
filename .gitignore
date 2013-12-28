@@ -16,6 +16,9 @@ node_modules
 *.swp
 *.zip
 *.vi
+*.tgz
+*.tar.gz
+*.rar
 *~
 
 # OS or Editor folders

@@ -1,8 +1,11 @@
 {
   "name": "tigefa4u.github.io",
   "version": "2.0.0",
-  "description": "personal blog written jekyll with ruby",
-  "main": "index.js",
+  "description": "blog jekyll template",
+  "main": "Gruntfile.js",
+  "directories": {
+    "dist": "dist"
+  },
   "scripts": {
     "test": "grunt test"
   },
@@ -11,26 +14,11 @@
     "url": "https://github.com/tigefa4u/tigefa4u.github.io.git"
   },
   "keywords": [
-    "markdown",
-    "jekyll",
-    "blog"
+    "jekyll"
   ],
   "author": "sugeng tigefa",
-  "license": "MIT-LICENSE",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
-  },
-  "directories": {
-    "dist": "dist"
-  }
-  , "devDependencies": {
-      "browserstack-runner"
-    , "grunt"
-    , "grunt-contrib-clean"
-    , "grunt-contrib-connect"
-    , "grunt-contrib-uglify"
-    , "grunt-contrib-watch"
-    , "grunt-html-validation"
-    , "grunt-jekyll"
   }
 }
