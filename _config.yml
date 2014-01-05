@@ -1,3 +1,7 @@
+safe: true
+lsi: false
+pygments: true
+
 title:        tigefa4u write tutorials
 tagline:      'Writing posts from repostories Github'
 description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
@@ -9,7 +13,6 @@ author:
 
 markdown:     kramdown
 permalink:    /articles/:title.html
-pygments:     true
 
 paginate:     5
 paginate_path: /page/:num
