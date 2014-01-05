@@ -44,6 +44,7 @@ cd app-root/runtime/repo/perl
 
 ##### Stable Release (4.4.1)
 Bugzilla 4.4.1 is our current stable release in the 4.4 series.
+
 ~~~
 wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.4.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
@@ -54,6 +55,7 @@ Development Snapshot (4.5.1)
 > They receive very little testing, so expect this release to be unstable. 
 > Users of 4.4 or older 4.5 releases are encouraged to try out new 4.5 releases in a testing environment and let us know of any problems that are found with the release.
 > A look at the new features that will be in Bugzilla 5.0 can be found in our latest [Status Updates.](http://www.bugzilla.org/status/)
+
 ~~~
 wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.5.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
