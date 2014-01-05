@@ -5,7 +5,6 @@ description: "Aura SQL package provides connections"
 category: AuraPHP 
 tags: [AuraPHP, github, PHP]
 ---
-{% include JB/setup %}
 
 [Aura SQL](https://raw.github.com/auraphp/Aura.Sql/)
 ========

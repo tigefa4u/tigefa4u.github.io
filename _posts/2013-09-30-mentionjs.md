@@ -5,7 +5,6 @@ description: "wrapper for adding @user mention functionality to Twitter Bootstra
 category: bootstrap
 tags: [bootstrap, mention.js]
 ---
-{% include JB/setup %}
 
 # Mention.js
 

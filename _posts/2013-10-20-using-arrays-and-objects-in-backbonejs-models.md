@@ -5,7 +5,6 @@ description: "Using arrays and objects in backbone models can cause some tricky 
 category: [javascript, backbonejs]
 tags: [javascript, backbonejs]
 ---
-{% include JB/setup %}
 
 If you've ever attempted to use arrays or objects on a Backbone.js model, you might have run into some strange behavior.
 

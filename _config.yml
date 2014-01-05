@@ -1,6 +1,6 @@
 safe: true
 lsi: false
-pygments: true
+pygments: false
 
 title:        tigefa4u write tutorials
 tagline:      'Writing posts from repostories Github'
@@ -18,3 +18,5 @@ paginate:     5
 paginate_path: /page/:num
 relative_permalinks: false
 timezone:    Aisa/Jakarta
+
+exlude: [Gemfile]
