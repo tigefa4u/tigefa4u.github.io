@@ -17,11 +17,13 @@ rhc app create redmine ruby-1.9 mysql-5 cron-1.4 phpmyadmin-4
 ~~~
 
 ### Sign SSH
+
 ~~~
 rhc ssh redmine
 ~~~
 
 ### Change directory website root index
+
 ~~~
 cd ~/app-root/runtime/repo
 ~~~
@@ -29,11 +31,13 @@ cd ~/app-root/runtime/repo
 ### Get redmine stable releases from [redmine/wiki/Download](http://www.redmine.org/projects/redmine/wiki/Download)
 
 #### 2.4-stable version
+
 ~~~
 wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
 #### 2.3-stable version
+
 ~~~
 wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
@@ -44,6 +48,7 @@ wget --no-check-certificate https://gist.github.com/tigefa4u/8215989/raw/4055a0a
 ~~~
 
 ### Bundle the `gem`
+
 ~~~
 gem install bundler --no-ri --no-rdoc
 ~~~
@@ -55,11 +60,13 @@ bundle install --no-deployment
 ### Next installing redmine
 
 #### Session store secret generation
+
 ~~~
 rake generate_secret_token
 ~~~
 
 #### Database schema objects creation
+
 ~~~
 RAILS_ENV=production rake db:migrate
 ~~~
@@ -74,10 +81,12 @@ RAILS_ENV=production rake redmine:load_default_data
 #### Logging into the application
 
 Use default administrator account to log in:
+
 ~~~
 login: admin
 password: admin
 ~~~
+
 You can go to Administration menu and choose Settings to modify most of the application settings.
 
 ##### [for more visit redmine wiki](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Configuration)
