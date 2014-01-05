@@ -49,7 +49,8 @@ Bugzilla 4.4.1 is our current stable release in the 4.4 series.
 wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.4.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
-Development Snapshot (4.5.1)
+##### Development Snapshot (4.5.1)
+
 > Bugzilla 4.5.1 is our latest development snapshot leading to Bugzilla 5.0.
 > Use of a development branch is **at your own risk.** 
 > They receive very little testing, so expect this release to be unstable. 
