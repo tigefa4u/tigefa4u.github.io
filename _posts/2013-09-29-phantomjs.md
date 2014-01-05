@@ -5,7 +5,6 @@ description: "PhantomJS"
 category: PhantomJS
 tags: [PhantomJS]
 ---
-{% include JB/setup %}
 
 # [PhantomJS](http://phantomjs.org) - Scriptable Headless WebKit
 

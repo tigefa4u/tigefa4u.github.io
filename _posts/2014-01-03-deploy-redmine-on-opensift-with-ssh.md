@@ -2,10 +2,9 @@
 layout: post
 title: "deploy redmine on opensift with ssh"
 description: "easy deploy with rhc ssh redmine openshift cartridge"
-category: 
+category: [ruby, rails, redmine]
 tags: [ruby, rhc, openshift]
 ---
-{% include JB/setup %}
 
 frist sign in on [openshift.redhat.com](https://openshift.redhat.com) or sign up new one its free with 1GB storeage.
 

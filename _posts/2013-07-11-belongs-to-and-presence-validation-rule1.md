@@ -4,7 +4,6 @@ title: "Rule to use belongs_to with presence validator"
 description: "This post describes rules of thumb how to use presence validator for belongs_to association in Rails. Do you know what pass to validates (or validate_presence_of) method for belongs_to association? You will figure out it in this post."
 tags: [rails, validator]
 ---
-{% include JB/setup %}
 
 I've always wondered which argument pass to validates method for model which hash *belongs_to* association: *association name* or *field name* (Rails names it as a foreign_key). Do you know? Have you ever been asked this question? I know the answer for this question and of course I will share my idea with you in this post.
 

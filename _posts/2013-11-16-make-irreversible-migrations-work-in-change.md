@@ -7,8 +7,6 @@ it."
 tags: [rails, migrations]
 ---
 
-{% include JB/setup %}
-
 In Rails 2 in migrations there were only 2 methods: `up` and `down`. They are
 called on running migrations up and down respectively with rake tasks `rake db:migrate`
 and `rake db:rollback`. In `up` method of migration definition you had to write

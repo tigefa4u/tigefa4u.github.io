@@ -6,9 +6,7 @@ date:   2013-08-30 12:46:47
 categories: cms
 tags: [cms]
 ---
-{% include JB/setup %}
 
-<img alt="monstra-cms" src="{{ site.url }}/assets/img/posts/monstra-logo.png"/>
 # Monstra CMS
 Fast and small content management system written in PHP!
 

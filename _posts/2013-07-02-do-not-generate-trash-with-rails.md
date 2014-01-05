@@ -4,7 +4,6 @@ title: "Dont generate trash with rails generators"
 description: "When you generate controller in rails application many unexpected files are generated with it. I like to disable this behavior right after generating application. This post describes how to configure rails application to avoid trash generating"
 tags: [rails]
 ---
-{% include JB/setup %}
 
 Lets assume that we have rails >= 3 application. When you generate controller a lot of trash is appeared in your application. I mean here these things: helpers, assets (css and js), view tests. In 99% cases these files are waste and never used, so its reasonable to disable generating their. Its very easy.
 

@@ -4,7 +4,6 @@ title: "How to find the method definition in Ruby"
 description: "This post describes how to get location (file and line) where method is defined. When its impossible and what to do to avoid losing location of method definition."
 tags: [ruby]
 ---
-{% include JB/setup %}
 
 For the first glance it seems rather easy problem to find method definition. You know class name for the object, open documentation for this class and read it. But in real life it's no so simple as seems. In Ruby the method for object can be defined from many places: modules, inheritance, meta-programming, other language's extensions and etc. Imagine that you have installed a lot of gems in your application and every gem potentially can define or redefine method on any object. How to find the method definition in this situation?
 

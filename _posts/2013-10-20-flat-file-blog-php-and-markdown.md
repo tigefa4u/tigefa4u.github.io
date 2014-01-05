@@ -5,7 +5,6 @@ description: "flat-file blog, written in PHP and Markdown."
 category: [github, markdown, php]
 tags: [github, markdown, php]
 ---
-{% include JB/setup %}
 
 # stevenschobert.com
 
@@ -15,14 +14,14 @@ My flat-file blog, written in PHP and Markdown.
 
 Create a `.md` file with the following bit JSON at the top, and save it in the `posts` directory:
 
-~~~
+{% highlight yaml %}
 {
   "title": "Post Title",
   "date": "Aug 20, 2012",
   "tags": ["github"]
 }
 --
-~~~
+{% endhighlight %}
 
 Simple and fast. One of the main perks of having a flat-file blog.
 
@@ -30,14 +29,14 @@ Simple and fast. One of the main perks of having a flat-file blog.
 
 Near the top of the `index.php` file, there's some global settings that can be adjusted:
 
-~~~
+{% highlight php %}
 $blog = new Slim(array(
   'view'        => new TwigView(),
   'posts.path'  => './posts',
   'md'          => new dflydev\markdown\MarkdownParser(),
   'pagination'  => 5
 ));
-~~~
+{% endhighlight %}
 
 - `posts.path`: The relative path to the directory that holds the Markdown posts
 - `pagination`: The number of posts that are show per-page
@@ -58,9 +57,9 @@ All the templates are built with [Twig](http://twig.sensiolabs.org/ "twig.sensio
 
 Changing out styles is as easy as changing the `<link>` tag in the `main.html` template:
 
-~~~
+{% highlight html %}
 <link rel="stylesheet" href="/css/main.css" />
-~~~
+{% endhighlight %}
 
 More documentation on Twig is [available here](http://twig.sensiolabs.org/documentation "twig.sensiolabs.org/documentation").
 

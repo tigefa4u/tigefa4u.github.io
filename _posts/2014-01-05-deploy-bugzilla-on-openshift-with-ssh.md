@@ -5,7 +5,6 @@ description: ""
 category: bugzilla
 tags: ['bugzilla', 'perl']
 ---
-{% include JB/setup %}
 
 # How to get Bugzilla
 

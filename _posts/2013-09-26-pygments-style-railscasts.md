@@ -5,7 +5,6 @@ description: "pygments style railscasts"
 category: github
 tags: [pygments, python, ruby, jekyll]
 ---
-{% include JB/setup %}
 
 Installation:
 =============

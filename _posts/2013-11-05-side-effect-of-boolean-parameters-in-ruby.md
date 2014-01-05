@@ -4,7 +4,6 @@ title: "A side effect of boolean parameters in Ruby"
 description: "This post describes side effect of having boolean arguments in Ruby methods. It shows how it can be elegant and confusion at the same time"
 tags: [ruby]
 ---
-{% include JB/setup %}
 
 In this post I will show you how it can be confusing to have method which accepts boolean variables. This approach which is a little bit complicated but much robust and can be acceptable in applications with high requirements of security.
 

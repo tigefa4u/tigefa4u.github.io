@@ -5,7 +5,6 @@ description: "fork jokull/calepin and create own server or new service like cale
 category: calepin, python, pelican
 tags: ['calepin', 'python', 'pelican']
 ---
-{% include JB/setup %}
 
 Quickstart
 ==========

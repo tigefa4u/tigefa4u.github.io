@@ -6,15 +6,11 @@ date:   2013-08-30 17:52:47
 categories: mybb
 tags: [mybb]
 ---
-{% include JB/setup %}
-
-
-[![MyBB]({{ site.url }}/assets/img/posts/mybb-logo.png "MyBB")](http://www.mybb.com "MyBB")
 
 ## Free never tasted so good.
 MyBB is a free and open source, community-based, forum software project.
 
-(https://github.com/mybb/mybb/zipball/feature)
+[mybb feature](https://github.com/mybb/mybb/zipball/feature)
 
 ### Unreleased Versions
 Stable and Feature branches may contain partially-commited features which are broken, incomplete or may never make it to public release. For these reasons, it is not recommended that you use either of these branches as a live forum. They should be used for development purposes or previews only.

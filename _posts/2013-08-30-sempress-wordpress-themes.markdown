@@ -6,9 +6,6 @@ date:   2013-08-30 12:50:47
 categories: wordpress
 tags: [wordpress]
 ---
-{% include JB/setup %}
-
-<img alt="monstra-cms" src="{{ site.url }}/assets/img/posts/screenshot.png"/>
 
 # SemPress
 

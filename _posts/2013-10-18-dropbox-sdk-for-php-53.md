@@ -5,7 +5,6 @@ description: "A PHP library to access Dropbox's HTTP-based API"
 category: php
 tags: [php, github]
 ---
-{% include JB/setup %}
 
 # Dropbox SDK for PHP 5.3+
 

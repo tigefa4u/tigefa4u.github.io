@@ -5,7 +5,7 @@ description: "Ive invented approach which rids of headache of testing state mach
 This solution is only for RSpec now, but approach can be used for test unit as well."
 tags: [rspec, ruby]
 ---
-{% include JB/setup %}
+
 I could not find any worth solution how to test [state machinee](https://github.com/pluginaweek/state_machine) with RSpec.
 Until now I met only one solution which is proposed by [stackoverflow](http://stackoverflow.com/questions/3047630/rails-how-to-test-state-machine) habitants. But there are some disadvantages of this approach and in this post I will try to explain what are they and how
 to avoid them.

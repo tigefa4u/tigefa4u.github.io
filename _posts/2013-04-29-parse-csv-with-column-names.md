@@ -4,7 +4,6 @@ title: "Parse CSV with column names"
 description: "There is a convenient and robust way in ruby to parse CSV rather than using column indexes. If you have in CSV header as a first row you can use it in your code"
 tags: [ruby]
 ---
-{% include JB/setup %}
 
 Say you have CSV with header as a first row. It contains column names. And you have to parse this CSV. I have always been seeing code which solve this problem but it's not so convenient and reliable as I wanted. The solution was unreliable and unmaintainable because there were hard-coded indexes for the columns: 0, 1, 2, ... and etc. I decided to figure out how to use provided column names instead of numeric indexes. So welcome on broad.
 

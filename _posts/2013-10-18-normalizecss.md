@@ -6,7 +6,6 @@ elements more consistently and in line with modern standards."
 category: css
 tags: [github, css]
 ---
-{% include JB/setup %}
 
 # normalize.css v2
 

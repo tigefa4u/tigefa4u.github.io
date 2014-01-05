@@ -1,5 +1,31 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/svbtle/post.html %}
+
+<div class="post">
+  <h1>{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_long_string }}</span>
+  {{ content }}
+  <hr>
+  <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='434880'></div>
+  <hr>
+  <h2>Leave Comments</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/tigefa/embed.js"></script>
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

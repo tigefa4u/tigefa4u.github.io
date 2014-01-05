@@ -6,7 +6,6 @@ date:   2013-08-30 12:32:47
 categories: yourls
 tags: [yourls]
 ---
-{% include JB/setup %}
 
 # YOURLS
 ![alt](http://yourls.org/images/yourls-logo.png)

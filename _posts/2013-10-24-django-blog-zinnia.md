@@ -5,7 +5,6 @@ description: "Simple yet powerful and really extendable application for managing
 category: [django, zinnia, python] 
 tags: [python, django, zinnia]
 ---
-{% include JB/setup %}
 
 Django Blog Zinnia
 ==================

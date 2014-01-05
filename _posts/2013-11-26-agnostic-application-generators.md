@@ -5,7 +5,6 @@ description: ""
 category: padrino, padrino-gen, ruby 
 tags: [padrino-gen, padrino, ruby]
 ---
-{% include JB/setup %}
 
 # Agnostic Application Generators (padrino-gen)
 

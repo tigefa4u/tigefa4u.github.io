@@ -6,7 +6,6 @@ date:   2013-08-30 12:40:47
 categories: bootstrap
 tags: [bootstrap]
 ---
-{% include JB/setup %}
 
 # Glyphicons for Bootstrap
 

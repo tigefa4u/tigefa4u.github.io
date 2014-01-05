@@ -1,8 +1,0 @@
-<span class='st_twitterfollow_hcount' displayText='Twitter Follow' st_username='tigefa_team'></span>
-<span class='st_plusone_hcount' displayText='Google +1'></span>
-<span class='st_facebook_hcount' displayText='Facebook'></span>
-<span class='st_twitter_hcount' displayText='Tweet'></span>
-<span class='st_sharethis_hcount' displayText='ShareThis'></span>
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "f375d30b-f143-4fcb-957e-63a0c3307517", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>

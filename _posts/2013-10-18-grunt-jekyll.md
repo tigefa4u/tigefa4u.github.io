@@ -5,7 +5,6 @@ description: "Compile Jekyll sites with Grunt"
 category: grunt
 tags: [github, npm, node]
 ---
-{% include JB/setup %}
 
 # grunt-jekyll
 
