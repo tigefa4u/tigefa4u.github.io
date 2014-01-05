@@ -19,4 +19,4 @@ paginate_path: /page/:num
 relative_permalinks: false
 timezone:    Aisa/Jakarta
 
-exlude: [Gemfile]
+exclude: [Gemfile]
