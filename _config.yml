@@ -4,7 +4,7 @@ pygments: true
 
 title:        tigefa4u
 tagline:      'Writing posts from repostories Github'
-description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:  'Writing posts from repostories Github.'
 url:          http://tigefa.pw
 version:      3.0.0
 author:

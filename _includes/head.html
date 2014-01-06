@@ -3,9 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
-  <title>
-    {% if page.title %}{{ site.title }} / {{ page.title }}{% endif %}
-  </title>
+  <title>{% if page.title %}{{ site.title }} / {{ page.title }}{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/hyde.css">
