@@ -1,7 +1,7 @@
 [tigefa4u.github.io](http://tigefa4u.github.io) [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io)
 ====================
 
-![tigefa-logo](https://raw.github.com/tigefa4u/tigefa4u.github.io/master/assets/img/tigefa-logo.png)
+![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
 for personal notes build with jekyll
 
