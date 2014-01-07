@@ -42,7 +42,7 @@ wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-compone
 wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
-#### Congure `config/database.yml`
+#### Configure `config/database.yml`
 ~~~
 wget --no-check-certificate https://gist.github.com/tigefa4u/8215989/raw/4055a0ad6d7357e637de96232c70dc72047b722e/database.yml && mv database.yml config/
 ~~~
