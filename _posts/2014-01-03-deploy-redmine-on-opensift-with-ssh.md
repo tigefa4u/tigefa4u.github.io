@@ -39,7 +39,7 @@ wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-compone
 #### 2.3-stable version
 
 ~~~
-wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
 #### Congure `config/database.yml`
