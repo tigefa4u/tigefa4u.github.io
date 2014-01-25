@@ -43,6 +43,7 @@ wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-compone
 ~~~
 
 #### Configure `config/database.yml`
+
 ~~~
 wget --no-check-certificate https://gist.github.com/tigefa4u/8215989/raw/4055a0ad6d7357e637de96232c70dc72047b722e/database.yml && mv database.yml config/
 ~~~
@@ -72,6 +73,7 @@ RAILS_ENV=production rake db:migrate
 ~~~
 
 #### Database default data set [more](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Step-7-Database-default-data-set)
+
 ~~~
 RAILS_ENV=production rake redmine:load_default_data
 ~~~
