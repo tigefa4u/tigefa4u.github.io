@@ -7,8 +7,6 @@ for personal notes build with jekyll
 
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 
-[![Build Status](https://travis-ci.org/tigefa4u/tigefa4u.github.io.png)](https://travis-ci.org/tigefa4u/tigefa4u.github.io)
-[![Dependencies Status](https://depending.in/tigefa4u/tigefa4u.github.io.png)](http://depending.in/tigefa4u/tigefa4u.github.io)
 
 ## Build with 
 
