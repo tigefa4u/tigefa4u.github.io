@@ -13,7 +13,7 @@ if existing member openshift know for start, using `rhc setup`
 ## Creating new app
 
 ~~~
-rhc app create redmine ruby-1.9 mysql-5 cron-1.4 phpmyadmin-4
+rhc app create redmine ruby-1.9 mysql-5.1 cron-1.4 phpmyadmin-4
 ~~~
 
 ### Sign SSH
@@ -28,7 +28,7 @@ rhc ssh redmine
 cd ~/app-root/runtime/repo
 ~~~
 
-### Get redmine stable releases from [redmine/wiki/Download](http://www.redmine.org/projects/redmine/wiki/Download)
+### Get redmine stable releases from [redmine/wiki/Download](http://via.tigefa.org/1nLiH6m)
 
 #### 2.4-stable version
 
@@ -45,7 +45,7 @@ wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-compone
 #### Configure `config/database.yml`
 
 ~~~
-wget --no-check-certificate https://gist.github.com/tigefa4u/8215989/raw/4055a0ad6d7357e637de96232c70dc72047b722e/database.yml && mv database.yml config/
+wget --no-check-certificate http://git.io/Y_wiJw && mv database.yml config/
 ~~~
 
 ### Bundle the `gem`
@@ -72,13 +72,13 @@ rake generate_secret_token
 RAILS_ENV=production rake db:migrate
 ~~~
 
-#### Database default data set [more](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Step-7-Database-default-data-set)
+#### Database default data set [more](http://via.tigefa.org/1em10I3)
 
 ~~~
 RAILS_ENV=production rake redmine:load_default_data
 ~~~
 
-##### [File system permissions](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Step-8-File-system-permissions)
+##### [File system permissions](http://via.tigefa.org/MUOIvc)
 
 #### Logging into the application
 
@@ -91,7 +91,7 @@ password: admin
 
 You can go to Administration menu and choose Settings to modify most of the application settings.
 
-##### [for more visit redmine wiki](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Configuration)
+##### [for more visit redmine wiki](http://via.tigefa.org/1igVc0Z)
 
 ### Adding alias `redmine.myproject.org` for example
 
