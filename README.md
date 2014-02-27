@@ -21,10 +21,12 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 #### lets begin with test
 
-``` bash
-~ git clone https://github.com/tigefa4u/tigefa4u.github.io.git
-~ cd tigefa4u.github.io
-~ touch _config.yml
-~/tigefa4u.github.io $ jekyll serve
-# => Now browse to http://localhost:4000
-```
+
+    git clone https://github.com/tigefa4u/tigefa4u.github.io.git
+    cd tigefa4u.github.io
+    echo 'install: --no-document' >> ~/.gemrc
+    gem install bundle
+    bundle install
+    touch _config.yml
+    jekyll server --watch
+    => Now browse to http://localhost:4000
