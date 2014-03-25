@@ -34,6 +34,17 @@ Learn more at http://andhyde.com or https://github.com/mdo/hyde.
  * Themes
  */
 
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*
  * Body resets
@@ -54,7 +65,7 @@ body {
 }
 
 body {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: "open_sanslight", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #454441;
@@ -122,7 +133,7 @@ abbr {
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, "open_sanslight", monospace;
 }
 code {
   padding: .25em .5em;
@@ -235,7 +246,7 @@ a:focus {
 /* Masthead content */
 .masthead h1 {
   margin-top: 0;
-  font-family: "Abril Fatface";
+  font-family: "open_sanslight";
 }
 .masthead .lead {
   margin-bottom: 0;
@@ -255,6 +266,10 @@ a:focus {
 }
 .colophon-links li {
   color: inherit;
+}
+
+.colophon-credit {
+  font-size: 11px;
 }
 
 /* Responsive masthead */

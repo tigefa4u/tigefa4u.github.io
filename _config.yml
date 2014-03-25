@@ -10,6 +10,10 @@ version:      3.1.1
 author:
   name:       'sugeng tigefa'
   email:      'sugeng@tigefa.org'
+  
+repo:
+  project: https://github.com/tigefa4u/tigefa4u.github.io
+  profile: https://github.com/tigefa4u
 
 markdown:     kramdown
 permalink:    /articles/:title.html

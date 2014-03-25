@@ -14,14 +14,14 @@
         <div class="colophon">
           <ul class="colophon-links">
             <li>
-              <a href="https://github.com/tigefa4u/tigefa4u.github.io/archive/v{{ site.version }}.zip">Download</a>
+              <a href="{{ site.repo.project }}/archive/v{{ site.version }}.zip">Download</a>
             </li>
             <li>
-              <a href="https://github.com/tigefa4u/tigefa4u.github.io">GitHub project</a>
+              <a href="{{ site.repo.profile }}">GitHub project</a>
             </li>
             <li>Currently v{{ site.version }}</li>
           </ul>
-          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
+          <p class="colophon-credit">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} - Powered by <a href="http://jekyllrb.com">Jekyll</a></p>
 		  <p><a href="//affiliates.mozilla.org/link/banner/51733"><img src="//affiliates.mozilla.org/media/uploads/banners/910443de740d4343fa874c37fc536bd89998c937.png" alt="Download: Fast, Fun, Awesome" /></a></p>
         </div>
       </div>
