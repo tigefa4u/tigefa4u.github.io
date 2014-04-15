@@ -45,7 +45,7 @@ wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-compone
 #### Configure `config/database.yml`
 
 ~~~
-wget --no-check-certificate http://git.io/Y_wiJw && mv database.yml config/
+wget --no-check-certificate http://git.io/Y_wiJw -O config/database.yml
 ~~~
 
 ### Bundle the `gem`
