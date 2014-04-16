@@ -30,16 +30,16 @@ cd ~/app-root/runtime/repo
 
 ### Get redmine stable releases from [redmine/wiki/Download](http://via.tigefa.org/1nLiH6m)
 
+#### 2.5-stable version
+
+~~~
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+~~~
+
 #### 2.4-stable version
 
 ~~~
-wget http://www.redmine.org/releases/redmine-2.4.2.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
-~~~
-
-#### 2.3-stable version
-
-~~~
-wget http://www.redmine.org/releases/redmine-2.3.4.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.5.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
 #### Configure `config/database.yml`
