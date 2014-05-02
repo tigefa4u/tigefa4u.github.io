@@ -2,18 +2,20 @@ language: ruby
 before_install:
   - bundle install
   - gem install rake
+  - gem install coveralls
 rvm:
+  - 2.1.1
   - 2.0.0
   - 1.9.3
-script: "bundle exec rake coveralls"
+script:
+  - jekyll build
+  - rake coveralls
 notifications:
   irc:
     on_success: change
     on_failure: change
     channels:
       - "irc.freenode.org#tigefa"
-    #on_success: change
-    #on_failure: change
     template:
       - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
   email:
