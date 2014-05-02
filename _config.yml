@@ -28,4 +28,4 @@ paginate_path: /page/:num
 relative_permalinks: false
 timezone:    Aisa/Jakarta
 
-exclude: [Gemfile]
+exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, packages.json, composer.json, CNAME, LICENSE, LICENSE.md]
