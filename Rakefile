@@ -4,7 +4,7 @@ require 'yaml'
 require 'time'
 require 'coveralls/rake/task'
 Coveralls::RakeTask.new
-task :coveralls => [:preview, 'coveralls:push']
+task :coveralls => [:build, 'coveralls:push']
 
 SOURCE = "."
 CONFIG = {
@@ -62,6 +62,12 @@ task :post do
   end
 end # task :post
 
+desc "run jekyll build"
+task :build do
+  system "jekyll build"
+  puts "## Execute Jekyll build ##"
+end
+
 def ask(message, valid_options)
   if valid_options
     answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
@@ -75,6 +81,3 @@ def get_stdin(message)
   print message
   STDIN.gets.chomp
 end
-
-#Load custom rake scripts
-Dir['_rake/*.rake'].each { |r| load r }
