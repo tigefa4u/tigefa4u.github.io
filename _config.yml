@@ -1,6 +1,11 @@
 safe: true
 lsi: false
 pygments: true
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
 
 title:        tigefa4u
 tagline:      'Writing posts from repostories Github'
