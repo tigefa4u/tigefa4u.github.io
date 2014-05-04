@@ -3,7 +3,7 @@
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
-for personal notes build with jekyll
+for personal notes build with jekyll v1.2.1
 
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 
@@ -21,12 +21,13 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 #### lets begin with test
 
-
-    git clone https://github.com/tigefa4u/tigefa4u.github.io.git
-    cd tigefa4u.github.io
-    echo 'install: --no-document' >> ~/.gemrc
-    gem install bundle
-    bundle install
-    touch _config.yml
-    jekyll server --watch
-    => Now browse to http://localhost:4000
+```shell
+git clone https://github.com/tigefa4u/tigefa4u.github.io.git username.github.io.git
+cd username.github.io.git
+echo 'install: --no-ri --no-rdoc' >> ~/.gemrc
+gem install bundler
+bundle install
+# edit _config.yml
+bundle exec jekyll server --watch
+=> Now browse to http://localhost:4000
+```
