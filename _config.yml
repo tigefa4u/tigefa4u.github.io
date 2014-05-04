@@ -40,7 +40,7 @@ cdn:
   css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css
   js:             //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
   jquery:         //ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-  FontAwesome:    
+  FontAwesome:    //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css
 
 # Pagination and Variables
 paginate:       5
