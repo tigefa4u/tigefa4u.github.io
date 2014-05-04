@@ -1,0 +1,61 @@
+---
+title: Contact
+layout: contact
+---
+						<div class="clearfix">
+							<div class="grid_12">
+								
+								<!-- BEGIN GOOGLE MAP -->
+								<div class="map-wrapper">
+									<div id="map_canvas"></div>
+								</div>
+								<!-- END GOOGLE MAP -->
+								
+							</div>
+						</div>
+						
+						<div class="grid_8">
+							<h2>Contact Form</h2>
+							
+							<!-- BEGIN CONTACT FORM -->
+							<form method="post" action="sendEmail.php" id="contact-form" class="contact-form">
+								<div class="field">
+									<label for="name">Name:</label>
+									<input type="text" name="name" id="name">
+								</div>
+								<div class="field">
+									<label for="email">Email:</label>
+									<input type="email" name="email" id="email">
+								</div>
+								<div class="field">
+									<label for="subject">Subject:</label>
+									<input type="text" name="subject" id="subject">
+								</div>
+								<div class="field">
+									<label for="contact-message">Message:</label>
+									<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+								</div>
+								<div class="button-wrapper">
+									<input type="submit" name="submit" id="submit" value="Send message">
+								</div>
+								<div id="response"></div>
+							</form>
+							<!-- END CONTACT FORM -->
+							
+						</div>
+						<aside class="sidebar grid_4">
+							<!-- Contact Widget -->
+							<div class="contact-widget widget widget__sidebar">
+								<h3 class="widget-title">Contact Info</h3>
+								<div class="widget-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat magna. Pellentesque justo ante, sollicitudin eget, interdum id nibh.</p>
+									<address>
+										<i class="icon-home"></i> <strong>24 Fifth st., Los Angeles, USA</strong><br>
+										<i class="icon-phone"></i> +1 (003) 460-055-274<br>
+										<i class="icon-envelope-alt"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+										<i class="icon-globe"></i> <a href="http://tigefa.org">tigefa.org</a>
+									</address>
+								</div>
+							</div>
+							<!-- /Contact Widget -->
+						</aside>

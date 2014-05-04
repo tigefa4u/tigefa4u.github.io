@@ -1,37 +1,46 @@
 ---
 layout: default
+title: Writing posts from repostories Github
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_long_string }}</span>
-
-    {{ post.content }}
+<!-- Post Standard -->
+<article class="entry entry__standard clearfix">
+<!-- begin post heading -->
+{% for post in paginator.posts %}
+<header class="entry-header clearfix">
+  <div class="format-icon">
+    <i class="icon-file-alt"></i>
   </div>
-  {% endfor %}
+  <div class="entry-header-inner">
+    <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">
+      <span class="post-meta-cats"><i class="icon-tag"></i><a href="#">News</a> / <a href="#">Design</a></span>
+      <span class="post-meta-author"><a href="//twitter.com/{{ site.author.twitter }}"><i class="icon-user"></i>{{ site.author.name }}</a></span>
+      <span class="post-meta-comments"><a href="#"><i class="icon-comment"></i>16</a></span>
+      </p>
+  </div>
+</header>
+<!-- end post heading -->
+<!-- begin post content -->
+<div class="entry-content">
+{{ post.content }}
 </div>
-
+{% endfor %}
+    
 <!-- Pagination links -->
-<div class="pagination">
+<ul class="pagination">
   {% if paginator.next_page %}
-    <a href="/page/{{paginator.next_page}}" class="older">Older</a>
+    <li class="prev"><a href="/page/{{paginator.next_page}}">&larr;</a></li>
   {% else %}
-    <span class="next">Older</span>
+    <li class="prev"><a href="#">&larr;</a></li>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="/" class="newer">Newer</a>
+      <li class="next"><a href="/">&rarr;</a></li>
     {% else %}
-      <a href="/page/{{paginator.previous_page}}" class="newer">Newer</a>
+      <li class="next"><a href="/page/{{paginator.previous_page}}">&rarr;</a></li>
     {% endif %}
   {% else %}
-    <span class="previous">Newer</span>
+    <li class="next"><a href="#">&rarr;</a></li>
   {% endif %}
-</div>
+</ul>

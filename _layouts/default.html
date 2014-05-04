@@ -1,91 +1,22 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+{% include header.html %}
 
-  {% include head.html %}
+{% include menu.html %}
 
-  <body>
-
-    <header class="masthead">
-      <div class="masthead-inner">
-	    <img src='http://res.cloudinary.com/wvm/image/upload/v1389035827/xtigefa_pi5smw.png'/>
-        <a href='{{ site.url }}'><h1>{{ site.title }}</h1></a>
-        <p class="lead">{{ site.description }}</p>
-		  <p><iframe allowTransparency='true' frameborder='0' scrolling='no' src='http://bitnami.com/product/mybb/widget' style='border:none;width:230px; height:100px;'></iframe></p>
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li>
-              <a href="{{ site.repo.project }}/archive/v{{ site.version }}.zip">Download</a>
-            </li>
-            <li>
-              <a href="{{ site.repo.profile }}">GitHub project</a>
-            </li>
-            <li>Currently v{{ site.version }}</li>
-          </ul>
-          <p class="colophon-credit">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} - Powered by <a href="http://jekyllrb.com">Jekyll</a></p>
-		  <p><a href="//affiliates.mozilla.org/link/banner/51733"><img src="//affiliates.mozilla.org/media/uploads/banners/910443de740d4343fa874c37fc536bd89998c937.png" alt="Download: Fast, Fun, Awesome" /></a></p>
-        </div>
-      </div>
-    </header>
-
-    <div class="content container">
-      {{ content }}
+<!-- BEGIN CONTENT WRAPPER -->
+<div id="content-wrapper" class="content-wrapper">
+  <div class="container">
+    <!-- Content -->
+    <div id="content" class="grid_8">
+    {{ content }}
     </div>
+    <!-- /Content -->
+      
+{% include sidebar.html %}
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      </div>
+    </div>
+    <!-- END CONTENT WRAPPER -->
+  </div>
+</div>      
 
-      ga('create', 'UA-29791208-6', 'tigefa.pw');
-      ga('send', 'pageview');
-    </script>
-<script type="text/javascript"> 
-    var adfly_id = 370093; 
-    var adfly_advert = 'int'; 
-    var exclude_domains = ['tigefa.pw', 'github.com', 'github.io', 'git.io']; 
-</script> 
-<script src="https://cdn.adf.ly/js/link-converter.js"></script>
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.setAttribute('data-cfasync', 'false');
-    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript'; shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = '894104883557b023f393fd32b16afca7';
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
-  <script type="text/javascript">
-    // Enable pusher logging - don't include this in production
-    Pusher.log = function(message) {
-      if (window.console && window.console.log) {
-        window.console.log(message);
-      }
-    };
-
-    var pusher = new Pusher('4532c1f57226d7374e36');
-    var channel = pusher.subscribe('tigefa');
-    channel.bind('jekyll', function(data) {
-      alert('An event was triggered with message: ' + data.message);
-    });
-  </script>
-  <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WPL6N9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WPL6N9');</script>
-<!-- End Google Tag Manager -->
-  </body>
-</html>
+{% include footer.html %}

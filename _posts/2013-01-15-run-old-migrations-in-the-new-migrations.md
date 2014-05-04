@@ -103,7 +103,6 @@ class AddSearchContentToProducts < ActiveRecord::Migration
     EOS
   end
 end
-
 {% endhighlight %}
 
 As I have already said I would like to rollback it in my new migration on up.
@@ -194,7 +193,7 @@ In this example I had to rewrite stored procedure for postgresql database and I'
 
 UPDATE 26.06.2013: In Rails 4 new method is appeared which allows to revert all migrations. Check it out:
 
-```ruby
+{% highlight ruby %}
 require_relative '2012121212_example_migration'
 
 class FixupExampleMigration < ActiveRecord::Migration
@@ -206,4 +205,4 @@ class FixupExampleMigration < ActiveRecord::Migration
     end
   end
 end
-```
+{% endhighlight %}

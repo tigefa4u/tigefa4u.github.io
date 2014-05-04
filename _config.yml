@@ -1,31 +1,50 @@
-safe: true
-lsi: false
-pygments: true
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
+name:     tigefa4u
+markdown: redcarpet
+safe:     true
+lsi:      false
+pygments: false
 
-title:        tigefa4u
-tagline:      'Writing posts from repostories Github'
-description:  'Writing posts from repostories Github.'
-url:          http://tigefa.pw
-version:      3.1.1
+# Meta
+meta:
+  description: Writing posts from repostories Github
+  keywords:    rails, openshift, pagodabox, deployment, tutorial, how git, git deploy, ruby tutorial, ruby on rails
+
 author:
-  name:       'sugeng tigefa'
-  email:      'sugeng@tigefa.org'
+  name:       sugeng tigefa
+  email:      sugeng@tigefa.org
+  twitter:    tigefa_team
+  facebook:   tigefa.team
+  googleplus: tigefasugeng
+  vimeo:      tigefa
+  drible:     tigefa
   
-repo:
-  project: https://github.com/tigefa4u/tigefa4u.github.io
-  profile: https://github.com/tigefa4u
+# Comments
+comment:
+  disqus: tigefa4u
 
-markdown:     kramdown
-permalink:    /articles/:title.html
+# Gems
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
-paginate:     5
-paginate_path: /page/:num
+# Permalink URL
+url:                 http://tigefa.pw
+permalink:           /articles/:title.html
 relative_permalinks: false
-timezone:    Aisa/Jakarta
+
+# CDN
+cdn:
+  css:            //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css
+  css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css
+  js:             //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+  jquery:         //ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+  FontAwesome:    
+
+# Pagination and Variables
+paginate:       5
+paginate_path: /page/:num
+timezone:      Aisa/Jakarta
 
 exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, packages.json, composer.json, CNAME, LICENSE, LICENSE.md]

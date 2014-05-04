@@ -47,4 +47,5 @@ deploy.bat
 deploy.sh
 composer.lock
 Gemfile.lock
+Gemfile.local
 deploy.cmd

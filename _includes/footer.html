@@ -1,0 +1,133 @@
+		<!-- BEGIN FOOTER -->
+		<footer id="footer" class="footer">
+			
+			<div class="footer-holder">
+				<div class="footer-frame">
+					<!-- Footer Widgets -->
+					<div class="footer-widgets">
+						<div class="container clearfix">
+							
+							<div class="grid_5">
+								<!-- Text Widget -->
+								<div class="text-widget widget widget__footer">
+									<h3 class="widget-title">About This Theme</h3>
+									<div class="widget-content">
+										<h5>Donec tincidunt, mi non ultrices varius, diam felis</h5>
+										<p>Elementum eros, at congue nisl massa ut metus. Vivamus accumsan malesuada orci, vel euismod velit aliquet id.</p>
+										
+										Sed aliquet tempus pellentesque. Curabitur varius suscipit orci, quis cursus quam varius vel.Vivamus nec tortor tellus.
+									</div>
+								</div>
+								<!-- /Text Widget -->
+							</div>
+							<div class="grid_3">
+								<!-- Twitter Widget -->
+								<div class="twitter-widget widget widget__footer">
+									<h3 class="widget-title">Twitter</h3>
+									<div class="widget-content">
+										<ul id="twitter-feed" class="twitter_update_list"></ul>
+									</div>
+								</div>
+								<!-- /Twitter Widget -->
+							</div>
+							<div class="grid_4">
+								<!-- Flickr Widget -->
+								<div class="flickr-widget widget widget__footer">
+									<h3 class="widget-title">Flickr Feed</h3>
+									<div class="widget-content">
+										<!-- Flickr images will appear here -->
+										<ul id="flickr" class="thumbs"></ul>
+									</div>
+								</div>
+								<!-- /Flickr Widget -->
+							</div>
+							
+						</div>
+					</div>
+					<!-- /Footer Widgets -->
+					
+					<!-- Copyright -->
+					<div class="copyright">
+						<div class="container clearfix">
+							<div class="grid_12">
+								<div class="clearfix">
+									<div class="copyright-primary">
+										&copy; {{ site.time | date: "%Y" }} {{ site.name }} <span class="separator">|</span> {{ site.meta.description }}
+									</div>
+									<div class="copyright-secondary">
+									Hosted by <a target="_blank" href="//pages.github.com">Github Pages</a> &#9679; Powered by <a target="_blank" href="//jekyllrb.com">Jekyll</a> &#9679; Design by <a target="_blank" href="http://themeforest.net/user/dan_fisher">Dan Fisher</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Copyright -->
+				</div>
+			</div>
+			
+		</footer>
+		<!-- END FOOTER -->
+		
+	</div>
+	<!-- END WRAPPER -->
+		
+	<!-- Javascript Files
+	================================================== -->
+	
+	<!-- initialize jQuery Library -->
+	<script src="{{ site.cdn.jquery }}"></script>
+	<script>window.jQuery || document.write('<script src="/static/js/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="/static/js/jquery-migrate-1.1.1.min.js"></script>
+	<!-- Modernizr -->
+	<script src="/static/js/modernizr.custom.17475.js"></script>
+	<!-- easing plugin -->
+	<script src="/static/js/jquery.easing.min.js"></script>
+	<!-- Prettyphoto -->
+	<script src="/static/js/jquery.prettyPhoto.js"></script>
+	<!-- Superfish -->
+	<script src="/static/js/jquery.mobilemenu.js"></script>
+	<!-- superfish -->
+	<script src="/static/js/jquery.superfish-1.5.0.js"></script>
+	<!-- Twitter -->
+	<script src="/static/js/jquery.twitter.js"></script>
+	<!-- Flickr -->
+	<script src="/static/js/jflickrfeed.js"></script>
+	<!-- ElastiSlide Carousel -->
+	<script src="/static/js/jquery.elastislide.js"></script>
+	<!-- jQuery REVOLUTION Slider  -->
+	<script src="/static/js/jquery.themepunch.plugins.min.js"></script>
+	<script src="/static/js/jquery.themepunch.revolution.min.js"></script>
+	<!-- Isotope -->
+	<script src="/static/js/jquery.isotope.min.js"></script>
+	<script src="/static/js/jquery.imagesloaded.min.js"></script>
+	<!-- Flexslider -->
+	<script src="/static/js/jquery.flexslider.js"></script>
+
+	<!-- Custom -->
+	<script src="/static/js/custom.js"></script>
+    <script src="/static/js/highlight.pack.js"></script>
+	
+	<!-- Contact Page specific scripts
+	================================================== -->
+	
+	<!-- Google Map -->
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="/static/js/jquery.ui.map.js"></script>
+	<!-- Contact Form -->
+	<script src="/static/js/jquery.form.js"></script>
+	
+	<!-- Google Map Init-->
+	<script type="text/javascript">
+		jQuery(function($){
+			//getter
+			var zoom= $('#map_canvas').gmap('option', 'zoom');
+			
+			$('#map_canvas').gmap().bind('init', function(ev, map) {
+				$('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
+				$('#map_canvas').gmap('option', 'zoom', 13);
+			});
+		});
+	</script>
+	
+</body>
+</html>

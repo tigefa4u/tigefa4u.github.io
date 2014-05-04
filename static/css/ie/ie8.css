@@ -1,0 +1,35 @@
+/* Post Loop */
+.post-loop .post-caption {
+	background: url(../../images/black-opacity-50.png);
+}
+
+/* Flickr Widget */
+.flickr-widget .icon-search {
+	visibility: hidden;
+}
+.flickr-widget_thumb_holder:hover .icon-search {
+	visibility: visible;
+}
+
+
+/* Portfolio */
+.project-item .overlay,
+.overlay {
+	visibility: hidden;
+}
+.project-img:hover .overlay {
+	visibility: visible;
+}
+
+.project-item .mask {
+	visibility: hidden;
+}
+.project-img:hover .mask {
+	visibility: visible;
+}
+
+
+/* Footer */
+.footer-widgets:before {
+	background: #222;
+}

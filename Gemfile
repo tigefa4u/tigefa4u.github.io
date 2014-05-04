@@ -1,3 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'github-pages'
+gem 'rake'
+gem 'jekyll', '1.2.1'
+gem 'coveralls'
+gem 'travis'
+gem 'pagoda'
+gem 'rhc'
+gem 'af'
+gem 'cf'

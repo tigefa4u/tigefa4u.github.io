@@ -1,0 +1,60 @@
+						<!-- Sidebar -->
+						<aside id="sidebar" class="sidebar grid_4">
+							
+							<!-- Search Widget -->
+							<div class="search-widget widget widget__sidebar">
+								<div class="widget-content">
+									<form action="#" class="search-form clearfix">
+										<input type="text" name="search-t-i" id="search-t-i" placeholder="Search..."><input type="submit" value="Search">
+									</form>
+								</div>
+							</div>
+							<!-- /Search Widget -->
+							
+							<!-- Popular Posts Widget -->
+							<div class="popular-posts widget widget__sidebar">
+								<h3 class="widget-title">Recents Posts</h3>
+								<div class="widget-content">
+									<ul class="posts-list unstyled clearfix">
+										<li>
+                                            {% for post in site.posts limit:6 %}
+											<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+											<p class="post-meta">{{ post.date | date_to_long_string }} by <a href="//twitter.com/{{ site.author.twitter }}">{{ site.author.name }}</a></p>
+                                            {% endfor %}
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- /Popular Posts Widget -->
+							
+{% include ads.html %}
+							
+							<!-- Text Widget -->
+							<div class="text-widget widget widget__sidebar">
+								<h3 class="widget-title">Text Widget</h3>
+								<div class="widget-content">
+									Mauris at blandit erat. Nam vel tortor non quam scelerisque cursus. Praesent nunc vitae magna pellentesque auctor. Quisque id lectus.<br>
+									Massa, eget eleifend tellus. Proin nec ante leo ssim nunc sit amet velit malesuada pharetra. Nulla neque sapien, sollicitudin non ornare quis, malesuada.
+								</div>
+							</div>
+							<!-- /Text Widget -->
+							
+							
+							<!-- Archives Widget -->
+							<div class="archives-widget widget widget__sidebar">
+								<h3 class="widget-title">Archives</h3>
+								<div class="widget-content">
+									<ul>
+										<li><a href="#">November 2012</a> <span>(10)</span></li>
+										<li><a href="#">October 2012</a> <span>(23)</span></li>
+										<li><a href="#">September 2012</a> <span>(8)</span></li>
+										<li><a href="#">August 2012</a> <span>(16)</span></li>
+										<li><a href="#">July 2012</a> <span>(4)</span></li>
+										<li><a href="#">June 2012</a> <span>(4)</span></li>
+									</ul>
+								</div>
+							</div>
+							<!-- /Archives Widget -->
+							
+						</aside>
+						<!-- /Sidebar -->
