@@ -30,4 +30,7 @@ bundle install
 # edit _config.yml
 bundle exec jekyll server --watch
 => Now browse to http://localhost:4000
+
+# Create post
+bundle exec rake post title="A Title"
 ```
