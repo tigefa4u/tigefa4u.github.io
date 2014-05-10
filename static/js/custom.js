@@ -320,7 +320,7 @@ jQuery(function($){
 	/* ----------------------------------------------------------- */
 	
 	$('#flickr').jflickrfeed({
-		limit: 8,
+		limit: 16,
 		qstrings: {
 			id: '52617155@N08'
 		},
