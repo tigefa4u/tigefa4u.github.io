@@ -1,13 +1,11 @@
 language: ruby
-before_install:
-  - bundle install
 rvm:
   - 2.1.1
   - 2.0.0
   - 1.9.3
 script:
   - bundle exec jekyll build
-  - rake coveralls
+  - bundle exec rake coveralls
 notifications:
   irc:
     on_success: change
