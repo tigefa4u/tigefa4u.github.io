@@ -17,7 +17,7 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 ### License
 
-- [the Public Domain license](https://github.com/tigefa4u/tigefa4u.github.io/blob/master/LICENSE)
+- [The MIT License](https://github.com/tigefa4u/tigefa4u.github.io/blob/master/LICENSE)
 
 #### lets begin with test
 
