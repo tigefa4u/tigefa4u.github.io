@@ -19,13 +19,17 @@ If you want to know what's changed from one version to the next, [view the chang
 ## Login On Openshift
 
 ~~~
+gem install rhc
+~~~
+
+~~~
 rhc setup
 ~~~
 
 ## Create new app
 
 ~~~
-rhc app create bugzilla perl-5 mysql-5 phpmyadmin-4
+rhc app create bugzilla perl-5 mysql-5.1 phpmyadmin-4
 ~~~
 
 ## Login app via `ssh`
