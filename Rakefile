@@ -4,7 +4,7 @@ require 'yaml'
 require 'time'
 require 'coveralls/rake/task'
 Coveralls::RakeTask.new
-task :coveralls => [:build, 'coveralls:push']
+task :coveralls => [:build, :glynn, 'coveralls:push']
 
 SOURCE = "."
 CONFIG = {
@@ -66,6 +66,12 @@ desc "run jekyll build"
 task :build do
   system "jekyll build"
   puts "## Execute Jekyll build ##"
+end
+
+desc "Execute Glynn"
+task :glynn do
+  system "glynn"
+  puts "## Execute Glynn ##"
 end
 
 def ask(message, valid_options)

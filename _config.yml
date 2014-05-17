@@ -4,6 +4,16 @@ safe:     true
 lsi:      false
 pygments: false
 
+# FTP destination for Glynn
+ftp_host: '31.170.167.180'
+ftp_dir: '/public_html/'
+ftp_passive: false
+    
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'u765000469'     # default read from stdin
+ftp_password: '21061992' # default read from stdin
+
 # Meta
 meta:
   description: Writing posts from repostories Github

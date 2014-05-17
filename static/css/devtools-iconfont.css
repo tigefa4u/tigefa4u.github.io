@@ -1,0 +1,86 @@
+/*
+* Icon Font
+* - use when you need to change the colour of the icon via CSS - eg on hover or to match Look and Feel customisations
+*/
+@font-face {
+    font-family: "DevTools Icons";
+    src: url(devtools-icons.eot);
+    src: url(devtools-icons.eot?#iefix) format("embedded-opentype"),
+    url(devtools-icons.woff) format("woff"),
+    url(devtools-icons.ttf) format("truetype"),
+    url(devtools-icons.svg#devtools-icons) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.devtools-icon:before {
+    font-family: "DevTools Icons";
+    margin-top: -9px;
+}
+
+/* Icon Types */
+.devtools-iconfont-folder-closed:before {
+    content: "A";
+    color: #3b73af;
+}
+.devtools-iconfont-folder-open:before {
+    content: "B";
+    color: #3b73af;
+}
+.devtools-iconfont-file:before {
+    content: "C";
+}
+.devtools-iconfont-file-binary:before {
+    content: "D";
+}
+.devtools-iconfont-branch:before {
+    content: "E";
+}
+.devtools-iconfont-repository:before {
+    content: "F";
+}
+.devtools-iconfont-repository-forked:before {
+    content: "G";
+}
+.devtools-iconfont-repository-locked:before {
+    content: "H";
+}
+.devtools-iconfont-commit:before {
+    content: "I";
+}
+.devtools-iconfont-pull-request:before {
+    content: "J";
+}
+.devtools-iconfont-tag:before {
+    content: "K";
+}
+.devtools-iconfont-browse-up:before {
+    content: "L";
+}
+.devtools-iconfont-clone:before {
+    content: "M";
+}
+.devtools-iconfont-fork:before {
+    content: "N";
+}
+.devtools-iconfont-submodule:before {
+    content: "O";
+}
+.devtools-iconfont-branch-small:before {
+    content: "P";
+}
+.devtools-iconfont-file-commented:before {
+    content: "Q";
+}
+.devtools-iconfont-arrow-right:before {
+    content: "R";
+}
+.devtools-iconfont-in-progress:before {
+    content: "a";
+}
+.devtools-iconfont-cancelled:before {
+    content: "b";
+}
+.devtools-iconfont-disabled:before {
+    content: "c";
+}

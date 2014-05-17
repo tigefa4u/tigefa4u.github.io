@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'jekyll', '1.2.1'
-gem 'glynn'
+gem 'tgfa-glynn'
 gem 'coveralls'
 gem 'travis'
 gem 'pagoda'
 gem 'heroku'
 gem 'rhc'
+gem 'af'
