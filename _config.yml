@@ -2,7 +2,7 @@ name:     tigefa4u
 markdown: redcarpet
 safe:     true
 lsi:      false
-pygments: false
+pygments: true
 
 # FTP destination for Glynn
 ftp_host: '31.170.167.180'
@@ -57,4 +57,4 @@ paginate:       5
 paginate_path: /page/:num
 timezone:      Aisa/Jakarta
 
-exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, packages.json, composer.json, CNAME, LICENSE, LICENSE.md]
+exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, packages.json, composer.json, CNAME, LICENSE]

@@ -1,10 +1,13 @@
 _site
 _gh_pages
 _build
+_deploy
 build
 /vendor/
 node_modules
 .ruby-version
+.rvmrc
+config.rb
 
 # Numerous always-ignore extensions
 *.diff
@@ -49,3 +52,4 @@ composer.lock
 Gemfile.lock
 Gemfile.local
 deploy.cmd
+jekyll.sh
