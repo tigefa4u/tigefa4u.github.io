@@ -1,7 +1,7 @@
 {
     "name": "tigefa/tigefa-jekyll",
-    "description": "tigefa jekyll template site",
-	"keywords": ["bootstrap", "css", "jekyll", "render", "ruby", "tigefa"],
+    "description": "tigefa jekyll blog template site",
+	"keywords": ["bootstrap", "blog", "jekyll", "render", "flat-file", "tigefa"],
 	"homepage": "http://tigefa4u.github.io",
     "require": {
         "twbs/bootstrap": "3.*"
