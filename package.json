@@ -1,6 +1,6 @@
 {
   "name": "tigefa4u.github.io",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "blog jekyll template",
   "main": "Gruntfile.js",
   "directories": {
@@ -17,7 +17,7 @@
     "jekyll"
   ],
   "author": "sugeng tigefa",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
   }
