@@ -53,7 +53,7 @@ cdn:
   FontAwesome:    //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css
 
 # Pagination and Variables
-paginate:       5
+paginate:       7
 paginate_path: /page/:num
 timezone:      Aisa/Jakarta
 
