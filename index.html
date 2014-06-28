@@ -23,7 +23,7 @@ title: Writing posts from repostories Github
 <!-- end post heading -->
 <!-- begin post content -->
 <div class="entry-content">
-{{ post.content }}
+{{ post.content | strip_html | truncatewords: 50 }}
 </div>
 {% endfor %}
     
