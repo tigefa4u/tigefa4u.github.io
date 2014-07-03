@@ -4,29 +4,30 @@ safe:     true
 lsi:      false
 pygments: true
 
-# FTP destination for Glynn
-ftp_host: '31.170.167.180'
-ftp_dir: '/public_html/'
-ftp_passive: false
-    
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'u765000469'     # default read from stdin
-ftp_password: '21061992' # default read from stdin
+# Pagination and Variables
+paginate:       7
+paginate_path: /page/:num
+timezone:      Aisa/Jakarta
 
 # Meta
-meta:
-  description: Writing posts from repostories Github
-  keywords:    rails, openshift, pagodabox, deployment, tutorial, how git, git deploy, ruby tutorial, ruby on rails
+title:       tigefa4u
+tagline:     'Writing posts from repostories Github'
+description: 'Writing posts from repostories Github'
+keywords:    rails, openshift, pagodabox, deployment, tutorial, how git, git deploy, ruby tutorial, ruby on rails
 
 author:
-  name:       sugeng tigefa
+  name:       'sugeng tigefa'
+  url:        https://twitter.com/mdo
   email:      sugeng@tigefa.org
   twitter:    sugeng_tigefa
   facebook:   tigefa.team
   googleplus: 106202707937371766460
   vimeo:      tigefa
-  
+
+version:    3.3.0
+github:
+  repo:     https://github.com/tigefa4u/tigefa4u.github.io
+
 # Comments
 comment:
   disqus: tigefa4u
@@ -52,9 +53,14 @@ cdn:
   jquery:         //ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
   FontAwesome:    //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css
 
-# Pagination and Variables
-paginate:       7
-paginate_path: /page/:num
-timezone:      Aisa/Jakarta
+exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, package.json, composer.json, CNAME, LICENSE, iron.json]
 
-exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, packages.json, composer.json, CNAME, LICENSE]
+# FTP destination for Glynn
+ftp_host:    '31.170.167.180'
+ftp_dir:     '/public_html/'
+ftp_passive: false
+
+# optional
+ftp_port:     21                  # default 21
+ftp_username: 'u765000469'     # default read from stdin
+ftp_password: '21061992' # default read from stdin

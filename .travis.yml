@@ -22,9 +22,3 @@ notifications:
   email:
     on_success: never
     on_failure: never
-  campfire:
-    rooms:
-      - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
-    template:
-      - "%{repository} (%{commit}) : %{message} %{foo} "
-      - "Build details: %{build_url}"

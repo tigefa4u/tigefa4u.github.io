@@ -1,39 +1,19 @@
 ---
 layout: default
 ---
-<!-- Post Standard -->
-<article class="entry entry__standard clearfix">
-<!-- begin post heading -->
-<header class="entry-header clearfix">
-  <div class="format-icon">
-    <i class="icon-file-alt"></i>
-  </div>
-  <div class="entry-header-inner">
-    <h2 class="entry-title"><a rel="nofollow" href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p class="post-meta">
-      <span class="post-meta-cats"><i class="icon-tag"></i><a href="#">News</a> / <a href="#">Design</a></span>
-      <span class="post-meta-author"><a href="//twitter.com/{{ site.author.twitter }}"><i class="icon-user"></i>{{ site.author.name }}</a></span>
-      <span class="post-meta-comments"><a href="{{ page.url }}#disqus_thread"><i class="icon-comment"></i></a></span>
-      </p>
-  </div>
-</header>
-<!-- end post heading -->
-<!-- begin post content -->
-<div class="entry-content">
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-</div>
-<!-- end post content -->
-</article>
-<!-- /Post Standard -->
-														
 <!-- BEGIN COMMENT FORM -->
-<div class="comments-form-wrapper clearfix">
+<div>
   <h2>Leave A comments</h2>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = '{{ site.comment.disqus }}'; // required: replace example with your forum shortname
-		
+    
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -45,17 +25,20 @@ layout: default
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 <!-- END COMMENT FORM -->
+</div>
 
-<div class="text-widget widget widget__sidebar">
-  <h3 class="widget-title">Related Posts</h3>
-<div class="widget-content">
-  <ul class="posts-list unstyled clearfix">
-    {% for post in site.related_posts limit:6 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
       <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <p class="post-meta">{{ post.date | date_to_long_string }} by <a target="_blank" href="//twitter.com/{{ site.author.twitter }}">{{ site.author.name }}</a></p>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_long_string }}</small>
+          </a>
+        </h3>
       </li>
     {% endfor %}
   </ul>
-</div>
 </div>
