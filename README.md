@@ -2,12 +2,12 @@
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
-for personal notes build with jekyll v1.2.1
+for personal notes build with jekyll v1.3.1
 
 follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 
-## Build with 
+## Build with
 
 - [jekyll](http://jekyllrb.com) [@mojombo](https://github.com/mojombo)
 - [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
@@ -22,9 +22,8 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 
 ```shell
 git clone https://github.com/tigefa4u/tigefa4u.github.io.git username.github.io.git
-cd username.github.io.git
-echo 'install: --no-ri --no-rdoc' >> ~/.gemrc
-gem install bundler
+cd username.github.io
+gem install bundler --no-ri --no-rdoc
 bundle install
 # edit _config.yml
 bundle exec jekyll server --watch
