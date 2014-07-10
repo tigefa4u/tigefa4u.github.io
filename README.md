@@ -1,10 +1,12 @@
-# tigefa4u.github.io [![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
+# tigefa4u.github.io
+
+[![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
 for personal notes build with jekyll v1.3.1
 
-follow [@tigefa_team](http://twitter.com/tigefa_team)
+follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa)
 
 
 ## Build with
@@ -13,6 +15,10 @@ follow [@tigefa_team](http://twitter.com/tigefa_team)
 - [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 - [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](https://github.com/plusjade)
 - [Font-Awesome](http://fontawesome.io) [@FortAwesome](https://github.com/FortAwesome)
+
+## Releases
+
+[![Gittip](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases)
 
 ### License
 
@@ -32,3 +38,19 @@ bundle exec jekyll server --watch
 # Create post
 bundle exec rake post title="A Title"
 ```
+
+Syncing existing jekyll blog/site
+
+```
+cd username.github.io
+git remote add upstream https://github.com/tigefa4u/tigefa4u.github.io.git
+git remote -v
+git fetch upstream
+
+gem install bundler --no-ri --no-rdoc
+bundle install
+
+bundle exec jekyll serve -w
+```
+
+[![Gittip](https://img.shields.io/gittip/tigefa4u.png?style=flat)](https://www.gittip.com/tigefa4u/)
