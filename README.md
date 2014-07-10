@@ -1,6 +1,6 @@
 # tigefa4u.github.io
 
-[![Latest Stable Version](https://poser.pugx.org/tigefa4u/tigefa4u.github.io/v/stable.png)](https://packagist.org/packages/tigefa4u/tigefa4u.github.io) [![Dependency Status](https://gemnasium.com/tigefa4u/tigefa4u.github.io.png)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
+[![Releases](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases) [![Dependency Status](https://img.shields.io/gemnasium/tigefa4u/tigefa4u.github.io.png?style=flat)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
@@ -18,7 +18,7 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa)
 
 ## Releases
 
-[![Gittip](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases)
+[![Releases](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases)
 
 ### License
 
