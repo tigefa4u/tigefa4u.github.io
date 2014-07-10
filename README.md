@@ -46,6 +46,7 @@ cd username.github.io
 git remote add upstream https://github.com/tigefa4u/tigefa4u.github.io.git
 git remote -v
 git fetch upstream
+git merge upstream/master
 
 gem install bundler --no-ri --no-rdoc
 bundle install
