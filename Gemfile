@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
+gem 'hub'
 gem 'tgfa-glynn'
 gem 'coveralls'
 gem 'travis'
