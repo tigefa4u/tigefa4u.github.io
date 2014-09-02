@@ -1,6 +1,6 @@
 # tigefa4u.github.io
 
-[![Releases](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases) [![Dependency Status](https://img.shields.io/gemnasium/tigefa4u/tigefa4u.github.io.png?style=flat)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
+[![Releases](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.svg?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases) [![Dependency Status](https://img.shields.io/gemnasium/tigefa4u/tigefa4u.github.io.png?style=flat)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
@@ -54,4 +54,4 @@ bundle install
 bundle exec jekyll serve -w
 ```
 
-[![Gittip](https://img.shields.io/gittip/tigefa4u.png?style=flat)](https://www.gittip.com/tigefa4u/)
+[![Gittip](https://img.shields.io/gittip/tigefa4u.svg?style=flat)](https://www.gittip.com/tigefa4u/)
