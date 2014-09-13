@@ -6,7 +6,7 @@ category: [ruby, rails, redmine]
 tags: [ruby, rhc, openshift]
 ---
 
-frist sign in on [openshift.redhat.com](https://openshift.redhat.com) or sign up new one its free with 1GB storeage.
+Frist sign in on [openshift.redhat.com](https://openshift.redhat.com/app/login) or sign up new one its free with 1GB storeage.
 
 if existing member openshift know for start, using `rhc setup`
 
@@ -28,18 +28,18 @@ rhc ssh redmine
 cd ~/app-root/runtime/repo
 ~~~
 
-### Get redmine stable releases from [redmine/wiki/Download](http://via.tigefa.org/1nLiH6m)
+### Get redmine stable releases. [Learn more](http://via.tigefa.org/1nLiH6m)
 
 #### 2.5-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.2.tar.gz; tar --strip-components=1 -zxvf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### 2.4-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.5.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.6.tar.gz; tar --strip-components=1 -zxvf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### Configure `config/database.yml`
@@ -72,13 +72,13 @@ rake generate_secret_token
 RAILS_ENV=production rake db:migrate
 ~~~
 
-#### Database default data set [more](http://via.tigefa.org/1em10I3)
+#### Database default data set. [Learn more](http://via.tigefa.org/1em10I3)
 
 ~~~
 RAILS_ENV=production rake redmine:load_default_data
 ~~~
 
-##### [File system permissions](http://via.tigefa.org/MUOIvc)
+##### File system permissions [Learn more](http://via.tigefa.org/MUOIvc)
 
 #### Logging into the application
 
@@ -91,7 +91,7 @@ password: admin
 
 You can go to Administration menu and choose Settings to modify most of the application settings.
 
-##### [for more visit redmine wiki](http://via.tigefa.org/1igVc0Z)
+##### [For learn more visit redmine wiki](http://via.tigefa.org/1igVc0Z)
 
 ### Adding alias `redmine.myproject.org` for example
 
@@ -100,4 +100,3 @@ rhc alias add redmine redmine.myproject.org
 ~~~
 
 see [repo.tigefa.org](http://repo.tigefa.org)
-
