@@ -1,6 +1,6 @@
 # tigefa4u.github.io
 
-[![Releases](http://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.svg?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases) [![Dependency Status](https://img.shields.io/gemnasium/tigefa4u/tigefa4u.github.io.png?style=flat)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
+[![Dependency Status](https://img.shields.io/gemnasium/tigefa4u/tigefa4u.github.io.png?style=flat)](https://gemnasium.com/tigefa4u/tigefa4u.github.io) [![Stories in Ready](https://badge.waffle.io/tigefa4u/tigefa4u.github.io.png?label=ready&title=Ready)](https://waffle.io/tigefa4u/tigefa4u.github.io)
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
@@ -15,10 +15,6 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa)
 - [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 - [jekyll-bootstrap](http://jekyllbootstrap.com) [@plusjade](https://github.com/plusjade)
 - [Font-Awesome](http://fontawesome.io) [@FortAwesome](https://github.com/FortAwesome)
-
-## Releases
-
-[![Releases](https://img.shields.io/github/release/tigefa4u/tigefa4u.github.io.png?style=flat)](https://github.com/tigefa4u/tigefa4u.github.io/releases)
 
 ### License
 
