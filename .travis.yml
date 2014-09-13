@@ -4,8 +4,8 @@ rvm:
   - 2.0.0
   - 1.9.3
 script:
-  - bundle exec jekyll build
-  - bundle exec rake coveralls
+#  - bundle exec jekyll build
+  - bundle exec rake
 notifications:
   irc:
     channels:

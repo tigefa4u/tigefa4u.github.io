@@ -4,7 +4,7 @@ require 'yaml'
 require 'time'
 require 'coveralls/rake/task'
 Coveralls::RakeTask.new
-task :coveralls => [:build, :glynn, 'coveralls:push']
+task :default => [:build, :glynn, 'coveralls:push']
 
 SOURCE = "."
 CONFIG = {
@@ -19,7 +19,7 @@ module JB
     Paths = {
       :posts => "_posts"
     }
-    
+
     def self.base
       SOURCE
     end
@@ -31,7 +31,7 @@ module JB
       path.compact!
       File.__send__ :join, path
     end
-  
+
   end #Path
 end #JB
 
@@ -52,7 +52,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
