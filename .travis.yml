@@ -8,6 +8,8 @@ script:
   - bundle exec rake
 notifications:
   irc:
+    on_success: change
+    on_failure: change
     channels:
       - "irc.freenode.org#tigefa"
     template:
