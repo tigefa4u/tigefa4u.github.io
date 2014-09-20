@@ -62,10 +62,9 @@ task :post do
   end
 end # task :post
 
-desc "run jekyll build"
+desc "Execute jekyll build"
 task :build do
   system "jekyll build"
-  system "glynn"
   puts "## Execute Jekyll build ##"
 end
 
