@@ -6,7 +6,7 @@
 
 for personal notes build with jekyll.
 
-follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [#tigefa](irc://irc.freenode.net/#tigefa)
+follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [#tigefa](irc://irc.freenode.net/#tigefa) [Discussion group](http://groups.google.com/group/tigefa)
 
 
 ## Build with
