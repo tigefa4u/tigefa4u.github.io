@@ -21,4 +21,4 @@ jekyll config
 
 more info about _config.yml
 
-http://jekyllrb/docs/configuration/
+http://jekyllrb.com/docs/configuration/
