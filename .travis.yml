@@ -23,3 +23,5 @@ notifications:
   email:
     on_success: never
     on_failure: never
+  slack:
+    secure: 3Ph3eSVjMwybrbF9K+RiIBQrPNmazVHmmN3Ay9/Qk19W1qgG75Eb7b05s4PMuTK7YtuB4O1EF7kMhSf96bZCZT6dKXYJZnzyL5pmZeb/HQ0mVt1ifhCrOXZpsnwOnGHokCxABOsgNH3ahvNzapLGLN/MMvryXbUv3JEm/Pc+iPo=
