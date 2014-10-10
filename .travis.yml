@@ -1,27 +1,28 @@
 language: ruby
 rvm:
-  - 2.1
-  - 2.0.0
-  - 1.9.3
+- 2.1
+- 2.0.0
+- 1.9.3
 script:
-#  - bundle exec jekyll build
-  - bundle exec rake
+- bundle exec rake
 notifications:
   irc:
     on_success: change
     on_failure: change
     channels:
-      - "irc.freenode.org#tigefa"
+    - irc.freenode.org#tigefa
     template:
-      - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
+    - '%{repository}#%{build_number} (%{branch}) %{message} %{build_url}'
   campfire:
     rooms:
-      - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
+    - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
     template:
-      - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
-      - "Build details: %{build_url}"
+    - '%{repository}#%{build_number} (%{branch}) %{message} %{build_url}'
+    - 'Build details: %{build_url}'
   email:
     on_success: never
     on_failure: never
   slack:
     secure: 3Ph3eSVjMwybrbF9K+RiIBQrPNmazVHmmN3Ay9/Qk19W1qgG75Eb7b05s4PMuTK7YtuB4O1EF7kMhSf96bZCZT6dKXYJZnzyL5pmZeb/HQ0mVt1ifhCrOXZpsnwOnGHokCxABOsgNH3ahvNzapLGLN/MMvryXbUv3JEm/Pc+iPo=
+  sqwiggle:
+    secure: QMpfh1+89CqI+wHRcWusqqXSEYbDRafiCHnpt+vuVJ3ehWMNLDqGxzcXDY5VBIdeMb6r+5k0fnl5oyUKECkgd6+uUNqibkwmRo9SbID45YXepyr0kWGtGKLRVwbdGZyE7nAMzq78+yfgHKwALF/fLDOgbcxKrt2rPcIyN57aB9Q=
