@@ -56,11 +56,11 @@ cdn:
 exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, package.json, composer.json, CNAME, LICENSE, iron.json]
 
 # FTP destination for Glynn
-ftp_host:    '185.27.134.191'
-ftp_dir:     '/public_html/'
+ftp_host:    'ftp.uploading.com'
+ftp_dir:     '/jekyll/'
 ftp_passive: false
 
 # optional
 ftp_port:     21                  # default 21
-ftp_username: 'tgfafree'     # default read from stdin
-ftp_password: '6whqxKJ485' # default read from stdin
+ftp_username: 'tigefa@gmail.com'     # default read from stdin
+ftp_password: '210692' # default read from stdin
