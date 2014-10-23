@@ -46,7 +46,6 @@ relative_permalinks: false
 
 # CDN
 cdn:
-  raw:            https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master
   css:            //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css
   css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css
   js:             //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
@@ -57,7 +56,7 @@ exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, package.json,
 
 # FTP destination for Glynn
 ftp_host:    'ftp.uploading.com'
-ftp_dir:     '/jekyll/'
+ftp_dir:     '/'
 ftp_passive: false
 
 # optional
