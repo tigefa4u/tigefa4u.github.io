@@ -11,7 +11,7 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [#tigefa](irc://irc.fr
 
 ## Build with
 
-- [jekyll](http://jekyllrb.com) [@mojombo](https://github.com/mojombo)
+- [jekyll](http://jekyllrb.com) [@jekyll](https://github.com/jekyll)
 - [bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 - [Font-Awesome](http://fontawesome.io) [@FortAwesome](https://github.com/FortAwesome)
 - [Poole](http://getpoole.com) [@poole](https://github.com/poole)
