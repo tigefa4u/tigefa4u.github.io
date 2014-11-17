@@ -6,7 +6,7 @@ category: [ruby, rails, redmine]
 tags: [ruby, rhc, openshift]
 ---
 
-Frist sign in on [openshift.redhat.com](https://openshift.redhat.com/app/login) or sign up new one its free with 1GB storeage.
+Frist sign in on [openshift.redhat.com](https://openshift.redhat.com/app/login) or sign up new one its free with 1GB storage.
 
 if existing member openshift know for start, using `rhc setup`
 
@@ -30,16 +30,22 @@ cd ~/app-root/runtime/repo
 
 ### Get redmine stable releases. [Learn more](http://via.tigefa.org/1nLiH6m)
 
+#### 2.6-stable version
+
+~~~
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.0.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
+~~~
+
 #### 2.5-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.2.tar.gz; tar --strip-components=1 -zxvf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.3.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### 2.4-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.6.tar.gz; tar --strip-components=1 -zxvf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.7.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### Configure `config/database.yml`
