@@ -1,65 +1,19 @@
-name:     tigefa4u
-markdown: redcarpet
-safe:     true
-lsi:      false
-pygments: true
+# Site settings
+title: tigefa4u
+email: sugeng@tigefa.org
+description: "Writing posts from repostories Github"
+url: "http://gitid.pw"
+baseurl: ""
+twitter_username: sugeng_tigefa
+github_username:  tigefa4u
+facebook_username:  tigefa
 
-# Pagination and Variables
-paginate:       7
-paginate_path: /page/:num
-timezone:      Aisa/Jakarta
-
-# Meta
-title:       tigefa4u
-tagline:     'Writing posts from repostories Github'
-description: 'Writing posts from repostories Github'
-keywords:    rails, openshift, pagodabox, deployment, tutorial, how git, git deploy, ruby tutorial, ruby on rails
-
-author:
-  name:       'sugeng tigefa'
-  url:        https://twitter.com/mdo
-  email:      sugeng@tigefa.org
-  twitter:    sugeng_tigefa
-  facebook:   tigefa.team
-  googleplus: 106202707937371766460
-  vimeo:      tigefa
-
-version:    3.3.0
-github:
-  repo:     https://github.com/tigefa4u/tigefa4u.github.io
-
-# Comments
-comment:
-  disqus: tigefa4u
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-sitemap
-
-# Permalink URL
-url:                 http://tigefa.pw
-permalink:           /articles/:title.html
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /articles/:title.html
 relative_permalinks: false
-
-# CDN
-cdn:
-  css:            //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css
-  css_theme:      //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css
-  js:             //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
-  jquery:         //ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-  FontAwesome:    //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css
-
+paginate: 5
+paginate_path: /page/:num
+timezone: Aisa/Jakarta
 exclude: [Gemfile, Gemfile.lock, vendor, docs, dist, Gruntfile.js, package.json, composer.json, CNAME, LICENSE, iron.json]
-
-# FTP destination for Glynn
-ftp_host:    'ftp.uploading.com'
-ftp_dir:     '/'
-ftp_passive: false
-
-# optional
-ftp_port:     21                  # default 21
-ftp_username: 'tigefa@gmail.com'     # default read from stdin
-ftp_password: '210692' # default read from stdin

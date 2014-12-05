@@ -1,56 +1,74 @@
-/* jshint node: true */
-
 module.exports = function(grunt) {
-  "use strict";
 
-  // Project configuration.
-  grunt.initConfig({
+    // Project configuration.
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        uglify: {
+            main: {
+                src: 'js/<%= pkg.name %>.js',
+                dest: 'js/<%= pkg.name %>.min.js'
+            }
+        },
+        less: {
+            expanded: {
+                options: {
+                    paths: ["css"]
+                },
+                files: {
+                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
+                }
+            },
+            minified: {
+                options: {
+                    paths: ["css"],
+                    cleancss: true
+                },
+                files: {
+                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                }
+            }
+        },
+        banner: '/*!\n' +
+            ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
+            ' */\n',
+        usebanner: {
+            dist: {
+                options: {
+                    position: 'top',
+                    banner: '<%= banner %>'
+                },
+                files: {
+                    src: ['css/<%= pkg.name %>.css', 'css/<%= pkg.name %>.min.css', 'js/<%= pkg.name %>.min.js']
+                }
+            }
+        },
+        watch: {
+            scripts: {
+                files: ['js/<%= pkg.name %>.js'],
+                tasks: ['uglify'],
+                options: {
+                    spawn: false,
+                },
+            },
+            less: {
+                files: ['less/*.less'],
+                tasks: ['less'],
+                options: {
+                    spawn: false,
+                }
+            },
+        },
+    });
 
-    // Task configuration.
-    clean: {
-      dist: ['dist']
-    },
+    // Load the plugins.
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-banner');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
-    connect: {
-      server: {
-        options: {
-          port: 3000,
-          base: '.'
-        }
-      }
-    },
-
-    jekyll: {
-      docs: {}
-    },
-
-    validation: {
-      options: {
-        reset: true
-      },
-      files: {
-        src: ["_gh_pages/**/*.html"]
-      }
-    },
-  });
-
-
-  // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('browserstack-runner');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-html-validation');
-  grunt.loadNpmTasks('grunt-jekyll');
-
-  // Docs HTML validation task
-  grunt.registerTask('validate-html', ['jekyll', 'validation']);
-
-  // Test task.
-  var testSubtasks = ['validate-html'];
-  // Only run BrowserStack tests under Travis
-
-  grunt.registerTask('test', testSubtasks);
-
-  // Default task.
-  grunt.registerTask('default', ['jekyll']);
+    // Default task(s).
+    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
 
 };

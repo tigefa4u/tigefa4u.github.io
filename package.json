@@ -1,24 +1,22 @@
 {
-  "name": "tigefa4u.github.io",
-  "version": "3.3.2",
-  "description": "blog jekyll template",
-  "main": "Gruntfile.js",
-  "directories": {
-    "dist": "dist"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tigefa4u/tigefa4u.github.io.git"
-  },
-  "keywords": [
-    "jekyll"
-  ],
-  "author": "sugeng tigefa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tigefa4u/tigefa4u.github.io/issues"
-  }
+    "name": "clean-blog",
+    "title": "Clean Blog",
+    "version": "1.0.0",
+    "homepage": "http://startbootstrap.com",
+    "author": "Start Bootstrap",
+    "license": {
+        "type": "Apache 2.0",
+        "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-less": "~0.11.4",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-banner": "~0.2.3",
+        "grunt-contrib-uglify": "~0.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+    }
 }
