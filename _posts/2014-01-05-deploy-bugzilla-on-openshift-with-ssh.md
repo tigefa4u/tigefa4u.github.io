@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploy Bugzilla on Openshift With SSH"
-description: ""
+subtitle: "Bugzilla is server software designed to help you manage software development."
 category: bugzilla
 tags: ['bugzilla', 'perl']
 ---
@@ -50,19 +50,19 @@ cd app-root/runtime/repo/perl
 Bugzilla 4.4.1 is our current stable release in the 4.4 series.
 
 ~~~
-wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.4.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.4.6.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
 ##### Development Snapshot (4.5.1)
 
 > Bugzilla 4.5.1 is our latest development snapshot leading to Bugzilla 5.0.
-> Use of a development branch is **at your own risk.** 
-> They receive very little testing, so expect this release to be unstable. 
+> Use of a development branch is **at your own risk.**
+> They receive very little testing, so expect this release to be unstable.
 > Users of 4.4 or older 4.5 releases are encouraged to try out new 4.5 releases in a testing environment and let us know of any problems that are found with the release.
 > A look at the new features that will be in Bugzilla 5.0 can be found in our latest [Status Updates.](http://www.bugzilla.org/status/)
 
 ~~~
-wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.5.1.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
+wget http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.5.6.tar.gz && tar --strip-components=1 -zxvf *.tar.gz && rm *.tar.gz
 ~~~
 
 ### Installing perl module
@@ -98,4 +98,3 @@ rhc alias add bugzilla dev.myproject.org
 see [dev.tigefa.org](http://dev.tigefa.org)
 
 **the end**
-
