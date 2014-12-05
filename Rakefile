@@ -4,7 +4,7 @@ require 'yaml'
 require 'time'
 require 'coveralls/rake/task'
 Coveralls::RakeTask.new
-task :default => [:build, :glynn, 'coveralls:push']
+task :default => [:build, 'coveralls:push']
 
 SOURCE = "."
 CONFIG = {
