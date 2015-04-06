@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  {% assign post_url = post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url | %}
+  {% assign post_url = post.url | prepend: site.baseurl | prepend: site.url | %}
   <article class="post">
 
     {% if post.banner_image %}
@@ -19,7 +19,7 @@ layout: default
     {% endif %}
 
     <h1 class="post-title">
-      <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
+      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url |  }}">
         {{ post.title }}
       </a>
     </h1>
