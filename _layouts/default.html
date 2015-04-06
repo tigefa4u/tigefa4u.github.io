@@ -4,7 +4,13 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->  
   <head>
-    <title></title>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
 
     <meta charset="utf-8">
     {% comment %}
