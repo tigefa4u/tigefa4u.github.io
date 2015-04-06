@@ -40,11 +40,13 @@ theme:
 markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink: /articles/:title.html
+relative_permalinks: false
 
 # Pagination config
 paginate: 5
-
+paginate_path: /page/:num
+timezone: Aisa/Jakarta
 # Files/Folders to be excluded from generated _site folder
 exclude: 
   - CNAME
