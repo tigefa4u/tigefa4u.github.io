@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gitid.pw" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "sugeng tigefa"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+author_thumbnail: "/assets/images/tigefa.png" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
