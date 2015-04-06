@@ -1,13 +1,8 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
 gem 'rake'
-gem 'hub'
-gem 'github-pages'
-gem 'coveralls'
-gem 'travis'
-gem 'pagoda'
-gem 'heroku'
-gem 'rhc'
-gem 'sinatra'
-gem 'thin'
-gem 'badgerbadgerbadger'

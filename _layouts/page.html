@@ -1,29 +1,22 @@
 ---
 layout: default
 ---
+<div class="post">
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.url }}/img/post-bg-01.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
-                    <span class="subheading">{{ page.description }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+  {% if page.banner_image %}
+  <div class="banner-image">
+    <img 
+        src="{{ "/assets/images/" | append: page.banner_image | prepend: site.baseurl | prepend: site.url }}" 
+        alt="{{ page.banner_image_alt }}">
+  </div>
+  {% endif %}
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			{{ content }}
-		</div>
-	</div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
 </div>
-
-<hr>
