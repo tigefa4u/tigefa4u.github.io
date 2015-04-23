@@ -36,16 +36,16 @@ cd ~/app-root/runtime/repo
 wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.0.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
-#### 2.5-stable version
+#### 3-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.5.3.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-3.0.1.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
-#### 2.4-stable version
+#### 2-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.4.7.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.3.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### Configure `config/database.yml`
