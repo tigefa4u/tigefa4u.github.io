@@ -5,18 +5,11 @@ rvm:
 - 2.0.0
 - 1.9.3
 script:
-- bundle exec rake
+- bundle exec jekyll build
 matrix:
   allow_failures:
     - rvm: 2.2
 notifications:
-  irc:
-    on_success: change
-    on_failure: change
-    channels:
-    - irc.freenode.org#tigefa
-    template:
-    - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
   campfire:
     rooms:
     - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
