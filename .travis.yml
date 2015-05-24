@@ -9,6 +9,7 @@ script:
 matrix:
   allow_failures:
     - rvm: 2.2
+    - rvm: 1.9.3
 notifications:
   campfire:
     rooms:
