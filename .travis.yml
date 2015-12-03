@@ -3,7 +3,6 @@ rvm:
 - 2.2
 - 2.1
 - 2.0.0
-- 1.9.3
 before_install:
   - gem update --system
   - gem --version
@@ -14,7 +13,6 @@ script:
 matrix:
   allow_failures:
     - rvm: 2.2
-    - rvm: 1.9.3
 notifications:
   campfire:
     rooms:
