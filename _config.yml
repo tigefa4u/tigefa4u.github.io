@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I’m a professional UI/UX designrer and web developer. 
   I love being minimal and creative.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://gitid.pw" # the base hostname & protocol for your site
+url: "http://tigefa4u.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "sugeng tigefa"
 author_thumbnail: "/assets/images/tigefa.png" # Author avatar
@@ -49,7 +49,6 @@ paginate_path: /page/:num
 timezone: Aisa/Jakarta
 # Files/Folders to be excluded from generated _site folder
 exclude: 
-  - CNAME
   - Gemfile
   - Rakefile
   - README.md
