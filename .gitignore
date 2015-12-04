@@ -28,6 +28,7 @@ config.rb
 .DS_Store
 ._*
 Thumbs.db
+.sass-cache
 .cache
 .project
 .settings
