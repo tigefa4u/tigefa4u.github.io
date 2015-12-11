@@ -50,10 +50,9 @@ timezone: Aisa/Jakarta
 # Files/Folders to be excluded from generated _site folder
 exclude: 
   - Gemfile
-  - Rakefile
+  - docs
+  - vendor
   - README.md
-  - .gitignore
-  - .sass-cache
   - Gemfile.lock
 
 # Sass conversion configs
