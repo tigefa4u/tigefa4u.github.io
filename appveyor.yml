@@ -15,3 +15,12 @@ test_script:
   - set RUBY_VER=2.1
   - bundle install
   - bundle exec jekyll build
+
+environment:
+  matrix:
+    - ruby_version: "200"
+    - ruby_version: "200-x64"
+    - ruby_version: "21"
+    - ruby_version: "21-x64"
+    - ruby_version: "22"
+    - ruby_version: "22-x64"
