@@ -1,9 +1,5 @@
 environment:
     - ruby_version: "2.1"
-  matrix:
-    - ruby_version: "2.1"
-   allow_failures:
-    - ruby_version: "2.1"
 
 platform:
   - x86
