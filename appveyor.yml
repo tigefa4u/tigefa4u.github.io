@@ -1,3 +1,6 @@
+environment:
+  ruby_version: "2.1"
+
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
   - ruby --version
