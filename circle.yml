@@ -3,12 +3,18 @@ machine:
     Asia/Jakarta
   ruby:
     version: 2.1.5
+  python:
+    version: 2.7.10
 
 dependencies: 
   pre:
+    - curl -k -L -o https://bootstrap.pypa.io/get-pip.py
+    - python get-pip.py
+    - pip install -U pygments
     - gem update --system
     - gem install bundler --conservative
     - bundle install
+    - rm -rf composer.json
 
 test:
   post:
