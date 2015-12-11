@@ -10,7 +10,7 @@ install:
 build: off
 
 test_script:
-#  - ps: Install-Product node $env:ruby_version
+#  - ps: Install-Product ruby $env:ruby_version
   - set RUBY_VER=2.1
   - bundle install
   - bundle exec jekyll build
