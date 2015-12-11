@@ -1,4 +1,6 @@
 machine:
+  timezone:
+    Asia/Jakarta
   ruby:
     version: 2.1.5
 
@@ -6,7 +8,7 @@ dependencies:
   pre:
     - gem update --system
     - gem install bundler --conservative
-    - bundle check || bundle install
+    - bundle install
 
 test:
   post:
