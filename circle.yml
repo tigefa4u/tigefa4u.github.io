@@ -1,0 +1,13 @@
+machine:
+  ruby:
+    version: 2.1.5
+
+dependencies: 
+  pre:
+    - gem update --system
+    - gem install bundler --conservative
+    - bundle check || bundle install
+
+test:
+  post:
+    - bundle exec jekyll build
