@@ -14,7 +14,6 @@ dependencies:
     - gem update --system
     - gem install bundler --conservative
     - bundle install
-    - rm -rf composer.json
 
 test:
   post:
