@@ -11,14 +11,12 @@ install:
 build: off
 
 test_script:
-#  - ps: Install-Product ruby $env:ruby_version
-  - set RUBY_VER=2.1
   - bundle install
   - bundle exec jekyll build
 
 environment:
   matrix:
-    - ruby_version: "20"
+    - ruby_version: "200"
     - ruby_version: "21"
     - ruby_version: "22"
 
