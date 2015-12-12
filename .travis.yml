@@ -6,6 +6,7 @@ rvm:
 - 2.0.0
 install: bundle install
 script:
+- travis lint
 - bundle exec jekyll build
 matrix:
   allow_failures:

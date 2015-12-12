@@ -17,4 +17,5 @@ dependencies:
 
 test:
   post:
+    - travis lint
     - bundle exec jekyll build
