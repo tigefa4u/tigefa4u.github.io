@@ -2,7 +2,12 @@
 
 personal notes build with jekyll.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/rxb5xenbleq49v7s?svg=true)](https://ci.appveyor.com/project/tigefa4u/tigefa4u-github-io) [![Show me a Demo at Codio](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)](https://codio.com/tigefa/tigefa4u)
+[![Build status](https://ci.appveyor.com/api/projects/status/rxb5xenbleq49v7s?svg=true)](https://ci.appveyor.com/project/tigefa4u/tigefa4u-github-io)
+[![GitHub issues](https://img.shields.io/github/issues/tigefa4u/tigefa4u.github.io.svg?style=flat-square)](https://github.com/tigefa4u/tigefa4u.github.io/issues)
+[![GitHub forks](https://img.shields.io/github/forks/tigefa4u/tigefa4u.github.io.svg?style=flat-square)](https://github.com/tigefa4u/tigefa4u.github.io/network)
+[![GitHub stars](https://img.shields.io/github/stars/tigefa4u/tigefa4u.github.io.svg?style=flat-square)](https://github.com/tigefa4u/tigefa4u.github.io/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/LICENSE)
+[![Show me a Demo at Codio](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)](https://codio.com/tigefa/tigefa4u)
 
 ![tigefa-logo](http://res.cloudinary.com/wvm/image/upload/v1389035830/tigefa_rbe6f7.png)
 
