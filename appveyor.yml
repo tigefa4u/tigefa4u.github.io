@@ -11,8 +11,8 @@ install:
 build: off
 
 test_script:
-  - bundle exec travis lint
   - bundle install
+  - bundle exec travis lint
   - bundle exec jekyll build
 
 environment:
