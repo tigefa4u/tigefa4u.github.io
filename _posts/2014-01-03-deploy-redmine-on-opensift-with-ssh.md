@@ -13,7 +13,7 @@ if existing member openshift know for start, using `rhc setup`
 ## Creating new app
 
 ~~~
-rhc app create redmine ruby-1.9 mysql-5.1 cron-1.4 phpmyadmin-4
+rhc app create redmine ruby-2.0 mysql-5.5
 ~~~
 
 ### Sign SSH
@@ -28,24 +28,18 @@ rhc ssh redmine
 cd ~/app-root/runtime/repo
 ~~~
 
-### Get redmine stable releases. [Learn more](http://via.tigefa.org/1nLiH6m)
-
-#### 2.6-stable version
-
-~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.0.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
-~~~
+### Get redmine stable releases. [Learn more](http://bit.ly/1nLiH6m)
 
 #### 3-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-3.0.1.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-3.2.0.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### 2-stable version
 
 ~~~
-wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.3.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
+wget --no-check-certificate http://www.redmine.org/releases/redmine-2.6.9.tar.gz; tar --strip-components=1 -xf *.tar.gz; rm *.tar.gz
 ~~~
 
 #### Configure `config/database.yml`
@@ -69,7 +63,7 @@ bundle install --no-deployment
 #### Session store secret generation
 
 ~~~
-rake generate_secret_token
+bundle exec rake generate_secret_token
 ~~~
 
 #### Database schema objects creation
@@ -78,13 +72,13 @@ rake generate_secret_token
 RAILS_ENV=production rake db:migrate
 ~~~
 
-#### Database default data set. [Learn more](http://via.tigefa.org/1em10I3)
+#### Database default data set. [Learn more](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Step-7-Database-default-data-set)
 
 ~~~
-RAILS_ENV=production rake redmine:load_default_data
+RAILS_ENV=production REDMINE_LANG=en bundle exec rake redmine:load_default_data
 ~~~
 
-##### File system permissions [Learn more](http://via.tigefa.org/MUOIvc)
+##### File system permissions [Learn more](http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Step-8-File-system-permissions)
 
 #### Logging into the application
 
@@ -104,5 +98,3 @@ You can go to Administration menu and choose Settings to modify most of the appl
 ~~~
 rhc alias add redmine redmine.myproject.org
 ~~~
-
-see [repo.tigefa.org](http://repo.tigefa.org)
