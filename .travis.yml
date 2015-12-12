@@ -1,13 +1,10 @@
 language: ruby
+cache: bundler
 rvm:
 - 2.2
 - 2.1
 - 2.0.0
-before_install:
-  - gem update --system
-  - gem --version
-  - gem install public_suffix -f -v '1.5.1'
-  - gem install github-pages -f
+install: bundle install
 script:
 - bundle exec jekyll build
 matrix:
