@@ -1,61 +1,49 @@
 # Site settings
-title: tigefa4u
-tagline: write stuff from Github
-email: tigefa@gmail.com
+title: Sugeng Tigefa
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer. 
-  I love being minimal and creative.
+  A personal note and some stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tigefa4u.github.io" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
-author: "sugeng tigefa"
-author_thumbnail: "/assets/images/tigefa.png" # Author avatar
-# Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social: 
-    github: tigefa4u
-    twitter: sugeng_tigefa
-    facebook: tigefa
-    gplus: +tigefasugeng
-    # dribble: gayanvirajith
-    pinterest: tigefa
-
-  # Enable share buttons on post footer
-  show_share_buttons: true
-
-  # Show author picure, name and social links on post footer
-  show_author_info: true
-
-  # Disqus comments manager - shortname
-  disqus_shortname: tigefa4u
-
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
 # Build settings
 markdown: kramdown
+timezone: Aisa/Jakarta
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+gems: [jekyll-paginate]
 
 # Permalinks
+port: 80
+host: sugeng.dev
 permalink: /articles/:title.html
 relative_permalinks: false
 
-# Pagination config
-paginate: 5
-paginate_path: /page/:num
-timezone: Aisa/Jakarta
-# Files/Folders to be excluded from generated _site folder
+# comments
+disqus: tigefa4u # add disqus shortname here
+
 exclude: 
-  - Gemfile
   - docs
   - vendor
-  - README.md
   - Gemfile.lock
 
-# Sass conversion configs
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+# author info
+# add your appropriate info here
+author: Sugeng Tigefa # your name
+bio:    # your bio
+email: tigefa@gmail.com
+email_md5: 6fcda63de411a2c52be42fd1055d63b0 # md5 hash of your email
+twitter_username: sugeng_tigefa
+github_username: tigefa4u
+
+# Theming options
+# These settings are mandatory.
+theme:              'blue-grey'
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'

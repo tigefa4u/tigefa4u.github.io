@@ -1,12 +1,8 @@
 /**
  * Syntax highlighting styles
  */
-
-$spacing-unit:     30px;
-
 .highlight {
     background: #fff;
-    margin-bottom: $spacing-unit / 2;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error

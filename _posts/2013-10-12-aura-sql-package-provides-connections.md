@@ -2,7 +2,7 @@
 layout: post
 title: "Aura SQL package provides connections"
 description: "Aura SQL package provides connections"
-category: AuraPHP 
+category: php
 tags: [AuraPHP, github, PHP]
 ---
 

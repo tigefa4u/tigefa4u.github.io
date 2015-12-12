@@ -2,7 +2,7 @@
 layout: post
 title: "Using Arrays and Objects in Backbone.js Models"
 description: "Using arrays and objects in backbone models can cause some tricky behavior with how the model fires change events. Here's how to fix it."
-category: [javascript, backbonejs]
+category: [javascript]
 tags: [javascript, backbonejs]
 ---
 

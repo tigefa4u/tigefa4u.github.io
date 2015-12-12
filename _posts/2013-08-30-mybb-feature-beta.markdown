@@ -3,7 +3,7 @@ layout: post
 title:  "MyBB Feature Beta Stable"
 description: "MyBB Feature Beta Stable"
 date:   2013-08-30 17:52:47
-categories: mybb
+categories: php
 tags: [mybb]
 ---
 

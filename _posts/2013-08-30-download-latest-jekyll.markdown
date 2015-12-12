@@ -3,7 +3,7 @@ layout: post
 title:  "Download Latest Jekyll"
 description: "Download Latest Jekyll"
 date:   2013-08-30 12:17:47
-categories: jekyll
+categories: ruby
 tags: [jekyll]
 ---
 

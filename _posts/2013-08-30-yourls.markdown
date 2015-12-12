@@ -3,7 +3,7 @@ layout: post
 title:  "YOURLS 1.6"
 description: "YOURLS 1.6"
 date:   2013-08-30 12:32:47
-categories: yourls
+categories: php
 tags: [yourls]
 ---
 

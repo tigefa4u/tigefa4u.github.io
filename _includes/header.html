@@ -1,0 +1,69 @@
+<header id="toolbar" class="paper-layout-header mdl-layout__header mdl-layout__header--waterfall">
+  <!-- Top row, always visible -->
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <span class="mdl-layout-title">{{ site.title }}</span>
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                mdl-textfield--floating-label mdl-textfield--align-right">
+      <label class="mdl-button mdl-js-button mdl-button--icon"
+             for="search-input">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" name="sample"
+               id="search-input" />
+      </div>
+    </div>
+    <ul id="search-results">
+      <li class="mdl-menu__item" disabled>Search results</li>
+    </ul>
+  </div>
+
+  <!-- Bottom row, not visible on scroll -->
+  <div class="mdl-layout__header-row">
+    <div class="paper-avatar">
+      <img src="http://www.gravatar.com/avatar/{{ site.email_md5 }}?size=75"/>
+    </div>
+    <div class="mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+
+<div class="paper-drawer mdl-layout__drawer mdl-color--{{site.drawer.header_color}}">
+  <header class="paper-drawer-header">
+    <img class="avatar" src="http://www.gravatar.com/avatar/{{ site.email_md5 }}"/>
+    <span class="paper-drawer-title">{{ site.title }}</span>
+  </header>
+
+  <nav class="paper-navigation mdl-navigation mdl-color--{{site.drawer.navigation_color}} mdl-color-text--{{site.drawer.text_color}}">
+    <a class="mdl-navigation__link" href="{{ site.baseurl }}{{ site.url }}">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>
+      Home
+    </a>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a class="mdl-navigation__link" href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">
+        {% if page.icon %}
+          <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">{{ page.icon }}</i>
+        {% endif %}
+        {{ page.title }}
+      </a>
+      {% endif %}
+    {% endfor %}
+    <div class="mdl-layout-spacer"></div>
+    <a class="mdl-navigation__link" href="https://github.com/dbtek/paper">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i>
+      On Jekyll with Paper Theme
+    </a>
+  </nav>
+</div>

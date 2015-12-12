@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Monstra-CMS 2.2.1"
+title:  "Monstra CMS"
 description: "Monstra-CMS 2.2.1"
 date:   2013-08-30 12:46:47
-categories: cms
+categories: php
 tags: [cms]
 ---
 

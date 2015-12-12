@@ -1,24 +1,12 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
-banner_image: sample-banner-image-2.jpg
-banner_image_alt: About me
+icon: info_outline
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-### Contact me
-
-Say `Hello` at gayanvirajith@gmail.com or find
-me on
-
----
-
-{% include social.html %}
-
-[pw]: http://processwire.com
-[jekyll]: http://jekyllrb.com
+You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)

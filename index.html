@@ -1,71 +1,51 @@
 ---
 layout: default
 ---
-
-<div class="posts">
+<div class="paper-home">
   {% for post in paginator.posts %}
-  {% assign post_url = post.url | prepend: site.baseurl | prepend: site.url | %}
-  <article class="post">
-
-    {% if post.banner_image %}
-    <div class="banner-image">
-      <a href="{{ post_url }}"
-        title="{{ post.title }}">
-      <img 
-          src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
-          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
-      </a>
+    <div class="post">
+      <div class="header">
+        <h5 class="subheader">
+          {% assign d = post.date | date: "%d" | plus:'0' %}
+          {{ post.date | date: "%B" }}
+          {% case d %}
+          {% when 1 or 21 or 31 %}{{ d }}st,
+          {% when 2 or 22 %}{{ d }}nd,
+          {% when 3 or 23 %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ post.date | date: "%Y" }}
+        </h5>
+        <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+      </div>
+      {{ post.content | truncatewords:75}}
+      <a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">Read more</a>
     </div>
-    {% endif %}
-
-    <h1 class="post-title">
-      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url |  }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <p class="post-meta">
-    {% if (post.categories.size > 0 %}
-      <span class="categories">
-      {{ post.categories | array_to_sentence_string }}
-      </span> |
-    {% endif %}
-    <span class="post-date">
-    {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
-    </span>
-    </p>
-
-    {{ post.excerpt }}
-    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url |  }}">
-      Continue reading »
-    </a>
-  </article>
   {% endfor %}
-</div>
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  
-  {% if paginator.next_page %}
-      <a class="pagination-item older btn" href="{{ paginator.next_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Older</a>    
-  {% else %}
-    <span class="pagination-item older btn-disabled">Older</span>
-  {% endif %}
-  
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer btn " href="{{ paginator.previous_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer btn-disabled">Newer</span>
-  {% endif %}  
-  
-</div>
-{% endif %}
+  <div class="mdl-grid pagination">
+    <div class="mdl-cell mdl-cell--4-col previous">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a class="mdl-button mdl-button--primary" href="{{ site.baseurl }}{{ prepend: site.url}}">&larr; Newer</a>
+        {% else %}
+          <a class="mdl-button mdl-button--primary" href="{{ site.paginate_path | replace: ':num', paginator.previous_page | prepend: site.baseurl | prepend: site.url}}">&larr; Newer</a>
+        {% endif %}
+      {% else %}
+        <a class="mdl-button mdl-button--primary" disabled>&larr; Newer</a>
+      {% endif %}
+    </div>
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}"
-    }
-}
-</script>
+    <div class="mdl-cell mdl-cell--4-col indicator subheader">
+      Page {{ paginator.page }} / {{ paginator.total_pages }}
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col next">
+      {% if paginator.next_page %}
+        <a class="mdl-button mdl-button--primary" href="{{ site.paginate_path | replace: ':num', paginator.next_page | prepend: site.baseurl | prepend: site.url}}">Older &rarr;</a>
+      {% else %}
+        <a class="mdl-button mdl-button--primary" disabled>Older &rarr;</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

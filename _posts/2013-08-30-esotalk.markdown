@@ -3,7 +3,7 @@ layout: post
 title:  "EsoTalk 1.0.0g2"
 description: "EsoTalk 1.0.0g2"
 date:   2013-08-30 12:50:47
-categories: forum
+categories: php
 tags: [github]
 ---
 

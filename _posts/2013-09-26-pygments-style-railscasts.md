@@ -2,7 +2,7 @@
 layout: post
 title: "pygments style railscasts"
 description: "pygments style railscasts"
-category: github
+category: python
 tags: [pygments, python, ruby, jekyll]
 ---
 

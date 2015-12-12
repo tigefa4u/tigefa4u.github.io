@@ -3,7 +3,7 @@ layout: post
 title: "Deploy Bugzilla on Openshift With SSH"
 subtitle: "Bugzilla is server software designed to help you manage software development."
 header-img: "img/post-bg-01.jpg"
-category: bugzilla
+category: perl
 tags: ['bugzilla', 'perl']
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Create Own Calepin site"
 description: "fork jokull/calepin and create own server or new service like calepin.co"
-category: calepin, python, pelican
+category: python
 tags: ['calepin', 'python', 'pelican']
 ---
 
@@ -10,7 +10,7 @@ Quickstart
 ==========
 - Source [jokull/calepin](https://github.com/jokull/calepin)
 
-~~~
+~~~shell
     $ git clone https://github.com/jokull/calepin.git or svn co https://github.com/jokull/calepin/trunk calepin
     $ cd calepin
     $ virtualenv --distribute venv
@@ -24,7 +24,7 @@ Environment
 
 Now add `.env` with the development environment and `source` it. It should include values for the following values:
 
-~~~
+~~~shell
     SECRET_KEY=
     CALEPIN_ADMIN= # Admin email
     CALEPIN_THEME= # See github.com/jokull/pelican-themes
