@@ -14,7 +14,7 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [Discussion group](htt
 ## Built with
 
 - [jekyll](http://jekyllrb.com) [@jekyll](https://github.com/jekyll)
-- [gayanvirajith/gaya](https://github.com/gayanvirajith/gaya)
+- [dbtek/paper](https://github.com/dbtek/paper)
 
 ### License
 
