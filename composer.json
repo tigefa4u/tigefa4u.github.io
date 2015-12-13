@@ -4,7 +4,7 @@
 	"keywords": ["bootstrap", "blog", "jekyll", "render", "flat-file", "tigefa"],
 	"homepage": "http://tigefa4u.github.io",
     "require": {
-        "twbs/bootstrap": "3.*"
+        "twbs/bootstrap": "*"
     },
     "license": "MIT",
     "authors": [
