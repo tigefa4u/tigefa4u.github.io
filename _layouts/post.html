@@ -148,5 +148,7 @@ layout: default
     </div>
   </div>
 
-  {% include g-comments.html %}
+  {% if site.disqus and page.comments != false %}
+    {% include comments.html %}
+  {% endif %}
 </div>

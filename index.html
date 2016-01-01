@@ -16,7 +16,7 @@ layout: default
           {% endcase %}
           {{ post.date | date: "%Y" }}
         </h5>
-        <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       </div>
       {{ post.content | truncatewords:75}}
       <a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">Read more</a>
