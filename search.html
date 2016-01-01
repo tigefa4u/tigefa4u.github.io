@@ -17,7 +17,7 @@ title: Search
     }
     return '';
   }
-  google.load('search', '1', {language : 'id'});
+  google.load('search', '1', {language : 'en'});
   google.setOnLoadCallback(function() {
     var customSearchControl = new google.search.CustomSearchControl('{{ site.gcse }}');
     customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
