@@ -14,7 +14,7 @@ layout: default
       {% endcase %}
       {{ page.date | date: "%Y" }}
     </h5>
-    <h1>{{ page.title }}</h1>
+    <h2>{{ page.title }}</h2>
     <!-- Categories -->
     <div class="categories">
       {% unless page.categories == empty %}
@@ -148,7 +148,5 @@ layout: default
     </div>
   </div>
 
-  {% if site.disqus and page.comments != false %}
-    {% include comments.html %}
-  {% endif %}
+  {% include g-comments.html %}
 </div>
