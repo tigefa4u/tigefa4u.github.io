@@ -17,7 +17,7 @@ port: 80
 host: sugeng.dev
 permalink: /articles/:title.html
 relative_permalinks: false
-
+gcse: 006270711061491111331:vsivtajjjh0
 # comments
 disqus: tigefa4u # add disqus shortname here
 
