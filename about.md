@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 icon: info_outline
 ---
-
+<div align="center">
 <div class="g-person" data-width="590" data-href="//plus.google.com/u/0/106202707937371766460" data-showtagline="false" data-rel="author"></div>
-
+</div>
 <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
