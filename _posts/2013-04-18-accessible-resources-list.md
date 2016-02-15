@@ -3,6 +3,7 @@ layout: post
 title: "Accessible resources list - DRY solution for controllers"
 description: "In this post I describe how to achieve DRY solution for controller's actions which return the list of scoped objects. In the another words I show here how to avoid repetitive changes in controllers actions like this: Model.where :active => true"
 tags: [rails, cancan, refactoring, gem]
+categories: ruby
 ---
 
 Imagine that we have *Trademarks* controller with *index* action. But in this action we shouldn't get all trademarks. Rather than all objects we have to get all *active trademarks* which are *accessible by current user only*. This is a challenge which I'm going to solve here.

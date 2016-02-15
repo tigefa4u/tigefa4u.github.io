@@ -1,0 +1,115 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  color: #99979c;
+  text-align: center;
+  background-color: #2a2730;
+}
+.footer a {
+  color: #fff;
+}
+.footer-links {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.footer-links li {
+  display: inline-block;
+}
+.footer-links li + li {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+  .footer p {
+    margin-bottom: 0;
+  }
+}
+
+/* Share masthead with page headers */
+.tgfa-masthead,
+.tgfa-header {
+  position: relative;
+  padding: 30px 0;
+  color: #cdbfe3;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #1e73be;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f3fc1), to(#1e73be));
+  background-image: -webkit-linear-gradient(top, #1f3fc1 0%, #1e73be 100%);
+  background-image:      -o-linear-gradient(top, #1f3fc1 0%, #1e73be 100%);
+  background-image:         linear-gradient(to bottom, #1f3fc1 0%, #1e73be 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f3fc1', endColorstr='#1e73be', GradientType=0);
+  background-repeat: repeat-x;
+}
+
+/* Masthead (headings and download button) */
+.tgfa-masthead .tgfa-booticon {
+  margin: 0 auto 30px;
+}
+.tgfa-masthead h1 {
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+}
+.tgfa-masthead .lead {
+  margin: 0 auto 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.tgfa-masthead .taglines {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  color: #9783b9;
+}
+.tgfa-masthead .btn {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+@media (min-width: 480px) {
+  .tgfa-masthead .btn {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .tgfa-masthead {
+    padding: 80px 0;
+  }
+  .tgfa-masthead h1 {
+    font-size: 60px;
+  }
+  .tgfa-masthead .lead {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tgfa-masthead .lead {
+    width: 80%;
+    font-size: 30px;
+  }
+}

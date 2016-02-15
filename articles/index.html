@@ -1,0 +1,75 @@
+---
+layout: page
+title: "Articles"
+---
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>PHP <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.php %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>JavaScript <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.javascript %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>Ruby <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.ruby %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>NodeJS <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.nodejs %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>Bootstrap <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.bootstrap %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="page-header">
+      <h1>Python <small>code addons plus tut</small></h1>
+<div class="list-group">
+  {% for post in site.categories.python %}
+  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+</div>
+</div>
+</div>

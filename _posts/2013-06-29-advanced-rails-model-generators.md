@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Rails model generators"
 description: "Check out how the rails generators are awesome. In this post you will read how to use rails model generators for 100%"
 tags: [rails]
+categories: ruby
 ---
 
 There are some people who give advice to not use rails generators and create models, controllers and etc. things manually. I don't agree with them and my advice here is to figure out deeply how they work and then make conclusion.

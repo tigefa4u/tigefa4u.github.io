@@ -2,7 +2,7 @@
 layout: post
 title: "grunt jekyll"
 description: "Compile Jekyll sites with Grunt"
-category: grunt
+category: nodejs
 tags: [github, npm, node]
 ---
 

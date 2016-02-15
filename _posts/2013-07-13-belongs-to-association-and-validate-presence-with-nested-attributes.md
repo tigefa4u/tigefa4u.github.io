@@ -3,6 +3,7 @@ layout: post
 title: "Rule to validate belongs_to association for presence"
 description: "If you have troubles with validations for belongs_to association presence when nested params went for form? I had the same problem recently and in this post I will share idea with you how to challenge it"
 tags: [rails, belongs_to, validator, nested_form]
+categories: ruby
 ---
 
 Recently I've resolved one more problem which concerns presence validator and *belongs_to* association. But it's involved another thing - *accepts_nested_attributes*. Assume you have nested form and parent object is not exist yet, so you can have this issue. Here I will show you how to fix it.

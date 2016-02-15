@@ -1,49 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Sugeng Tigefa
-description: > # this means to ignore newlines until "baseurl:"
-  A personal note and some stuff.
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
+title: sugeng tigefa
+email: sugeng@tigefa.xyz
+description: Awesome word for reasons
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tigefa.space" # the base hostname & protocol for your site
+author:
+  name:    sugeng tigefa
+  twitter: sugeng_tigefa
+  github:  tigefa4u
+  disqus:  tigefa4u
+
+analytics:
+      google:
+      yandex:
 
 # Build settings
-markdown: kramdown
-timezone: Aisa/Jakarta
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
-gems: [jekyll-paginate]
+permalink: /articles/:year-:month-:day-:title.html
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# Permalinks
-port: 80
-host: sugeng.dev
-permalink: /articles/:title.html
-relative_permalinks: false
-gcse: 006270711061491111331:vsivtajjjh0
-# comments
-disqus: tigefa4u # add disqus shortname here
-
-exclude: 
-  - docs
-  - vendor
-  - Gemfile.lock
-
-# author info
-# add your appropriate info here
-author: Sugeng Tigefa # your name
-bio:    # your bio
-email: tigefa@gmail.com
-email_md5: 6fcda63de411a2c52be42fd1055d63b0 # md5 hash of your email
-twitter_username: sugeng_tigefa
-github_username: tigefa4u
-
-# Theming options
-# These settings are mandatory.
-theme:              'blue-grey'
-# drawer theming
-drawer:
-  text_color:       'grey-600'
-  header_color:     'blue-500'
-  navigation_color: 'grey-200'
-# footer theming
-footer:
-  text_color: 'blue-grey-200'
-  color: 'blue-grey-600'
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9"]

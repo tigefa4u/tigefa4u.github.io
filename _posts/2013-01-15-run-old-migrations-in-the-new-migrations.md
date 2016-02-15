@@ -3,6 +3,7 @@ layout: post
 title: "Run old migrations in the new migrations"
 description: "This post describes steps of using old migrations in the new migrations which you have just created and need to write code which you have already wrote in the older migrations."
 tags: [rails, active_record, migrations]
+categories: ruby
 ---
 
 Imagine you have to write new migration with a lot of code and this migration should have a lot of code, code which you have already wrote in older migration and this required code is exactly up/down/change part of those migration. Another words you would like to run migration part (up, down or change) in the new migration. Pay attention - you have to write or copy paste a lot of code You have 2 variants how to overcome this issue:
