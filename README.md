@@ -1,4 +1,10 @@
-<center> ![tigefa-cover](static/img/tigefa-cover.png) </center>
+<h1 align="center">
+	<br>
+	<img src="https://rawgit.com/tigefa4u/tigefa4u.github.io/master/static/img/tigefa-cover.png" alt="tigefa-cover">
+	<br>
+	<br>
+	<br>
+</h1>
 
 # tigefa4u.github.io
 
@@ -31,7 +37,7 @@ bundle exec jekyll server -w
 
 #### Syncing existing jekyll blog/site
 
-```
+```shell
 cd username.github.io
 git remote add tigefa4u -m master https://github.com/tigefa4u/tigefa4u.github.io.git
 git pull -s recursive -X theirs tigefa4u master
