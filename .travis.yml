@@ -9,7 +9,6 @@ script:
 - bundle exec jekyll build
 matrix:
   allow_failures:
-    - rvm: 2.2
     - rvm: 2.3
 notifications:
   campfire:

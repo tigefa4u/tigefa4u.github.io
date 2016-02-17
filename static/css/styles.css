@@ -12,6 +12,10 @@ body > .container {
   margin: 20px 0;
 }
 
+body {
+  font-family: "League Gothic", sans-serif;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */

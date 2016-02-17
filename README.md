@@ -15,11 +15,7 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [Discussion group](htt
 ## Built with
 
 - [jekyll](http://jekyllrb.com) [@jekyll](https://github.com/jekyll)
-- [dbtek/paper](https://github.com/dbtek/paper)
-
-### License
-
-- [The MIT License](https://github.com/tigefa4u/tigefa4u.github.io/blob/master/LICENSE)
+- [Bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 
 #### lets begin with test
 
@@ -46,3 +42,6 @@ bundle install
 bundle exec jekyll serve -w
 ```
 
+### License
+
+- [The MIT License](https://github.com/tigefa4u/tigefa4u.github.io/blob/master/LICENSE)
