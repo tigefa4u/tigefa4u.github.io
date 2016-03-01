@@ -1,17 +1,17 @@
 language: ruby
 cache: bundler
 rvm:
-- 2.3
+#- 2.3
 - 2.2
-- 2.1
+#- 2.1
 before_install: gem update --system
 install: bundle install
 script:
 - bundle exec jekyll build
-matrix:
-  allow_failures:
-    - rvm: 2.1
-    - rvm: 2.3
+#matrix:
+#  allow_failures:
+#    - rvm: 2.1
+#    - rvm: 2.3
 notifications:
   irc:
     channels:
@@ -19,7 +19,7 @@ notifications:
       - "chat.freenode.net##tigefa"
     nick: tigefa
     password:
-      secure: "Ghzp2vfklLN2cpQQ6vKZMSUopsHpicewPPkh5joM4fwHWrbOl4SIc2e9CHAQhK/986aemrWxRYuuvYJEISXqXTh3rQKPdUIa1+A35cBdfOG6sLYwDoQa0hPeNNE6csPA3b/oAMHSN2jBq0/2s/9Ln4soY3YcWXmkiwoF4Gf3bGs="
+      secure: "cc20DwyhL1hL0wjKFcvElbxRrkHuXcFne1l0g7dXYc4reJnJCJnxkKylYEkjxtv6hOOHwoeLd8i8937FXXa0ky0dkZ3hnRmL2kkxjMb+qI4DDae0RSVvWs9GPe1elaScEfK4rH9E0Q/1zU9/YXxXQWsrAyjY8TE+Bi0Yx00Sl78="
   campfire:
     rooms:
     - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
