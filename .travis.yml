@@ -14,8 +14,12 @@ matrix:
     - rvm: 2.3
 notifications:
   irc:
-    - "chat.freenode.net#tigefa"
-    - "chat.freenode.net##tigefa"
+    channels:
+      - "chat.freenode.net#tigefa"
+      - "chat.freenode.net##tigefa"
+    nick: tigefa
+    password:
+      secure: "Ghzp2vfklLN2cpQQ6vKZMSUopsHpicewPPkh5joM4fwHWrbOl4SIc2e9CHAQhK/986aemrWxRYuuvYJEISXqXTh3rQKPdUIa1+A35cBdfOG6sLYwDoQa0hPeNNE6csPA3b/oAMHSN2jBq0/2s/9Ln4soY3YcWXmkiwoF4Gf3bGs="
   campfire:
     rooms:
     - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
