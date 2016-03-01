@@ -13,19 +13,16 @@ matrix:
     - rvm: 2.1
     - rvm: 2.3
 notifications:
+  irc:
+    - "chat.freenode.net#tigefa"
+    - "chat.freenode.net##tigefa"
   campfire:
     rooms:
     - tigefa1:0ae60ba741d05cbd1a1435c5137ac3d856cd96ed@595196
     template:
     - "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
     - 'Build details: %{build_url}'
-  email:
-    on_success: never
-    on_failure: never
-  slack:
-    secure: 3Ph3eSVjMwybrbF9K+RiIBQrPNmazVHmmN3Ay9/Qk19W1qgG75Eb7b05s4PMuTK7YtuB4O1EF7kMhSf96bZCZT6dKXYJZnzyL5pmZeb/HQ0mVt1ifhCrOXZpsnwOnGHokCxABOsgNH3ahvNzapLGLN/MMvryXbUv3JEm/Pc+iPo=
-  sqwiggle:
-    secure: QMpfh1+89CqI+wHRcWusqqXSEYbDRafiCHnpt+vuVJ3ehWMNLDqGxzcXDY5VBIdeMb6r+5k0fnl5oyUKECkgd6+uUNqibkwmRo9SbID45YXepyr0kWGtGKLRVwbdGZyE7nAMzq78+yfgHKwALF/fLDOgbcxKrt2rPcIyN57aB9Q=
+  email: false
   hipchat:
     rooms:
       secure: GrNQ+RMl/AKxaR07B6f0PU40J5HbyriGUIotLpHAPlpuMkOduUksSLz2VhlS8n5HKS3zPD60nmxDA8UIR15cOojYoY7lIynd0MkSo1zVo3oEeS22qCqIA0vDxF/atLow9F4dyCGlALLdgsE1stbyitUd2KTecMP4O+cE39UQBT0=
