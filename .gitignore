@@ -7,7 +7,7 @@ build
 node_modules
 .ruby-version
 .rvmrc
-config.rb
+.c9
 
 # Numerous always-ignore extensions
 *.diff
