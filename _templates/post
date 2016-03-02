@@ -2,4 +2,6 @@
 layout: {{ layout }}
 title: "{{ title }}"
 date: {{ date }}
+category:
+tags:
 ---
