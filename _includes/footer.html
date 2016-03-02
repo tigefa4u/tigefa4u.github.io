@@ -8,21 +8,6 @@
   </div>
 </footer>
 
-<script type="text/javascript">
-  hljs.initHighlightingOnLoad();
-  function applyTiles() {
-    var posts = $('#posts ul');
-    posts.imagesLoaded(function() {
-      $('#posts ul').masonry({ itemSelector : '.post' });;
-    });
-  }
-  $(function() {
-    applyTiles();
-  });
-  $(window).resize(function() {
-    applyTiles();
-  });
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/static/js/jquery.min.js"><\/script>')</script>
 <script src="{{ "/static/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
@@ -35,4 +20,3 @@
 <script src="{{ "/static/js/utils.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/static/js/buttons.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/static/js/bs3-masonry.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/static/js/highlight.pack.min.js" | prepend: site.baseurl }}"></script>
