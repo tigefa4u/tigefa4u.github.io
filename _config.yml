@@ -22,6 +22,7 @@ analytics:
       yandex:
 
 # Build settings
+timzone: Asia/Jakarta
 permalink: /articles/:year-:month-:day-:title.html
 kramdown:
   toc_levels: 1..2
