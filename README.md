@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img src="https://rawgit.com/tigefa4u/tigefa4u.github.io/master/static/img/tigefa-cover.png" alt="tigefa-cover">
+	<img width="300" src="https://rawgit.com/tigefa4u/tigefa4u.github.io/master/static/img/tigefa-cover.png" alt="tigefa-cover">
 	<br>
 	<br>
 	<br>
