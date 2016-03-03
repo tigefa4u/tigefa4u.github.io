@@ -23,6 +23,8 @@ follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [Discussion group](htt
 - [jekyll](http://jekyllrb.com) [@jekyll](https://github.com/jekyll)
 - [Bootstrap](http://getbootstrap.com) [@twbs](https://github.com/twbs)
 
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
 #### lets begin with test
 
 ```shell
