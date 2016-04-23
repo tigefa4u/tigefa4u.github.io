@@ -3,15 +3,15 @@ layout: default
 ---
 <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="page-header">
     <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ site.time | date_to_rfc822 }}" itemprop="datePublished">{{ site.time | date_to_long_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+<hr>
 </article>
 
 {% include comments.html %}

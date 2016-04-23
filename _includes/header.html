@@ -20,8 +20,7 @@
             {% endfor %}
           </ul>
           <ul class="nav navbar-nav navbar-right">
-             <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
-             <li><a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a></li>
+             <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">RSS</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

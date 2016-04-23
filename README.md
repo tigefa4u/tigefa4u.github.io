@@ -1,11 +1,3 @@
-<h1 align="center">
-	<br>
-	<img width="300" src="https://rawgit.com/tigefa4u/tigefa4u.github.io/master/static/img/tigefa-cover.png" alt="tigefa-cover">
-	<br>
-	<br>
-	<br>
-</h1>
-
 # tigefa4u.github.io
 
 personal notes build with jekyll.

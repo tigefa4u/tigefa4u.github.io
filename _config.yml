@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: sugeng tigefa
 email: sugeng@tigefa.xyz
@@ -22,11 +15,10 @@ analytics:
       yandex:
 
 # Build settings
+markdown: kramdown
+highlighter: pygments
 timzone: Asia/Jakarta
-permalink: /articles/:year-:month-:day-:title.html
-kramdown:
-  toc_levels: 1..2
-highlighter: rouge
+permalink: /articles/:day-:month-:year-:title.html
 gems:
   - jekyll-sitemap
   - jekyll-gist
@@ -35,4 +27,4 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9"]
+exclude: [".sass-cache", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9"]
