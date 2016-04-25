@@ -4,7 +4,7 @@ machine:
   ruby:
     version: 2.1.5
   python:
-    version: 2.7.10
+    version: 2.7.11
 
 dependencies: 
   pre:
@@ -17,5 +17,5 @@ dependencies:
 
 test:
   post:
-    - bundle exec travis lint
+#    - bundle exec travis lint
     - bundle exec jekyll build
