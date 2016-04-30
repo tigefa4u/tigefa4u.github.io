@@ -91,7 +91,7 @@ password: admin
 
 You can go to Administration menu and choose Settings to modify most of the application settings.
 
-##### [For learn more visit redmine wiki](http://via.tigefa.org/1igVc0Z)
+##### [For learn more visit redmine wiki](http://bit.ly/1igVc0Z)
 
 ### Adding alias `redmine.myproject.org` for example
 
