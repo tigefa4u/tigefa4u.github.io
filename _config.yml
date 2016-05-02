@@ -3,7 +3,7 @@ title: sugeng tigefa
 email: sugeng@tigefa.xyz
 description: Awesome word for reasons
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tigefa.space" # the base hostname & protocol for your site
+url: "https://tigefa.space" # the base hostname & protocol for your site
 author:
   name:    sugeng tigefa
   twitter: sugeng_tigefa
