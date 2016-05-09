@@ -16,7 +16,7 @@ analytics:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 timzone: Asia/Jakarta
 permalink: /articles/:day-:month-:year-:title.html
 gems:
