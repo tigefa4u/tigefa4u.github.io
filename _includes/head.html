@@ -4,13 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="Generator" content="Jekyll v3.1.6">
 
-  <link rel="stylesheet" href="{{ "/static/css/styles.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/octicons.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/static/css/highlightjs/github-gist.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/buttons.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/static/css/bootstrap-united.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/static/css/bootstrap-cyborg.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/static/css/styles.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/static/css/highlightjs/monokai.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <script src="{{ "/static/js/highlight.pack.min.js" | prepend: site.baseurl }}"></script>
