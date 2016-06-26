@@ -4,27 +4,21 @@ language: ruby
 cache: bundler
 rvm:
 - 2.3.1
-#- 2.2
-#- 2.1
 before_install: gem update --system
 install: bundle install
 script:
 - bundle exec jekyll build
-#matrix:
-#  allow_failures:
-#    - rvm: 2.1
-#    - rvm: 2.3
 notifications:
   irc:
     channels:
-      - "chat.freenode.net#tigefa"
-      - "chat.freenode.net##tigefa"
+    - chat.freenode.net#tigefa
+    - chat.freenode.net##tigefa
     nick: tigefa
     password:
-      secure: "cc20DwyhL1hL0wjKFcvElbxRrkHuXcFne1l0g7dXYc4reJnJCJnxkKylYEkjxtv6hOOHwoeLd8i8937FXXa0ky0dkZ3hnRmL2kkxjMb+qI4DDae0RSVvWs9GPe1elaScEfK4rH9E0Q/1zU9/YXxXQWsrAyjY8TE+Bi0Yx00Sl78="
+      secure: cc20DwyhL1hL0wjKFcvElbxRrkHuXcFne1l0g7dXYc4reJnJCJnxkKylYEkjxtv6hOOHwoeLd8i8937FXXa0ky0dkZ3hnRmL2kkxjMb+qI4DDae0RSVvWs9GPe1elaScEfK4rH9E0Q/1zU9/YXxXQWsrAyjY8TE+Bi0Yx00Sl78=
   campfire:
     rooms:
-      secure: "CkMzTewoccyvhdbvxkutepD0gcvLbMi6TZU5le7kKwdKLKqodPs2B25ztb9raZR6GwygNH0wG2O3DjXUlsSnV/0/p0NW5TuVhZvQcxCw3UgP2w7n6FZCP5azZCzsSbhLYPasNUcF714NZ5cRP2ouFaWNsM+Gy6AkoVF1QXLIHGI="
+      secure: CkMzTewoccyvhdbvxkutepD0gcvLbMi6TZU5le7kKwdKLKqodPs2B25ztb9raZR6GwygNH0wG2O3DjXUlsSnV/0/p0NW5TuVhZvQcxCw3UgP2w7n6FZCP5azZCzsSbhLYPasNUcF714NZ5cRP2ouFaWNsM+Gy6AkoVF1QXLIHGI=
     template:
     - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
     - 'Build details: %{build_url}'
@@ -32,3 +26,8 @@ notifications:
   hipchat:
     rooms:
       secure: GrNQ+RMl/AKxaR07B6f0PU40J5HbyriGUIotLpHAPlpuMkOduUksSLz2VhlS8n5HKS3zPD60nmxDA8UIR15cOojYoY7lIynd0MkSo1zVo3oEeS22qCqIA0vDxF/atLow9F4dyCGlALLdgsE1stbyitUd2KTecMP4O+cE39UQBT0=
+  pushover:
+    api_key:
+      secure: hlOdxBumQn68AYmNnSXxw4bkjofSwwls31mubvMfrCskCJbWeMSTmkv0BUjO94otXBdhYG0lBXnnwRcr8qbPZ7RxW8bymdShCvuKqmKUvZ4F6kD/AbI01QZ8mD6DM1ng1j3ULyk52mnlCe40x+HjtDiITvgfeyTj6iV6Zis/wLw=
+    users:
+      secure: NpsikDyyTf7EPyftboqEI9TxPI/X0RT8pUJj8mDzDFDHA8rRPrIWlKn+Go7KfySeI4GJ6gWz+9wiIbZBqj9bxnHDf9wujZCkz05xp96oNcYzP8q/xiYxZwBg55OaqSr0UPBbGmCGb7NZAHX+8/7iaPDFcRcne81UCgkIC/u0qaQ=
