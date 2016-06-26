@@ -16,6 +16,8 @@ notifications:
     nick: tigefa
     password:
       secure: cc20DwyhL1hL0wjKFcvElbxRrkHuXcFne1l0g7dXYc4reJnJCJnxkKylYEkjxtv6hOOHwoeLd8i8937FXXa0ky0dkZ3hnRmL2kkxjMb+qI4DDae0RSVvWs9GPe1elaScEfK4rH9E0Q/1zU9/YXxXQWsrAyjY8TE+Bi0Yx00Sl78=
+    template: 
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
   campfire:
     rooms:
       secure: CkMzTewoccyvhdbvxkutepD0gcvLbMi6TZU5le7kKwdKLKqodPs2B25ztb9raZR6GwygNH0wG2O3DjXUlsSnV/0/p0NW5TuVhZvQcxCw3UgP2w7n6FZCP5azZCzsSbhLYPasNUcF714NZ5cRP2ouFaWNsM+Gy6AkoVF1QXLIHGI=
@@ -31,3 +33,5 @@ notifications:
       secure: hlOdxBumQn68AYmNnSXxw4bkjofSwwls31mubvMfrCskCJbWeMSTmkv0BUjO94otXBdhYG0lBXnnwRcr8qbPZ7RxW8bymdShCvuKqmKUvZ4F6kD/AbI01QZ8mD6DM1ng1j3ULyk52mnlCe40x+HjtDiITvgfeyTj6iV6Zis/wLw=
     users:
       secure: NpsikDyyTf7EPyftboqEI9TxPI/X0RT8pUJj8mDzDFDHA8rRPrIWlKn+Go7KfySeI4GJ6gWz+9wiIbZBqj9bxnHDf9wujZCkz05xp96oNcYzP8q/xiYxZwBg55OaqSr0UPBbGmCGb7NZAHX+8/7iaPDFcRcne81UCgkIC/u0qaQ=
+    template: 
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
