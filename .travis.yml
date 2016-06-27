@@ -28,10 +28,12 @@ notifications:
   hipchat:
     rooms:
       secure: GrNQ+RMl/AKxaR07B6f0PU40J5HbyriGUIotLpHAPlpuMkOduUksSLz2VhlS8n5HKS3zPD60nmxDA8UIR15cOojYoY7lIynd0MkSo1zVo3oEeS22qCqIA0vDxF/atLow9F4dyCGlALLdgsE1stbyitUd2KTecMP4O+cE39UQBT0=
+    template:
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
   pushover:
     api_key:
-      secure: hlOdxBumQn68AYmNnSXxw4bkjofSwwls31mubvMfrCskCJbWeMSTmkv0BUjO94otXBdhYG0lBXnnwRcr8qbPZ7RxW8bymdShCvuKqmKUvZ4F6kD/AbI01QZ8mD6DM1ng1j3ULyk52mnlCe40x+HjtDiITvgfeyTj6iV6Zis/wLw=
+    - secure: XdrXyCiQcVAjefl3HEPKFMKosrjtiYHxtwCxpc3TzmNdL+89t6XuGf5ECyNW3idA198CX1PAN5ygb5KzZltZvVK+zYKqnvFDru+D5LK/oqNJk2GA4/NQA1SfOiH+4Jt0+4jrtsrSVgBGE54zwV0G8moE+kuG7FeZdAz61aa3kDE=
     users:
       secure: EyvDtOGJnioK4bVE7tETpDUithrBrmzXvrv82jkH+uwOgbXWx2tE1goxlXMLyy8sf/6dujTDpIXxP6m8wfyaQNSKONovC5k2Hjbrb1F+cHh8iT9jz7x2N2/puKgMyXff2HWxUI4Qea6z9/ocJC0bpTy5rL4SiRY7D0MNbXpv7Cc=
     template:
-      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
+    - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
