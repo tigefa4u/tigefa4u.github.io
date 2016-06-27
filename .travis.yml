@@ -37,3 +37,5 @@ notifications:
       secure: EyvDtOGJnioK4bVE7tETpDUithrBrmzXvrv82jkH+uwOgbXWx2tE1goxlXMLyy8sf/6dujTDpIXxP6m8wfyaQNSKONovC5k2Hjbrb1F+cHh8iT9jz7x2N2/puKgMyXff2HWxUI4Qea6z9/ocJC0bpTy5rL4SiRY7D0MNbXpv7Cc=
     template:
     - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
+  flowdock:
+    secure: IQ5HHr9SnfNXvlSfyd5xGMgnb9OWMzeSaaUnnc2hXkkMQ14ctTQb8Yy2S5eI62jPLyzJmYePpVg7rQsNRqWLGIB4fm0hkH/HCU2CWM5tGS/OpE5e3re0OG5B6iZ+C5dTIGVCoYgDV+uaauI7YhMDpZCGnoMsUMuGmuKITJMeRnA=
