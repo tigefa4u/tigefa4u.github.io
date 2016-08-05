@@ -2,18 +2,19 @@ machine:
   timezone:
     Asia/Jakarta
   ruby:
-    version: 2.3.0
+    version: 2.3.1
   python:
-    version: 2.7.11
+    version: 2.7.12
 
 dependencies: 
   pre:
     - curl -k -L -o get-pip.py https://bootstrap.pypa.io/get-pip.py
     - python get-pip.py
-    - pip install -U pygments
+    - pip install -U pygments speedtest-cli
     - gem update --system
-    - gem install bundler --conservative
+    - gem install bundler --pre
     - bundle install
+    - speedtest --secure --share
 
 test:
   post:
