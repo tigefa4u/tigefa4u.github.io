@@ -28,4 +28,4 @@ environment:
 matrix:
   fast_finish: true
   allow_failures:
-    - ruby_version: "22"
+    - ruby_version: "230"
