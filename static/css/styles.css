@@ -3,10 +3,14 @@
 html {
   position: relative;
   min-height: 100%;
+  font-family: "BloggerSans";
 }
 
 body > .container {
   padding: 60px 15px 0;
+}
+body {
+  font-family: "BloggerSans"; 
 }
 .container .text-muted {
   margin: 20px 0;

@@ -2,6 +2,7 @@ _site
 _gh_pages
 _build
 _deploy
+.jekyll-metadata
 build
 /vendor/
 node_modules

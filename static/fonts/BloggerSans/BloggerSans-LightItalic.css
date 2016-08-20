@@ -1,0 +1,12 @@
+/* Webfont: BloggerSans-LightItalic */@font-face {
+    font-family: 'BloggerSans';
+    src: url('BloggerSans-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('BloggerSans-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BloggerSans-LightItalic.woff') format('woff'), /* Modern Browsers */
+         url('BloggerSans-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BloggerSans-LightItalic.svg#BloggerSans-LightItalic') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
