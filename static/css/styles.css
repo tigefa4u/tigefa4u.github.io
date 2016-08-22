@@ -15,7 +15,9 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: "BloggerSans";
+}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
