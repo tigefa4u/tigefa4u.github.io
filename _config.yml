@@ -27,4 +27,4 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
 
-exclude: [".sass-cache", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9"]
+exclude: [".sass-cache", "Rakefile", "Rakefile.rb", "tmp", "venv", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9"]
