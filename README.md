@@ -1,4 +1,12 @@
-# tigefa4u.github.io
+<h1 align="center">
+	<br>
+	<a href="http://pesona.indonesia.travel/"><img width="400" src="https://cdn.rawgit.com/tigefa4u/tigefa4u.github.io/master/static/img/pesonaindonesia.png" alt="awesome"></a>
+	<br>
+	<br>
+	<br>
+</h1>
+
+## tigefa4u.github.io
 
 personal notes build with jekyll.
 
