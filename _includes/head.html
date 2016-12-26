@@ -1,14 +1,14 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="Generator" content="Jekyll v3.1.6">
+  <meta name="Generator" content="Jekyll v{{ jekyll.version }}">
 
   <link rel="stylesheet" href="{{ "/static/css/octicons.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/buttons.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/static/css/bootstrap-cyborg.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/static/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/font-awesome.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/css/styles.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/static/fonts/BloggerSans/BloggerSans.css" | prepend: site.baseurl }}">
@@ -19,9 +19,9 @@
   <script type="text/javascript">
     hljs.initHighlightingOnLoad();
     function applyTiles() {
-      var posts = $('#posts ul');
+      var posts = $('.col-md-4');
       posts.imagesLoaded(function() {
-        $('#posts ul').masonry({ itemSelector : '.post' });;
+        $('.col-md-4').masonry({ itemSelector : '.grid' });;
       });
     }
     $(function() {

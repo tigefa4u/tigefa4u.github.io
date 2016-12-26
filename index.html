@@ -5,7 +5,7 @@ layout: default
 <div class="jumbotron">
   <div class="container" style="text-align:center;margin-top:30px;">
     <h1>sugeng tigefa</h1>
-    <p><img alt="tigefa-cover" src="{{ "/static/img/tigefa-cover.png" | prepend: site.baseurl }}" width="250" height="250"></p>
+    <p><img alt="tigefa-cover" src="{{ "/static/img/tigefa-cover.png" | prepend: site.baseurl }}" width="300" height="300"></p>
     <p>{{ site.description }}</p>
     <p><a class="button button-primary button-box button-giant button-longshadow" href="http://dash.tigefa.space" target="_blank"><i class="fa fa-tachometer"></i></a>
       <a class="button button-primary button-box button-giant button-longshadow" href="http://news.tigefa.space" target="_blank"><i class="fa fa-newspaper-o"></i></a>
@@ -16,26 +16,18 @@ layout: default
 </div>
 
 <div class="container">
+
 <div class="row">
-  <div class="col-md-6">
-    <div class="page-header">
-      <h1>PHP <small>code addons plus tut</small></h1>
-    </div>
-<div class="list-group">
-  {% for post in site.categories.php %}
-  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
-  {% endfor %}
-</div>
-  </div>
-  <div class="col-md-6">
-    <div class="page-header">
-      <h1>Ruby <small>code addons plus tut</small></h1>
-    </div>
-<div class="list-group">
-  {% for post in site.categories.ruby %}
-  <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
-  {% endfor %}
-</div>
+{% for post in site.posts %}
+  <div class="col-md-4">
+<div class="card">
+  <img class="card-img-top" data-src="holder.js/100px60/thumb?text={{ post.category }}&auto=yes" alt="{{ post.category }}">
+  <div class="card-block">
+    <p class="card-text"><a href="{{ post.url }}" class="card-link">{{ post.title }}</a></p>
   </div>
 </div>
+  </div>
+{% endfor %}
+</div>
+
 </div>
