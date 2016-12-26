@@ -2,7 +2,7 @@
 layout: post
 title: "Dropbox SDK for PHP 5.3+"
 description: "A PHP library to access Dropbox's HTTP-based API"
-category: php
+categories: php
 tags: [php, github]
 ---
 

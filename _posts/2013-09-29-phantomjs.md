@@ -2,7 +2,7 @@
 layout: post
 title: "PhantomJS"
 description: "PhantomJS"
-category: javascript
+categories: javascript
 tags: [PhantomJS]
 ---
 

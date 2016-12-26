@@ -4,6 +4,7 @@ title: "Make irreversible migration work on change of migration"
 description: "Rails raises ActiveRecord::IrreversibleMigration when it
 can't do it. Since Rails 4 released there is a solution to avoid
 it."
+categories: ruby
 tags: [rails, migrations]
 ---
 

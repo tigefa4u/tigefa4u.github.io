@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agnostic Application Generators"
-category: ruby 
+categories: ruby 
 tags: [padrino-gen, padrino, ruby]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Mention.js"
 description: "wrapper for adding @user mention functionality to Twitter Bootstraps Typeahead plugin"
-category: bootstrap
+categories: bootstrap
 tags: [bootstrap, mention.js]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Rails url_for weaknesses"
 description: "url_for is used by link_to which is used any Rails developer.
 This method accepts a lot of types of arguments. And sometimes it can be slow. See how to use it with maximum performance."
+categories: ruby
 tags: [rails]
 ---
 

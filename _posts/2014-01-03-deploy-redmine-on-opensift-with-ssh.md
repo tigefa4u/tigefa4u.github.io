@@ -2,7 +2,7 @@
 layout: post
 title: "deploy redmine on openshift with ssh"
 description: "easy deploy with rhc ssh redmine openshift cartridge"
-category: ruby
+categories: ruby
 tags: [ruby, rhc, openshift]
 ---
 

@@ -6,8 +6,11 @@ _deploy
 build
 /vendor/
 node_modules
+bower_components
+_config_dev.yml
 .ruby-version
 .rvmrc
+.nvmrc
 .c9
 
 # Numerous always-ignore extensions
@@ -18,11 +21,14 @@ node_modules
 *.rej
 *.swo
 *.swp
+*.swf
 *.zip
 *.vi
 *.tgz
 *.tar.gz
 *.rar
+*.gz
+*.7z
 *~
 
 # OS or Editor folders

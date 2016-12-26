@@ -2,7 +2,7 @@
 layout: post
 title: "flat file blog PHP and Markdown"
 description: "flat-file blog, written in PHP and Markdown."
-category: [php]
+categories: php
 tags: [github, markdown, php]
 ---
 

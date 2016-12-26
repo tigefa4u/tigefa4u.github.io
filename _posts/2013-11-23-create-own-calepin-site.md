@@ -2,7 +2,7 @@
 layout: post
 title: "Create Own Calepin site"
 description: "fork jokull/calepin and create own server or new service like calepin.co"
-category: python
+categories: python
 tags: ['calepin', 'python', 'pelican']
 ---
 
