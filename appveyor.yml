@@ -26,7 +26,7 @@ environment:
     - ruby_version: "23"
 
 matrix:
-  fast_finish: true
+#  fast_finish: true
   allow_failures:
     - ruby_version: "21"
     - ruby_version: "22"
