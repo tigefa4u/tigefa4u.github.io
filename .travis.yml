@@ -3,7 +3,7 @@ dist: trusty
 language: ruby
 cache: bundler
 rvm:
-- 2.3.1
+- 2.3.3
 #before_install: gem update --system
 #install: bundle install
 script:
@@ -30,12 +30,3 @@ notifications:
       secure: GrNQ+RMl/AKxaR07B6f0PU40J5HbyriGUIotLpHAPlpuMkOduUksSLz2VhlS8n5HKS3zPD60nmxDA8UIR15cOojYoY7lIynd0MkSo1zVo3oEeS22qCqIA0vDxF/atLow9F4dyCGlALLdgsE1stbyitUd2KTecMP4O+cE39UQBT0=
     template:
     - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
-  pushover:
-    api_key:
-      secure: X5TpHdwAJL/fZecIsGOO85yMdF0qgSnBrgyJws71t2mbnTPL67OD3RSXPXmLNb/+UsjxyKPpLFc/fEVjuUHoBwg0tTsaPJLtQc1XgU3nw6+Fg2oApqUw4/bbR+vMejvITpe1faV3DLYy/VBB7exSNnIHtlmMlLdcL+ZztGx+5Rs=
-    users:
-      secure: EyvDtOGJnioK4bVE7tETpDUithrBrmzXvrv82jkH+uwOgbXWx2tE1goxlXMLyy8sf/6dujTDpIXxP6m8wfyaQNSKONovC5k2Hjbrb1F+cHh8iT9jz7x2N2/puKgMyXff2HWxUI4Qea6z9/ocJC0bpTy5rL4SiRY7D0MNbXpv7Cc=
-    template:
-    - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
-  flowdock:
-    secure: IQ5HHr9SnfNXvlSfyd5xGMgnb9OWMzeSaaUnnc2hXkkMQ14ctTQb8Yy2S5eI62jPLyzJmYePpVg7rQsNRqWLGIB4fm0hkH/HCU2CWM5tGS/OpE5e3re0OG5B6iZ+C5dTIGVCoYgDV+uaauI7YhMDpZCGnoMsUMuGmuKITJMeRnA=
