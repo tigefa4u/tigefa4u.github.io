@@ -12,6 +12,7 @@ notifications:
   irc:
     channels:
     - chat.freenode.net#tigefa
+    - chat.freenode.net#tigefarb
     - chat.freenode.net##tigefa
     nick: tigefa
     password:
