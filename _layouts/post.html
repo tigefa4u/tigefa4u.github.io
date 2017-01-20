@@ -4,8 +4,8 @@ layout: default
 <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="page-header">
-    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-    <p class="post-meta"><time datetime="{{ site.time | date_to_rfc822 }}" itemprop="datePublished">{{ site.time | date_to_long_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <h2 class="display-4" itemprop="name headline">{{ page.title }}</h2>
+    <p class="post-meta"><i class="fa fa-calendar"></i> <time datetime="{{ site.time | date_to_rfc822 }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time> <i class="fa fa-user"></i> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author.name }}</span></span></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">

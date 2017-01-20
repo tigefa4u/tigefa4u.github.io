@@ -7,7 +7,7 @@ html {
 }
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 80px 15px 0;
 }
 body {
   font-family: "BloggerSans"; 
@@ -203,3 +203,7 @@ border-radius: 18px;
 }
     
 .smooth-scroll a { margin-bottom: 5px; }
+
+.post-content {
+  padding-top: 20px;
+}
