@@ -8,8 +8,6 @@ machine:
 
 dependencies:
   pre:
-    - curl -k -L -o get-pip.py https://bootstrap.pypa.io/get-pip.py
-    - python get-pip.py
     - pip install -U pygments speedtest-cli
     - gem update --system
     - gem install bundler --pre
