@@ -21,13 +21,14 @@ notifications:
     - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
     - 'Build details: %{build_url}'
   email: false
-  hipchat:
-    rooms:
-      secure: GrNQ+RMl/AKxaR07B6f0PU40J5HbyriGUIotLpHAPlpuMkOduUksSLz2VhlS8n5HKS3zPD60nmxDA8UIR15cOojYoY7lIynd0MkSo1zVo3oEeS22qCqIA0vDxF/atLow9F4dyCGlALLdgsE1stbyitUd2KTecMP4O+cE39UQBT0=
-    template:
-    - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{build_url}"
   slack:
     rooms:
       - tigefa:Ru9WZPQ79qA7Epq0zOPnozqA#general
       - tigefa:Ru9WZPQ79qA7Epq0zOPnozqA#random
       - tigefa:Ru9WZPQ79qA7Epq0zOPnozqA#stream
+
+  hipchat:
+    rooms:
+      - 17f23bd56e72c930ab445af788dd54@3482868
+      - 17f23bd56e72c930ab445af788dd54@52330
+    format: html
