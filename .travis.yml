@@ -31,4 +31,5 @@ notifications:
     rooms:
       - 17f23bd56e72c930ab445af788dd54@3482868
       - 17f23bd56e72c930ab445af788dd54@52330
+      - 17f23bd56e72c930ab445af788dd54@3544496
     format: html
