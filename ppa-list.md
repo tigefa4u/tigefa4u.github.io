@@ -3,7 +3,7 @@ layout: page
 title: "PPA List"
 ---
 
-Recommended PPA for Ubuntu ^LTS^
+Recommended PPA for Ubuntu <sup>LTS</sup>
 
 ## Git
 
