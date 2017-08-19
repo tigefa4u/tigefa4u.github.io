@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 timzone: Asia/Jakarta
 permalink: /articles/:day-:month-:year-:title.html
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-mentions

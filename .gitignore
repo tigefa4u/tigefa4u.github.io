@@ -8,6 +8,7 @@ build
 node_modules
 bower_components
 _config_dev.yml
+_config-dev.yml
 .ruby-version
 .rvmrc
 .nvmrc
