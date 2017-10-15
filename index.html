@@ -7,12 +7,12 @@ layout: default
 <div class="row">
 {% for post in site.posts %}
   <div class="col-md-4">
-<div class="card">
-  <img class="card-img-top" data-src="holder.js/100px60/thumb?text={{ post.categories }}&auto=yes" alt="{{ post.categories }}">
-  <div class="card-block">
-    <p class="card-text"><a href="{{ post.url }}" class="card-link">{{ post.title }}</a></p>
-  </div>
-</div>
+    <div class="card mb-4">
+      <img class="card-img-top" data-src="holder.js/100px60/thumb?text={{ post.categories }}&auto=yes" alt="{{ post.categories }}">
+     <div class="card-body">
+       <p class="card-text"><a href="{{ post.url }}" class="card-link">{{ post.title }}</a></p>
+     </div>
+    </div>
   </div>
 {% endfor %}
 </div>

@@ -1,21 +1,14 @@
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
-      <div class="container">
-        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-expanded="false" aria-controls="exCollapsingNavbar2" aria-label="Toggle navigation"></button>
-         <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
           <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/">Home</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li class="nav-item"><a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
+            {% for my_page in site.pages %}{% if my_page.title %}<li class="nav-item"><a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>{% endif %}{% endfor %}
           </ul>
-          <ul class="nav navbar-nav float-xs-right">
-             <li class="nav-item"><a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">RSS</a></li>
-          </ul>
-         </div>
-      </div>
-    </nav>
+        </div>
+       </nav>
+    </div>
     <div id="btop"></div>
