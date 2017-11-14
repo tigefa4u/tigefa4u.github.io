@@ -2,9 +2,9 @@ machine:
   timezone:
     Asia/Jakarta
   ruby:
-    version: 2.3.3
+    version: 2.4.2
   python:
-    version: 2.7.13
+    version: 2.7.14
 
 dependencies:
   pre:
