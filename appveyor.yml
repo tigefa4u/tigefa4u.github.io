@@ -4,7 +4,7 @@ platform:
 
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
-  - gem update --system
+#  - gem update --system
   - gem install bundler
   - bundle install
 
