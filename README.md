@@ -15,7 +15,7 @@ personal notes build with jekyll.
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/LICENSE)
 [![Show me a Demo at Codio](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)](https://codio.com/tigefa/tigefa4u)
 
-follow [@sugeng_tigefa](http://twitter.com/sugeng_tigefa) [Discussion group](http://groups.google.com/group/tigefa) :loudspeaker:
+follow [@sugengtigefa](http://twitter.com/sugengtigefa) [Discussion group](http://groups.google.com/group/tigefa) :loudspeaker:
 
 
 ## Built with
