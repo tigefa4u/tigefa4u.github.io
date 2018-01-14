@@ -13,6 +13,12 @@ build: off
 #cache:
 #  - vendor/bundle
 
+install:
+  - cinst imagemagick
+  - cinst ffmpeg
+  - cinst youtube-dl
+  - cinst clipgrab
+
 before_test:
   - ruby -v
   - gem -v
