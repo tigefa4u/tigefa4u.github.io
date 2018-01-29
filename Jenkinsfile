@@ -12,7 +12,8 @@ pipeline {
 whoami
 pwd
 sudo gem install bundler --pre --no-document
-bundle install'''
+bundle install
+bundle exec jekyll build'''
       }
     }
   }
