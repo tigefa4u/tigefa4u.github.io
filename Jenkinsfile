@@ -13,7 +13,8 @@ whoami
 pwd
 sudo gem install bundler --pre --no-document
 bundle install
-bundle exec jekyll build'''
+bundle exec jekyll build
+bundle exec htmlproofer ./_site --disable-external'''
       }
     }
   }
