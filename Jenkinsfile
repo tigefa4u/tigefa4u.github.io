@@ -11,7 +11,7 @@ pipeline {
         sh '''/bin/bash -l
 whoami
 pwd
-gem install bundler --pre --no-document
+sudo gem install bundler --pre --no-document
 bundle install'''
       }
     }
