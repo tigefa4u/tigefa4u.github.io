@@ -27,4 +27,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
-exclude: [".sass-cache", "Rakefile", "Rakefile.rb", "tmp", "venv", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9", "appveyor.yml", "circle.yml", "iron.json", "composer.json", "tigefa.jquery.json"]
+exclude: ["docs", "Jenkinsfile", "Dockerfile", "CODE_OF_CONDUCT.md", ".sass-cache", "Rakefile", "Rakefile.rb", "tmp", "venv", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor", ".c9", "appveyor.yml", "circle.yml", "iron.json", "composer.json", "tigefa.jquery.json"]

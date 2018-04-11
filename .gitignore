@@ -47,6 +47,7 @@ nbproject
 *.sublime-workspace
 .idea
 .codio
+.vscode
 
 # Komodo
 *.komodoproject
