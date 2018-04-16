@@ -1,7 +1,7 @@
 dist: trusty
 sudo: required
 language: ruby
-cache: bundler
+#cache: bundler
 rvm:
 - 2.4.4
 #before_install: gem update --system
