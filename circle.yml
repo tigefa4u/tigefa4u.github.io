@@ -4,13 +4,12 @@ machine:
   ruby:
     version: 2.4.4
   python:
-    version: 2.7.15
+    version: 2.7.14
   services:
     - docker
 
 dependencies:
   pre:
-    - cd /opt/circleci/.pyenv/plugins/python-build && git pull && cd -
     - pip install -U pygments speedtest-cli
     - gem update --system
     - gem install bundler --pre
