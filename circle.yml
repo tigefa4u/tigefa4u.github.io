@@ -10,6 +10,7 @@ machine:
 
 dependencies:
   pre:
+    - cd /opt/circleci/.pyenv/plugins/python-build && git pull && cd -
     - pip install -U pygments speedtest-cli
     - gem update --system
     - gem install bundler --pre
