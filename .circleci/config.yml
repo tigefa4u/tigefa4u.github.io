@@ -9,8 +9,8 @@ jobs:
           name: Install and Update Packages
           command: |
             export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
-            apt-get update && apt-get dist-upgrade -y
-            apt-get install -y sudo wget curl netcat aria2 python-pip python3-pip
+            apt-get update -yqq && apt-get dist-upgrade -yqq
+            apt-get install -yqq sudo wget curl netcat aria2 python-pip python3-pip
             curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
             sudo apt-get install -yqq nodejs build-essential ruby ruby-dev
             sudo apt-get install -yqq build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libre2-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate rsync python-docutils pkg-config cmake
