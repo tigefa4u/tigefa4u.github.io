@@ -23,7 +23,7 @@ jobs:
             curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
             sudo apt-get install -yqq nodejs build-essential ruby ruby-dev git
             apt-get update -yqq && apt-get dist-upgrade -yqq
-            sudo apt-get install -yqq libidn11-dev libidn2-0-dev libidn2-dev
+            sudo apt-get install -yqq libidn11-dev libidn2-0-dev
             sudo apt-get install -yqq build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libre2-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate rsync python-docutils pkg-config cmake
             sudo -E -H npm install --global npm@latest
             sudo -E -H npm install --global node-gyp
