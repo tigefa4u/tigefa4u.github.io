@@ -15,9 +15,8 @@ personal notes build with jekyll.
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/LICENSE)
 [![Show me a Demo at Codio](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)](https://codio.com/tigefa/tigefa4u)
 
-follow [@sugengtigefa](http://twitter.com/sugengtigefa) [Discussion group](http://groups.google.com/group/tigefa) :loudspeaker:
-
-Tox ID: `3CE2186E7BBB6C112288CC10D80588C8E47C063B6A111437B093256957683600144647EFB629`
+[![Twitter Follow](https://img.shields.io/twitter/follow/sugengtigefa.svg?style=social&label=SugengTigefa)](https://twitter.com/intent/follow?screen_name=sugengtigefa)
+[![Google Groups](https://img.shields.io/badge/Group-tigefa-blue.svg)](http://groups.google.com/group/tigefa)
 
 ## Built with
 
