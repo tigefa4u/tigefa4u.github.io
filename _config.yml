@@ -1,12 +1,12 @@
 # Site settings
 title: sugeng tigefa
-email: sugeng@tigefa.xyz
+email: tigefa@gmail.com
 description: Awesome word for reasons
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tigefa4u.github.io" # the base hostname & protocol for your site
 author:
   name:    sugeng tigefa
-  twitter: sugeng_tigefa
+  twitter: sugengtigefa
   github:  tigefa4u
   disqus:  tigefa4u
 
