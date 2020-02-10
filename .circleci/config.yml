@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: tigefa/xubuntu
+      - image: tigefa/bionic-ruby
     steps:
       - checkout
       - setup_remote_docker
