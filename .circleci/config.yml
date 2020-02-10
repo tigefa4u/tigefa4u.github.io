@@ -20,7 +20,7 @@ jobs:
             sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
             sudo add-apt-repository ppa:chris-lea/redis-server -y
             sudo add-apt-repository ppa:jonathonf/backports -y
-            curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+            curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
             sudo apt-get install -yqq nodejs build-essential ruby ruby-dev git
             apt-get update -yqq && apt-get dist-upgrade -yqq
             sudo apt-get install -yqq libidn11-dev libidn2-0-dev
@@ -28,7 +28,6 @@ jobs:
             sudo -E -H npm install --global npm@latest
             sudo -E -H npm install --global node-gyp
             sudo -E -H npm install --global node-pre-gyp
-            sudo -E -H npm install --global yarn
             gem install bundler --no-document
             bundle install --jobs=$(nproc)
       - run:
