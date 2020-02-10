@@ -5,7 +5,7 @@ jobs:
       - image: tigefa/bionic-ruby
     steps:
       - checkout
-
+      - setup_remote_docker
       - run:
           name: Install and Update Packages
           command: |
