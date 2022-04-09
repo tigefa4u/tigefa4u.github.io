@@ -1,10 +1,4 @@
-<h2 align="center">
-	<br>
-	<a href="https://indonesia.travel><img width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjLkYmsse9kcPyT2s6yiGwf-GhR5py02DzKlUrpQQqaplTqP8ZOaNwILAQgXh3EzbdPP5ubDAkaNgnWK052Ua36OENvweBd93slIzotTZnF-t8OqCpmONxjSXY57yNK19pL1HBitd41Q2QIHtE0Xo9IWZlus3hJ0ZAbdaBN4lUnLz2W77soOCroUXp/s1600/pesonaindonesia.png" alt="Pesona Indonesia"></a>
-	<br>
-	<br>
-	<br>
-</h2>
+[![Indonesia Travel](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjLkYmsse9kcPyT2s6yiGwf-GhR5py02DzKlUrpQQqaplTqP8ZOaNwILAQgXh3EzbdPP5ubDAkaNgnWK052Ua36OENvweBd93slIzotTZnF-t8OqCpmONxjSXY57yNK19pL1HBitd41Q2QIHtE0Xo9IWZlus3hJ0ZAbdaBN4lUnLz2W77soOCroUXp/s1600/pesonaindonesia.png)](https://www.indonesia.travel)
 
 ## tigefa4u.github.io
 
