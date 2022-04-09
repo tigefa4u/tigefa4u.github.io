@@ -1,10 +1,10 @@
-<h1 align="center">
+<h2 align="center">
 	<br>
-	<a href="https://indonesia.travel><img width="400" src="https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/static/img/pesonaindonesia.png" alt="Pesona Indonesia"></a>
+	<a href="https://indonesia.travel><img width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjLkYmsse9kcPyT2s6yiGwf-GhR5py02DzKlUrpQQqaplTqP8ZOaNwILAQgXh3EzbdPP5ubDAkaNgnWK052Ua36OENvweBd93slIzotTZnF-t8OqCpmONxjSXY57yNK19pL1HBitd41Q2QIHtE0Xo9IWZlus3hJ0ZAbdaBN4lUnLz2W77soOCroUXp/s1600/pesonaindonesia.png" alt="Pesona Indonesia"></a>
 	<br>
 	<br>
 	<br>
-</h1>
+</h2>
 
 ## tigefa4u.github.io
 
