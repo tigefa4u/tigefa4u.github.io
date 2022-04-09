@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<a href="https://indonesia.travel><img width="400" src="https://cdn.rawgit.com/tigefa4u/tigefa4u.github.io/b3ff01cf/static/img/pesonaindonesia.png" alt="Pesona Indonesia"></a>
+	<a href="https://indonesia.travel><img width="400" src="https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/static/img/pesonaindonesia.png" alt="Pesona Indonesia"></a>
 	<br>
 	<br>
 	<br>
