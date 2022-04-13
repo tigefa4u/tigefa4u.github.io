@@ -4,8 +4,8 @@
 
 personal notes build with jekyll.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/rxb5xenbleq49v7s?svg=true)](https://ci.appveyor.com/project/tigefa4u/tigefa4u-github-io)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tigefa4u/tigefa4u.github.io)
+[![Build status](https://ci.appveyor.com/api/projects/status/rxb5xenbleq49v7s?svg=true)](https://ci.appveyor.com/project/tigefa4u/tigefa4u-github-io)
 [![DOI](https://zenodo.org/badge/20320/tigefa4u/tigefa4u.github.io.svg)](https://zenodo.org/badge/latestdoi/20320/tigefa4u/tigefa4u.github.io)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/tigefa4u/tigefa4u.github.io/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/sugengtigefa.svg?style=social&label=SugengTigefa)](https://twitter.com/intent/follow?screen_name=sugengtigefa)
