@@ -3,8 +3,8 @@ platform:
 
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
-#  - gem update --system
-#  - gem install bundler
+  - gem update --system
+  - bundle config --local path vendor/bundle
 #  - bundle install
 
 build: off
@@ -18,8 +18,6 @@ before_test:
   - bundle -v
 
 test_script:
-  - bundle config --local path vendor/bundle
-  - bundle install
   - bundle exec jekyll build
 
 environment:
