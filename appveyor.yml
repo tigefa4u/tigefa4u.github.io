@@ -3,9 +3,9 @@ platform:
 
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
-  - gem update --system
+  - gem install bundler --no-document
   - bundle config --local path vendor/bundle
-#  - bundle install
+  - bundle install
 
 build: off
 
