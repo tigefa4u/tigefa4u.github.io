@@ -13,6 +13,9 @@ jobs:
     defaults:
       run:
         shell: bash
+    env:
+      # Force JavaScript actions to use Node24 (runner default since June 2026)
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
     - uses: actions/checkout@v4
