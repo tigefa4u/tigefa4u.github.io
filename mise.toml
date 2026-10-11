@@ -1,0 +1,28 @@
+# mise configuration for tigefa4u.github.io Jekyll site
+
+# Declare the project's tools
+# Ruby is required for Jekyll; version should match GitHub Pages compatibility
+# GitHub Pages typically uses Ruby 3.0+ - using already-installed 3.4.11
+[tools]
+ruby = "3.4.11"
+bundler = "latest"
+
+# Share the setup with teammates
+# Commit this file. Teammates run:
+#   mise install    # installs declared tools and trusts the project
+#   mise tasks ls   # lists the project's tasks
+
+# Run project commands as tasks
+[tasks]
+build = "bundle exec jekyll build"
+serve = "bundle exec jekyll serve"
+build-future = "bundle exec jekyll build --future"
+
+# Environment variables for the Jekyll project
+[env]
+# Base URL for the site (empty for GitHub Pages user/organization site)
+JEKYLL_BASE_URL = ""
+# Source directory (project root)
+JEKYLL_SOURCE = "."
+# Destination directory
+JEKYLL_DEST = "_site"
