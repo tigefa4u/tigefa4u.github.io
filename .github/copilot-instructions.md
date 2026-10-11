@@ -46,3 +46,5 @@ The `.github/workflows/jekyll.yml` uses the `jekyll/builder:latest` Docker image
 - Update `_config.yml` for site-wide settings (title, author, plugins, analytics)
 
 **Note**: This repository appears to be a personal archive/blog that is no longer actively developed. Jekyll remains the underlying technology for GitHub Pages deployment.
+
+**CI Workflow Note**: The custom `.github/workflows/jekyll.yml` workflow sometimes fails due to gem dependency issues (e.g., `octopress`, `github-pages` not found in the `jekyll/builder:latest` Docker image). The default GitHub Pages `pages build and deployment` workflow works correctly and is recommended for site builds.
