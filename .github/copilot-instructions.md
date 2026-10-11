@@ -15,7 +15,7 @@ bundle exec jekyll server -w
 Site runs at http://localhost:4000
 
 **CI Build:**
-The `.github/workflows/jekyll.yml` uses the `jekyll/builder:latest` Docker image to build the site. It runs `jekyll build --future` with workspace mounted.
+The `.github/workflows/jekyll.yml` workflow builds the site on GitHub Actions using `bundle exec jekyll build --future` with Ruby 3.4.11 and the project's gems installed via `bundle install`. This runs reliably on every push and pull request to the `master` branch.
 
 **No test/lint framework** - this is a static content site. Verification is manual browser preview.
 
@@ -47,8 +47,13 @@ The `.github/workflows/jekyll.yml` uses the `jekyll/builder:latest` Docker image
 
 **Note**: This repository appears to be a personal archive/blog that is no longer actively developed. Jekyll remains the underlying technology for GitHub Pages deployment.
 
-**⚠️ CI Workflow Limitation**: The custom `.github/workflows/jekyll.yml` workflow sometimes fails due to gem dependency issues. The `jekyll/builder:latest` Docker image does not include the project's Gemfile gems (e.g., `octopress`, `github-pages`). This causes `Bundler::GemNotFound` errors when Jekyll's PluginManager tries to load gems from the Gemfile.
+**⚠️ CI Workflow Fixed**: The `.github/workflows/jekyll.yml` workflow was updated to build the site directly on the GitHub Actions runner using `bundle exec jekyll build --future`, instead of using the `jekyll/builder:latest` Docker image. This avoids the gem dependency mismatch since the runner has access to the project's installed gems via `bundle install`.
 
-**Recommended approach**: The default GitHub Pages `pages build and deployment` workflow works correctly and is recommended for building and deploying this site. The custom `Jekyll site CI` workflow can be used for local development simulation, but may require Gemfile adjustments for the Docker image.
+The workflow now:
+1. Sets up Ruby 3.4.11 via `ruby/setup-ruby`
+2. Installs dependencies with `bundle install`
+3. Builds the site with `bundle exec jekyll build --future`
 
-**Local development**: Use `mise run build` or `bundle exec jekyll build` directly (verified working outside Docker).
+This approach works reliably because it uses the same Ruby and gem environment both locally (via `mise`) and in CI.
+
+**Local development**: Use `mise run build` or `bundle exec jekyll build` directly (verified working).

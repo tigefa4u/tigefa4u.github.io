@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll Build
 
 on:
   push:
@@ -10,13 +10,21 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.4.11
+        bundler: latest
+
     - name: Install dependencies
       run: bundle install
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - name: Build the site
+      run: bundle exec jekyll build --future
