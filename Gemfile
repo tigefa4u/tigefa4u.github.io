@@ -8,5 +8,5 @@ gem 'rake'
 # gem 'octopress'  # removed: not needed for jekyll build; CI docker image lacks this gem
 # gem 'html-proofer'
 # gem 'pygments.rb'
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
