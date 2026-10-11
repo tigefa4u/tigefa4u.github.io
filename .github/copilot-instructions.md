@@ -47,4 +47,8 @@ The `.github/workflows/jekyll.yml` uses the `jekyll/builder:latest` Docker image
 
 **Note**: This repository appears to be a personal archive/blog that is no longer actively developed. Jekyll remains the underlying technology for GitHub Pages deployment.
 
-**CI Workflow Note**: The custom `.github/workflows/jekyll.yml` workflow sometimes fails due to gem dependency issues (e.g., `octopress`, `github-pages` not found in the `jekyll/builder:latest` Docker image). The default GitHub Pages `pages build and deployment` workflow works correctly and is recommended for site builds.
+**⚠️ CI Workflow Limitation**: The custom `.github/workflows/jekyll.yml` workflow sometimes fails due to gem dependency issues. The `jekyll/builder:latest` Docker image does not include the project's Gemfile gems (e.g., `octopress`, `github-pages`). This causes `Bundler::GemNotFound` errors when Jekyll's PluginManager tries to load gems from the Gemfile.
+
+**Recommended approach**: The default GitHub Pages `pages build and deployment` workflow works correctly and is recommended for building and deploying this site. The custom `Jekyll site CI` workflow can be used for local development simulation, but may require Gemfile adjustments for the Docker image.
+
+**Local development**: Use `mise run build` or `bundle exec jekyll build` directly (verified working outside Docker).
